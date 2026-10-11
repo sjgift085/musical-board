@@ -117,3 +117,24 @@ def test_categorize():
     assert c("2026 부산국제공연예술마켓 개막") == "포럼·행사"
     assert c("뮤지컬 '레베카' 캐스팅 공개") == "작품 소식"
     assert c("하이브 3분기 매출 1조 돌파") is None
+
+
+YES24 = """<div class='rank-best'><div><a href='/Perf/60521' title='뮤지컬 [하나]'><span class='rank-best-img'>
+<img src='https://img.example/1.jpg'></span><p class='rlb-tit'>뮤지컬 [하나]</p>
+<p class='rlb-sub-tit'>2026.12.22~2027.02.28<br>블루스퀘어</p><p class='rank-best-point'><strong>27.7%</strong></p>
+<p class='rank-best-number'><span>1위</span><span>-</span></p></a></div></div>
+<div class='rank-list'><div><div class='fluctuation'><p><span>4위</span></p><p class="rank-list-number-down">2</p></div>
+<div><a href='/Perf/58563'><img src='https://img.example/4.jpg'></a></div>
+<div><p class='rank-list-tit'><a href='/Perf/58563'>뮤지컬 [넷]</a></p></div>
+<div><p>2026.08.13~2027.03.01<br>샤롯데씨어터</p></div><div>7%</div></div></div>"""
+
+
+def test_yes24_parser():
+    src = next(s for s in rankings.SOURCES if s["id"] == "yes24")
+    items = rankings.parse_yes24(YES24, src)
+    assert [(i["rank"], i["title"], i["venue"], i["rate"], i["change"]) for i in items] == [
+        (1, "뮤지컬 [하나]", "블루스퀘어", "27.7%", 0),
+        (4, "뮤지컬 [넷]", "샤롯데씨어터", "7%", -2),
+    ]
+    assert (items[1]["start"], items[1]["end"]) == ("2026-08-13", "2027-03-01")
+    assert items[1]["url"] == "http://ticket.yes24.com/Perf/58563"

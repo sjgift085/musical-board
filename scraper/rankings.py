@@ -244,7 +244,68 @@ def yes24(source):
         with open(os.path.join(DEBUG_DIR, "rank-yes24-api.html"), "w", encoding="utf-8") as f:
             f.write(res.text)
     res.raise_for_status()
-    return from_links(res.text, source["url"], source)
+    return parse_yes24(res.text, source) or from_links(res.text, source["url"], source)
+
+
+def _yes24_change(node):
+    """'rank-...-number-up' 5 → +5, '-down' 2 → -2, 'new' → new, 그 밖엔 0."""
+    for el in node.find_all(class_=True):
+        cls = " ".join(el.get("class"))
+        num = re.search(r"\d+", el.get_text())
+        if "new" in cls.lower():
+            return "new"
+        if cls.endswith("-up") and num:
+            return int(num.group())
+        if cls.endswith("-down") and num:
+            return -int(num.group())
+    return 0
+
+
+def _yes24_sub(p):
+    """'2026.08.13~2027.03.01<br>샤롯데씨어터' → (시작, 끝, 공연장)"""
+    if p is None:
+        return "", "", ""
+    lines = [clean(t) for t in p.stripped_strings]
+    dates = _dates(lines[0]) if lines else []
+    return (dates[0] if dates else "", dates[1] if len(dates) > 1 else "",
+            lines[1] if len(lines) > 1 else "")
+
+
+def parse_yes24(html, source):
+    soup = BeautifulSoup(html, "lxml")
+    rows = []
+    for a in soup.select(".rank-best a[href*='/Perf/']"):  # 1~3위 큰 카드
+        rank = re.search(r"(\d+)위", a.get_text(" "))
+        start, end, venue = _yes24_sub(a.select_one(".rlb-sub-tit"))
+        img = a.find("img")
+        rows.append((int(rank.group(1)) if rank else len(rows) + 1, {
+            "title": clean(a.get("title") or (a.select_one(".rlb-tit") or a).get_text(" ")),
+            "start": start, "end": end, "venue": venue,
+            "rate": clean((a.find("strong") or {}).get_text() if a.find("strong") else ""),
+            "poster": img.get("src", "") if img else "",
+            "href": a["href"], "change": _yes24_change(a.select_one(".rank-best-number") or a),
+        }))
+    for row in soup.select(".rank-list > div"):  # 4위부터
+        link = row.select_one(".rank-list-tit a")
+        if not link:
+            continue
+        rank = re.search(r"(\d+)위", row.get_text(" "))
+        cells = row.find_all("div", recursive=False)
+        start, end, venue = _yes24_sub(cells[3].find("p") if len(cells) > 3 else None)
+        img = row.find("img")
+        rows.append((int(rank.group(1)) if rank else len(rows) + 1, {
+            "title": clean(link.get_text(" ")),
+            "start": start, "end": end, "venue": venue,
+            "rate": clean(cells[-1].get_text()) if len(cells) > 4 else "",
+            "poster": img.get("src", "") if img else "",
+            "href": link["href"], "change": _yes24_change(row.select_one(".fluctuation") or row),
+        }))
+    out = []
+    for rank, r in sorted(rows, key=lambda x: x[0])[:TOP_N]:
+        code = re.search(source["link_re"], r.pop("href"))
+        out.append({"rank": rank, **r,
+                    "url": source["detail"].format(code.group(1)) if code else source["url"]})
+    return out
 
 
 def crawl_source(source):
