@@ -110,11 +110,24 @@ def _is_noise(tag):
     return False
 
 
+HEADLINE_SEL = (
+    "h1, h2, h3, h4, h5, strong, b, [class*=title], [class*=tit], [class*=subject], [class*=subj], [class*=name]"
+)
+
+
 def _title_of(a):
     title = clean(a.get_text(" "))
+    # 카드 전체를 감싼 링크라면 그 안의 제목 요소만 쓴다
+    if len(title) > 40:
+        for h in a.select(HEADLINE_SEL):
+            text = clean(h.get_text(" "))
+            if 6 <= len(text) < len(title):
+                title = text
+                break
     if len(title) < 6 and a.get("title"):
         title = clean(a["title"])
     title = re.sub(r"^(new|N|NEW|진행중|접수중|마감임박|모집중)\s+", "", title)
+    title = re.sub(r"\s+지원대상(\s.*)?$", "", title)  # 문화포털: '… 지원대상 일반인'
     return title
 
 

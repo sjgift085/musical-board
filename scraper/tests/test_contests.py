@@ -92,3 +92,11 @@ def test_tags():
     assert "뮤지컬" in tagged[0] and "창작·공연" in tagged[0]
     assert "뮤지컬" not in tagged[1]
     assert contests.item_id(items[0]) == contests.item_id(dict(items[0]))
+
+
+def test_card_link_uses_inner_headline_and_strips_target():
+    html = """<ul><li><a href="/view?id=1"><span>아트누리</span><span>한국문화예술위원회 연극 뮤지컬 무용</span>
+      <strong class="tit">2027년 공연예술창작산실(올해의신작)</strong><span>2026.10.08 - 2026.11.05 전국 단체</span></a></li>
+      <li><a href="/view?id=2">2026 예술산업보증 공모 안내 지원대상 기업</a> 2026.10.01 ~ 2026.10.12</li></ul>"""
+    items = contests.extract_items(html, "https://ex.kr/", SRC)
+    assert titles(items) == ["2027년 공연예술창작산실(올해의신작)", "2026 예술산업보증 공모 안내"]
