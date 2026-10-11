@@ -263,3 +263,4 @@ dd { margin: 0; overflow-wrap: anywhere; }
 .news .badge { font-size: .75rem; margin-right: 4px; }
 .manual { font-size: .85rem; color: var(--muted); margin: 0 0 12px; }
 .manual a { color: var(--accent); }
+#tab-rankings .manual { margin: 10px 0 0; }
