@@ -15,10 +15,15 @@ from bs4 import BeautifulSoup
 from common import HEADERS, KST, clean, fetch, iso, now_kst
 
 QUERIES = [
-    # 업계 소식
+    # 정책·지원
     "뮤지컬 정책", "뮤지컬 지원사업", "공연예술 지원 정책", "문체부 공연예술", "K-뮤지컬",
-    "예술경영지원센터 뮤지컬", "한국문화예술위원회 공연", "한국뮤지컬협회", "뮤지컬 협회", "연극 협회",
-    "뮤지컬 포럼", "뮤지컬 컨퍼런스", "공연예술 토론회", "공연 세미나", "공연예술 마켓", "공연계 제도",
+    "예술경영지원센터 뮤지컬", "한국문화예술위원회 공연", "공연계 제도",
+    # 포럼·행사
+    "뮤지컬 포럼", "공연예술 포럼", "뮤지컬 컨퍼런스", "공연예술 콘퍼런스", "공연예술 토론회", "뮤지컬 세미나",
+    "공연 심포지엄", "공연예술 마켓", "뮤지컬 페스티벌", "뮤지컬 축제", "예술제 뮤지컬", "뮤지컬 아카데미",
+    # 협회·단체
+    "한국뮤지컬협회", "뮤지컬배우협회", "뮤지컬창작자협회", "뮤지컬 협회", "한국연극협회", "연극협회",
+    "공연프로듀서협회", "공연예술 단체", "예술인 단체 성명",
     # 작품 소식(홍보)
     "뮤지컬 개막", "뮤지컬 캐스팅", "뮤지컬 티켓 오픈", "창작뮤지컬 초연", "뮤지컬 재연",
 ]
@@ -29,8 +34,9 @@ FIELD_RE = re.compile(
 )
 # 사진 설명만 있는 기사
 PHOTO_RE = re.compile(r"^\[?(포토|사진)|포토뉴스|사진=|^(인터뷰하는|포즈 취하는|인사말하는|발언하는|미소 짓는|손 흔드는) ")
-# 지역 예술제·정기공연 같은 행사 공연 — 단체 이름이 있어도 '협회·단체' 소식으로 보지 않는다
-LOCAL_SHOW_RE = re.compile(r"정기공연|초청작|초청 공연|예술제|페스타|축제|공연 개최|공연을 펼")
+# 지역 예술제·축제·정기공연 같은 행사 공연. 뮤지컬이 들어 있으면 '포럼·행사'로 보이고,
+# 아니면 단체 이름이 있어도 '협회·단체' 소식으로 보지 않는다
+LOCAL_SHOW_RE = re.compile(r"정기공연|초청작|초청 공연|예술제|페스타|페스티벌|축제|공연 개최|공연을 펼")
 # 공연예술 쪽 단체 이름 (예: 한국뮤지컬배우협회, 한국연극협회, 공연프로듀서협회)
 ASSOC_RE = re.compile(
     r"(뮤지컬|연극|공연|공연예술|극장|프로듀서|배우|창작자|예술인)\S*(협회|협의회|연합회|노조|노동조합|조합)"
@@ -39,7 +45,8 @@ ASSOC_RE = re.compile(
 
 # (분류, 조건) — 위에서부터 먼저 맞는 것으로 분류
 CATEGORIES = [
-    ("포럼·행사", re.compile(r"포럼|컨퍼런스|콘퍼런스|세미나|토론회|심포지엄|간담회|공청회|워크숍|마켓|페어|박람회|아카데미")),
+    ("포럼·행사", re.compile(r"포럼|컨퍼런스|콘퍼런스|세미나|토론회|심포지엄|간담회|공청회|워크숍|마켓|페어|박람회|아카데미|"
+                            r"시상식|어워즈")),
     ("정책·지원", re.compile(r"정책|지원사업|지원 사업|문체부|문화체육관광부|예술위|예술위원회|예술경영지원센터|"
                             r"예산(?!군|교육|시)|법안|개정|제도|공모|육성|기금|바우처|진흥")),
     ("협회·단체", ASSOC_RE),
@@ -48,8 +55,8 @@ PROMO = "작품 소식"
 PROMO_RE = re.compile(r"뮤지컬")
 PROMO_MAX_AGE_DAYS = 14
 PROMO_MAX = 40
-MAX_AGE_DAYS = 30
-MAX_ITEMS = 120
+MAX_AGE_DAYS = 45
+MAX_ITEMS = 200
 
 
 def categorize(title, summary=""):
@@ -57,25 +64,15 @@ def categorize(title, summary=""):
     text = title + " " + summary
     if PHOTO_RE.search(title) or not FIELD_RE.search(text):
         return None
+    local_show = LOCAL_SHOW_RE.search(title)
+    if local_show and "뮤지컬" in title:
+        return "포럼·행사"
     for name, rx in CATEGORIES:
-        if name == "협회·단체" and LOCAL_SHOW_RE.search(title):
+        if name == "협회·단체" and local_show:
             continue
         if rx.search(text):
             return name
     return PROMO if PROMO_RE.search(title) else None
-
-
-def _words(title):
-    # '한국뮤지컬창작자협회'와 '뮤지컬창작자협회'를 같은 말로 보도록 앞의 '한국'은 뗀다
-    return {re.sub(r"^한국", "", w) for w in re.findall(r"[0-9A-Za-z가-힣]{2,}", title)}
-
-
-def _similar(a, b):
-    """같은 소식을 다른 언론사가 낸 기사인지: 제목 단어가 많이 겹치거나, 긴 고유명사를 함께 쓰면 같은 소식으로 본다."""
-    if not a or not b:
-        return False
-    common = a & b
-    return len(common) / min(len(a), len(b)) >= 0.5 or any(len(w) >= 6 for w in common)
 
 
 def _google(query):
@@ -155,7 +152,7 @@ def collect():
 
     cutoff = iso(now_kst() - timedelta(days=MAX_AGE_DAYS))
     promo_cutoff = iso(now_kst() - timedelta(days=PROMO_MAX_AGE_DAYS))
-    seen, kept_words, result, promo_count = set(), [], [], 0
+    seen, result, promo_count = set(), [], 0
     for a in sorted(articles, key=lambda a: a["published"], reverse=True):
         key = _norm(a["title"])
         if not key or key in seen or a["published"] < cutoff:
@@ -165,12 +162,10 @@ def collect():
             continue
         if category == PROMO and (promo_count >= PROMO_MAX or a["published"] < promo_cutoff):
             continue
-        words = _words(a["title"])
-        if any(_similar(words, w) for w in kept_words):
-            continue  # 같은 소식의 다른 언론사 기사
         seen.add(key)
-        kept_words.append(words)
         a["category"] = category
         promo_count += category == PROMO
         result.append(a)
+    # 업계 소식을 먼저, 작품 소식을 맨 뒤에 (각각 최신순)
+    result.sort(key=lambda a: a["category"] == PROMO)
     return result[:MAX_ITEMS], errors

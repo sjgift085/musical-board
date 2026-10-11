@@ -35,12 +35,13 @@ SOURCES = [
         "id": "culture",
         "name": "문화포털",
         "home": "https://www.culture.go.kr",
+        # 상세 분야 연극·뮤지컬(문화·예술 0103·0104, 인문·문학 0209·0210)만, 최신등록순(sSort=1), 30개씩
         "url": (
-            "https://www.culture.go.kr/portal/cltBnf/cltSup/list.do?menuNo=200104"
-            "&searchFldCd=01&pageIndex={page}"
+            "https://www.culture.go.kr/portal/cltBnf/cltSup/list.do?menuNo=200104&searchFldCd=01"
+            "&hidSubType=Y&chkGDatas=0103,0104,0209,0210&sSort=1&searchPageUnit=30&pageIndex={page}"
         ),
-        "pages": 3,
-        "musical_filtered": False,
+        "pages": 2,
+        "musical_filtered": True,
     },
     {
         "id": "arko",

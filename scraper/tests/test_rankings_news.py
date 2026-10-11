@@ -108,7 +108,8 @@ def test_melon_jsonp(monkeypatch):
 def test_categorize():
     c = news.categorize
     assert c("포즈 취하는 정영주 한국뮤지컬배우협회 이사장") is None          # 사진 설명
-    assert c("제23회 군포예인예술제, 군포연예예술인협회 정기공연 10일 개최") is None  # 지역 행사
+    assert c("제23회 군포예인예술제, 군포연예예술인협회 정기공연 10일 개최") is None  # 뮤지컬 없는 지역 행사
+    assert c("제21회 동두천종합예술제, 창작뮤지컬 '동행' 공연") == "포럼·행사"   # 뮤지컬이 있는 지역 행사
     assert c("부산진문화재단, 베트남 호찌민시연극협회 초청작 선보여") is None
     assert c("한국뮤지컬배우협회 출범…초대 이사장에 정영주") == "협회·단체"
     assert c("뮤지컬 창작자, 협회 창립 나선다") == "협회·단체"
@@ -116,11 +117,3 @@ def test_categorize():
     assert c("2026 부산국제공연예술마켓 개막") == "포럼·행사"
     assert c("뮤지컬 '레베카' 캐스팅 공개") == "작품 소식"
     assert c("하이브 3분기 매출 1조 돌파") is None
-
-
-def test_similar_titles_are_merged():
-    w = news._words
-    assert news._similar(w("한국뮤지컬배우협회 출범…초대 이사장에 정영주"),
-                         w("한국뮤지컬배우협회 공식 출범...배우 정영주, 초대 이사장 선임"))
-    assert news._similar(w("뮤지컬창작자협회 설립 추진"), w("한국뮤지컬창작자협회 창립 준비"))
-    assert not news._similar(w("뮤지컬 '레베카' 캐스팅 공개"), w("뮤지컬 '시카고' 티켓 오픈"))
