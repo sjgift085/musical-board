@@ -16,7 +16,7 @@
 
   <nav class="tabs" id="tabs">
     <button type="button" data-tab="contests" class="active">공모 <span id="newCount" class="pill" hidden></span></button>
-    <button type="button" data-tab="shows">새로 개막한 뮤지컬</button>
+    <button type="button" data-tab="rankings">예매 순위</button>
     <button type="button" data-tab="news">업계 소식</button>
   </nav>
 
@@ -39,25 +39,18 @@
       <p class="empty" id="contestEmpty" hidden></p>
     </section>
 
-    <section id="tab-shows" class="panel" hidden>
-      <div class="toolbar">
-        <input type="search" id="showSearch" placeholder="작품명·공연장 검색" autocomplete="off">
-        <select id="showRange" aria-label="기간">
-          <option value="opened">최근 개막</option>
-          <option value="upcoming">개막 예정</option>
-          <option value="all">전체</option>
-        </select>
-      </div>
-      <ul class="shows" id="showList"></ul>
-      <p class="empty" id="showEmpty" hidden></p>
-      <h2 class="section-title">개막·초연 소식 기사</h2>
-      <ul class="news" id="openingNews"></ul>
+    <section id="tab-rankings" class="panel" hidden>
+      <div class="chips" id="rankChips"></div>
+      <p class="rank-meta" id="rankMeta"></p>
+      <ol class="ranks" id="rankList"></ol>
+      <p class="empty" id="rankEmpty" hidden></p>
     </section>
 
     <section id="tab-news" class="panel" hidden>
       <div class="toolbar">
-        <input type="search" id="newsSearch" placeholder="기사 제목 검색" autocomplete="off">
+        <input type="search" id="newsSearch" placeholder="정책·포럼·협회 소식 검색" autocomplete="off">
       </div>
+      <div class="chips news-chips" id="newsChips"></div>
       <ul class="news" id="newsList"></ul>
       <p class="empty" id="newsEmpty" hidden></p>
     </section>
@@ -68,14 +61,9 @@
       <summary>수집 상태</summary>
       <ul id="statusList"></ul>
     </details>
-    <p>공모 정보: 아트누리 · 문화포털 · 아르코 통합플랫폼 · 스토리움 · OTR / 공연 정보: PlayDB / 기사: Google·네이버 뉴스.
+    <p>공모 정보: 아트누리 · 문화포털 · 아르코 통합플랫폼 · 스토리움 · OTR / 예매 순위: 인터파크·예스24·멜론티켓·티켓링크 / 업계 소식: Google·네이버 뉴스.
       정확한 내용은 반드시 원문에서 확인하세요.</p>
   </footer>
-
-  <dialog id="showDialog">
-    <form method="dialog"><button class="close" aria-label="닫기">✕</button></form>
-    <div id="showDetail"></div>
-  </dialog>
 
   <script src="app.js"></script>
 </body>

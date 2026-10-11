@@ -5,7 +5,9 @@ const $ = (id) => document.getElementById(id);
 
 const state = {
   contests: [],
-  shows: [],
+  rankings: {},
+  rankSource: null,
+  newsCategory: '',
   news: [],
   status: {},
   sources: new Set(), // 비어 있으면 전체
@@ -163,93 +165,79 @@ function renderContests() {
 
 /* ---------- 새 공연 ---------- */
 
-function renderShows() {
-  const q = norm($('showSearch').value);
-  const range = $('showRange').value;
-  const now = today();
-  const list = state.shows.filter((s) => {
-    const start = parseDay(s.start);
-    if (range === 'opened' && start && start > now) return false;
-    if (range === 'upcoming' && start && start <= now) return false;
-    if (q && !norm(`${s.title} ${s.venue} ${s.area} ${s.cast}`).includes(q)) return false;
-    return true;
-  });
-  if (range === 'upcoming') list.reverse(); // 곧 개막하는 것부터
+/* ---------- 예매 순위 ---------- */
 
-  $('showList').innerHTML = list.map((s) => {
-    const synopsis = s.synopsis || (s.synopsisImages?.length ? '줄거리 이미지가 있어요 — 눌러서 보기' : '줄거리 정보 없음');
-    return `<li class="show" data-id="${esc(s.id)}" tabindex="0">
-      ${s.poster ? `<img src="${safeUrl(s.poster)}" alt="" loading="lazy">` : '<div class="noposter">🎭</div>'}
-      <div class="show-body">
-        <h3>${esc(s.title)}</h3>
-        <p class="when">${esc(s.start)} ~ ${esc(s.end)}</p>
-        <p class="where">${esc(s.venue)}${s.area ? ` · ${esc(s.area)}` : ''}</p>
-        <p class="synopsis">${esc(synopsis)}</p>
-      </div>
-    </li>`;
-  }).join('');
-
-  const empty = $('showEmpty');
-  empty.hidden = list.length > 0;
-  empty.textContent = state.shows.length
-    ? '조건에 맞는 공연이 없어요.'
-    : '아직 수집된 공연 정보가 없어요. 아래 개막 소식 기사를 참고하세요.';
-
-  const opening = state.news.filter((n) => OPENING_RE.test(n.title));
-  $('openingNews').innerHTML = opening.length
-    ? opening.map(newsItem).join('')
-    : '<li class="empty">관련 기사가 아직 없어요.</li>';
+function rankingSources() {
+  return Object.entries(state.rankings.sources || {}).filter(([, src]) => (src.items || []).length);
 }
 
-function openShow(id) {
-  const s = state.shows.find((x) => x.id === id);
-  if (!s) return;
-  const row = (label, value) => (value ? `<dt>${label}</dt><dd>${esc(value)}</dd>` : '');
-  const links = [...(s.links || []), ...(s.kopis ? [{ name: 'KOPIS 상세', url: s.kopis }] : [])];
-  $('showDetail').innerHTML = `
-    <div class="detail-head">
-      ${s.poster ? `<img src="${safeUrl(s.poster)}" alt="">` : ''}
-      <div>
-        <h2>${esc(s.title)}</h2>
-        <dl>
-          ${row('기간', `${s.start} ~ ${s.end}`)}
-          ${row('공연장', s.venue)}
-          ${row('출연', s.cast)}
-          ${row('제작진', s.crew)}
-          ${row('제작사', s.producer)}
-          ${row('러닝타임', s.runtime)}
-          ${row('관람연령', s.age)}
-          ${row('가격', s.price)}
-          ${row('공연시간', s.schedule)}
-        </dl>
-      </div>
-    </div>
-    <h3>줄거리</h3>
-    <p class="synopsis-full">${s.synopsis ? esc(s.synopsis) : '등록된 줄거리 글이 없어요.'}</p>
-    ${(s.synopsisImages || []).map((u) => `<img class="sty" src="${safeUrl(u)}" alt="소개 이미지" loading="lazy">`).join('')}
-    <p class="links">${links.map((l) => `<a href="${safeUrl(l.url)}" target="_blank" rel="noopener">${esc(l.name)}</a>`).join('')}</p>`;
-  $('showDialog').showModal();
+function renderRankChips() {
+  const sources = rankingSources();
+  if (!state.rankSource || !sources.some(([id]) => id === state.rankSource)) {
+    state.rankSource = sources.length ? sources[0][0] : null;
+  }
+  $('rankChips').innerHTML = sources.map(([id, src]) => `<button type="button"
+    class="chip${id === state.rankSource ? ' active' : ''}" data-rank="${esc(id)}">${esc(src.name)}</button>`).join('');
 }
 
-/* ---------- 기사 ---------- */
+function changeBadge(change) {
+  if (change === 'new') return '<span class="move new">NEW</span>';
+  if (typeof change !== 'number' || change === 0) return '<span class="move same">–</span>';
+  return change > 0
+    ? `<span class="move up">▲${change}</span>`
+    : `<span class="move down">▼${-change}</span>`;
+}
 
-const OPENING_RE = /개막|초연|막을? 올|프리뷰|첫 공연|재연|귀환|돌아온/;
+function renderRankings() {
+  renderRankChips();
+  const src = (state.rankings.sources || {})[state.rankSource];
+  const items = src ? src.items : [];
+  $('rankList').innerHTML = items.map((r) => `<li class="rank-row">
+      <span class="rank-no">${r.rank}</span>
+      ${r.poster ? `<img src="${safeUrl(r.poster)}" alt="" loading="lazy">` : '<div class="noposter">🎭</div>'}
+      <div class="rank-body">
+        <a href="${safeUrl(r.url)}" target="_blank" rel="noopener">${esc(r.title)}</a>
+        ${r.venue ? `<p>${esc(r.venue)}</p>` : ''}
+        ${r.start ? `<p>${esc(r.start)}${r.end ? ` ~ ${esc(r.end)}` : ''}</p>` : ''}
+      </div>
+      ${changeBadge(r.change)}
+    </li>`).join('');
+  $('rankMeta').innerHTML = src
+    ? `<a href="${safeUrl(src.url)}" target="_blank" rel="noopener">${esc(src.name)} 순위 페이지</a> · ${fmtDateTime(src.updatedAt)} 기준 · 순위 변동은 지난 수집과 비교`
+    : '';
+  const empty = $('rankEmpty');
+  empty.hidden = items.length > 0;
+  empty.textContent = '아직 수집된 예매 순위가 없어요.';
+}
+
+/* ---------- 업계 소식 ---------- */
 
 function newsItem(n) {
   return `<li>
+      ${n.category ? `<span class="badge">${esc(n.category)}</span>` : ''}
       <a href="${safeUrl(n.url)}" target="_blank" rel="noopener">${esc(n.title)}</a>
       ${n.summary ? `<p>${esc(n.summary)}</p>` : ''}
       <span class="byline">${esc(n.press || n.via)} · ${fmtDateTime(n.published)}</span>
     </li>`;
 }
 
+function renderNewsChips() {
+  const cats = [...new Set(state.news.map((n) => n.category).filter(Boolean))];
+  $('newsChips').innerHTML = ['', ...cats].map((c) => `<button type="button"
+    class="chip${(state.newsCategory || '') === c ? ' active' : ''}" data-cat="${esc(c)}">${esc(c || '전체')}</button>`).join('');
+}
+
 function renderNews() {
+  renderNewsChips();
   const q = norm($('newsSearch').value);
-  const list = state.news.filter((n) => !q || norm(`${n.title} ${n.summary} ${n.press}`).includes(q));
+  const list = state.news.filter((n) => {
+    if (state.newsCategory && n.category !== state.newsCategory) return false;
+    return !q || norm(`${n.title} ${n.summary} ${n.press}`).includes(q);
+  });
   $('newsList').innerHTML = list.map(newsItem).join('');
   const empty = $('newsEmpty');
   empty.hidden = list.length > 0;
-  empty.textContent = state.news.length ? '검색 결과가 없어요.' : '아직 수집된 기사가 없어요.';
+  empty.textContent = state.news.length ? '조건에 맞는 기사가 없어요.' : '아직 수집된 기사가 없어요.';
 }
 
 /* ---------- 상태 ---------- */
@@ -261,8 +249,12 @@ function renderStatus() {
     rows.push(`<li class="${s.ok ? 'ok' : 'bad'}"><a href="${safeUrl(s.home)}" target="_blank" rel="noopener">${esc(s.name)}</a>
       — ${s.ok ? `${s.count}건 확인` : esc(s.error || '실패')} <small>${fmtDateTime(s.checkedAt)}</small></li>`);
   });
-  const other = [['shows', '새 공연(PlayDB)'], ['news', '업계 기사']];
-  other.forEach(([key, name]) => {
+  Object.values(state.status.rankings || {}).forEach((s) => {
+    if (!s || !s.name) return;
+    rows.push(`<li class="${s.ok ? 'ok' : 'bad'}">예매 순위 · ${esc(s.name)}
+      — ${s.ok ? `${s.count}위까지` : esc(s.error || '실패')} <small>${fmtDateTime(s.checkedAt)}</small></li>`);
+  });
+  [['news', '업계 소식']].forEach(([key, name]) => {
     const s = state.status[key];
     if (!s) return;
     const err = s.error || (s.errors && s.errors[0]) || '';
@@ -301,18 +293,19 @@ function bind() {
   ['contestSearch', 'contestSort', 'onlyRelevant', 'onlyNew', 'hideClosed'].forEach((id) => {
     $(id).addEventListener('input', renderContests);
   });
-  ['showSearch', 'showRange'].forEach((id) => $(id).addEventListener('input', renderShows));
   $('newsSearch').addEventListener('input', renderNews);
-  $('showList').addEventListener('click', (e) => {
-    const li = e.target.closest('li[data-id]');
-    if (li) openShow(li.dataset.id);
+  $('rankChips').addEventListener('click', (e) => {
+    const b = e.target.closest('button[data-rank]');
+    if (!b) return;
+    state.rankSource = b.dataset.rank;
+    store.set('mh.rankSource', state.rankSource);
+    renderRankings();
   });
-  $('showList').addEventListener('keydown', (e) => {
-    const li = e.target.closest('li[data-id]');
-    if (li && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); openShow(li.dataset.id); }
-  });
-  $('showDialog').addEventListener('click', (e) => {
-    if (e.target === $('showDialog')) $('showDialog').close();
+  $('newsChips').addEventListener('click', (e) => {
+    const b = e.target.closest('button[data-cat]');
+    if (!b) return;
+    state.newsCategory = b.dataset.cat;
+    renderNews();
   });
 }
 
@@ -327,20 +320,21 @@ async function init() {
   const saved = store.get('mh.tab');
   if (saved && $(`tab-${saved}`)) switchTab(saved);
 
-  const [contests, shows, news, status] = await Promise.all([
+  state.rankSource = store.get('mh.rankSource');
+  const [contests, rankings, news, status] = await Promise.all([
     loadJSON('contests.json', { items: [] }),
-    loadJSON('shows.json', { items: [] }),
+    loadJSON('rankings.json', { sources: {} }),
     loadJSON('news.json', { items: [] }),
     loadJSON('status.json', {}),
   ]);
   state.contests = contests.items || [];
-  state.shows = shows.items || [];
+  state.rankings = rankings || { sources: {} };
   state.news = news.items || [];
   state.status = status || {};
 
   renderSourceChips();
   renderContests();
-  renderShows();
+  renderRankings();
   renderNews();
   renderStatus();
 }

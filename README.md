@@ -1,29 +1,29 @@
 # 🎭 뮤지컬 작가 공모 알림판
 
 뮤지컬 작가가 볼 만한 공모를 여러 사이트에서 모아 **새로 올라온 것만 골라 볼 수 있게** 해 주는 정적 웹사이트입니다.
-업계 기사와 새로 개막한(또는 곧 개막하는) 뮤지컬의 줄거리도 함께 보여 줍니다.
+예매 사이트 뮤지컬 순위와 정책·포럼·협회 등 업계 소식도 함께 보여 줍니다.
 
 ## 무엇을 모으나
 
 | 탭 | 출처 | 비고 |
 | --- | --- | --- |
 | 공모 | [아트누리](https://artnuri.or.kr) · [문화포털](https://www.culture.go.kr) · [아르코 통합플랫폼](https://thearts.arko.or.kr) · [스토리움](https://www.storyum.kr) · [OTR](https://otr.co.kr/contest/) | 각 사이트 목록 첫 1~3페이지 |
-| 새로 개막한 뮤지컬 | [PlayDB](http://www.playdb.co.kr) (가입·키 불필요) | 최근 30일 개막 + 30일 안 개막 예정, 줄거리·출연. 아래에 '개막·초연' 기사도 함께 표시 |
-| 업계 소식 | Google 뉴스 RSS (+ 네이버 뉴스 API, 선택) | 최근 14일, '뮤지컬'이 들어간 기사 |
+| 예매 순위 | 인터파크(NOL)·예스24·멜론티켓·티켓링크 뮤지컬 순위 | 사이트별 상위 20위, 지난 수집 대비 ▲▼/NEW |
+| 업계 소식 | Google 뉴스 RSS (+ 네이버 뉴스 API, 선택) | 최근 30일, 정책·지원 / 포럼·행사 / 협회·단체 / 산업·시장 기사만 (작품 홍보·캐스팅 기사 제외) |
 
 ## 주요 기능
 
 - **새 공모 표시** — 처음 발견된 지 7일 안 된 공모에 `NEW`, 지난번 방문 이후 올라온 공모에 `지난 방문 이후` 표시, 탭에 개수 표시
 - 사이트별 필터, **뮤지컬·창작 관련만** 보기(문화포털·스토리움·OTR처럼 장르 필터가 없는 곳은 제목 키워드로 판단), 마감 지난 공모 숨기기
 - 새로 올라온 순 / **마감 임박순(D-day)** 정렬, 검색
-- 공연 카드를 누르면 줄거리, 출연진, 러닝타임, 원문 링크
+- 예매 순위는 사이트별로 골라 보고, 업계 소식은 분류별로 골라 보기
 - 화면 아래 **수집 상태**에서 사이트별 수집 성공/실패 확인
 
 ## 작동 방식
 
 ```
 GitHub Actions (3시간마다)
-  └─ scraper/main.py  ──>  data/contests.json, shows.json, news.json, status.json 커밋
+  └─ scraper/main.py  ──>  data/contests.json, rankings.json, news.json, status.json 커밋
 GitHub Pages
   └─ index.html + app.js 가 data/*.json 을 읽어 화면에 표시
 ```
@@ -39,11 +39,10 @@ GitHub Pages
 3. **GitHub Pages 켜기** — Settings → Pages → Source: *Deploy from a branch*, `main` / `(root)`.
    주소는 `https://<사용자명>.github.io/musical-board/` 입니다.
 4. Actions 탭 → **뮤지컬 공모 수집** → *Run workflow*로 첫 수집을 바로 실행할 수 있습니다.
-5. *(선택)* KOPIS Open API 키가 있다면 `KOPIS_API_KEY`로 등록하면 KOPIS 공연 정보도 함께 씁니다. 없어도 됩니다.
 
 ## 사이트 구조가 바뀌었거나 0건이 나올 때
 
-공모 수집기(`scraper/contests.py`)와 공연 수집기(`scraper/playdb.py`)는 특정 CSS 선택자에 묶이지 않고 '날짜가 적힌 줄 안의 링크'를 공모로 보는 범용 방식이라
+공모 수집기(`scraper/contests.py`)와 순위 수집기(`scraper/rankings.py`)는 특정 CSS 선택자에 묶이지 않고 '날짜가 적힌 줄 안의 링크'를 공모로 보는 범용 방식이라
 사이트 개편에 비교적 잘 버티지만, 완벽하지는 않습니다.
 
 - 화면 아래 **수집 상태**에 실패 사유가 나옵니다.
@@ -59,7 +58,7 @@ GitHub Pages
 
 ```bash
 pip install -r scraper/requirements.txt
-python scraper/main.py                                # contests / news / shows 하나만 지정 가능
+python scraper/main.py                                # contests / news / rankings 하나만 지정 가능
 python -m http.server 8000                                       # http://localhost:8000
 python -m pytest scraper/tests                      # 수집기 테스트
 ```
