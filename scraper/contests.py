@@ -16,8 +16,8 @@ from common import DATE_RE, clean, fetch, find_dates
 # 지역 재단 공모는 종류가 다양해서 공연 분야 공모만 남긴다
 REGION_INCLUDE = r"공연예술|공연 예술|뮤지컬|연극"
 
-# OTR(otr.co.kr/contest)은 자동 접속을 막는 보안 확인 화면을 돌려주므로 수집하지 않고,
-# 화면에서 '직접 확인' 링크로만 안내한다.
+# OTR(otr.co.kr/contest)과 충주문화관광재단(cjcf.or.kr)은 자동 접속을 막는 보안 확인 화면을
+# 돌려주므로 수집하지 않고, 화면에서 사이트로 가는 버튼으로만 안내한다.
 SOURCES = [
     {
         "id": "artnuri",
@@ -73,24 +73,16 @@ SOURCES = [
     },
     # ---- 지역 재단: 화면에서는 '지역' 버튼 하나로 묶어 보여 준다 ----
     {
-        "id": "cjcf",
-        "name": "충주문화관광재단",
-        "group": "region", "group_name": "지역",
-        "home": "https://cjcf.or.kr",
-        "url": "https://cjcf.or.kr/new/bbs/board.php?bo_table=offering&sca=%EA%B3%B5%EB%AA%A8%EC%A4%91&page={page}",
-        "pages": 3,
-        "musical_filtered": False,
-        "include_re": REGION_INCLUDE,
-    },
-    {
         "id": "cbfc",
         "name": "충북문화재단",
         "group": "region", "group_name": "지역",
         "home": "https://www.cbfc.or.kr",
-        "url": "https://www.cbfc.or.kr/home/sub.php?menukey=6441",
-        "pages": 1,
+        "url": "https://www.cbfc.or.kr/home/sub.php?menukey=6441&mod=&page={page}&scode=00000003",
+        "pages": 5,  # 한 페이지 10건 → 최근 50건
         "musical_filtered": False,
         "include_re": REGION_INCLUDE,
+        "exclude_re": r"결과|선정자|합격자",  # 결과 발표 글은 공모가 아님
+        "posted_date": True,  # 목록 날짜는 마감일이 아니라 등록일
     },
 ]
 
@@ -220,6 +212,7 @@ def _make_item(source, title, url, container_text, list_url):
     # 표 머리글·조회수·시각 같은 군더더기 제거
     words = [w for w in clean(meta).split(" ")
              if w not in META_NOISE and not re.fullmatch(r"\d{1,6}|\d{1,2}:\d{2}|[-~+]", w)]
+    words = [w for i, w in enumerate(words) if i == 0 or w != words[i - 1]]  # 'PC용/모바일용' 중복 표시
     meta = " ".join(words)[:160]
     # 마감일은 가장 늦은 날짜로 본다 (스토리움처럼 기간 뒤에 등록일이 붙는 경우가 있음)
     deadline = max(dates) if dates else ""
@@ -313,6 +306,7 @@ def item_id(item):
 
 
 def crawl_source(source):
+    source["_seen"] = 0  # 걸러지기 전 목록에서 읽은 글 수 (상태 표시용)
     items = []
     titles = set()
     for page in range(1, source.get("pages", 1) + 1):
@@ -324,8 +318,15 @@ def crawl_source(source):
             break  # 다음 페이지가 없거나 같은 내용 반복
         for it in new:
             titles.add(it["title"])
-            if source.get("include_re") and not re.search(source["include_re"], it["title"] + " " + it["meta"]):
+            source["_seen"] = source.get("_seen", 0) + 1
+            text = it["title"] + " " + it["meta"]
+            if source.get("include_re") and not re.search(source["include_re"], text):
                 continue
+            if source.get("exclude_re") and re.search(source["exclude_re"], it["title"]):
+                continue
+            if source.get("posted_date") and it["deadline"]:
+                it["meta"] = f"등록 {it['deadline']} · {it['meta']}".strip(" ·")
+                it["deadline"], it["period"] = "", ""
             if source.get("group"):
                 it["group"], it["groupName"] = source["group"], source["group_name"]
             items.append(tag_item(it, source))

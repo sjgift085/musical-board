@@ -92,6 +92,7 @@ function isSinceLastVisit(item) {
 // 자동 수집이 막혀 있는 사이트: 버튼을 누르면 그 사이트를 새 창으로 연다
 const EXTERNAL_CONTESTS = [
   { name: 'OTR', url: 'https://otr.co.kr/contest/' },
+  { name: '충주문화관광재단', url: 'https://cjcf.or.kr/new/bbs/board.php?bo_table=offering&sca=%EA%B3%B5%EB%AA%A8%EC%A4%91' },
 ];
 const EXTERNAL_RANKINGS = [
   { name: '티켓링크', url: 'https://www.ticketlink.co.kr/ranking' },
@@ -270,7 +271,7 @@ function renderStatus() {
   Object.values(state.status.contests || {}).forEach((s) => {
     if (!s || !s.name) return;
     rows.push(`<li class="${s.ok ? 'ok' : 'bad'}"><a href="${safeUrl(s.home)}" target="_blank" rel="noopener">${esc(s.name)}</a>
-      — ${s.ok ? `${s.count}건 확인` : esc(s.error || '실패')} <small>${fmtDateTime(s.checkedAt)}</small></li>`);
+      — ${s.ok ? (s.note ? esc(s.note) : `${s.count}건 확인`) : esc(s.error || '실패')} <small>${fmtDateTime(s.checkedAt)}</small></li>`);
   });
   Object.values(state.status.rankings || {}).forEach((s) => {
     if (!s || !s.name) return;

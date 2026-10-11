@@ -36,6 +36,12 @@ def run_contests(status):
             print(f"[공모] {source['name']}: 실패 - {st['error']}")
             continue
 
+        if not items and source.get("_seen"):
+            st.update(ok=True, count=0, added=0,
+                      note=f"최근 글 {source['_seen']}건 중 조건에 맞는 공모 없음")
+            status["contests"][source["id"]] = st
+            print(f"[공모] {source['name']}: 조건에 맞는 공모 없음 (글 {source['_seen']}건 확인)")
+            continue
         if not items:
             st.update(ok=False, count=0, error="목록에서 공모 항목을 찾지 못함 (사이트 구조 확인 필요)")
             status["contests"][source["id"]] = st
