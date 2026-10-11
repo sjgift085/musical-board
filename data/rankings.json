@@ -1,10 +1,10 @@
 {
- "updatedAt": "2026-10-12T01:35:08+09:00",
+ "updatedAt": "2026-10-12T01:36:56+09:00",
  "sources": {
   "interpark": {
    "name": "인터파크(NOL) 티켓",
    "url": "https://tickets.interpark.com/contents/ranking?genre=MUSICAL",
-   "updatedAt": "2026-10-12T01:35:08+09:00",
+   "updatedAt": "2026-10-12T01:36:56+09:00",
    "items": [
     {
      "rank": 1,
@@ -14,7 +14,8 @@
      "start": "2026-12-22",
      "end": "2027-02-28",
      "poster": "https://ticketimage.interpark.com/Play/image/large/26/26013995_p.gif",
-     "url": "https://nol.yanolja.com/ticket/products/26013995"
+     "url": "https://nol.yanolja.com/ticket/products/26013995",
+     "change": 0
     },
     {
      "rank": 2,
@@ -24,7 +25,8 @@
      "start": "2026-11-24",
      "end": "2027-03-14",
      "poster": "https://ticketimage.interpark.com/Play/image/large/26/26013993_p.gif",
-     "url": "https://nol.yanolja.com/ticket/products/26013993"
+     "url": "https://nol.yanolja.com/ticket/products/26013993",
+     "change": 0
     },
     {
      "rank": 3,
@@ -34,7 +36,8 @@
      "start": "2026-08-16",
      "end": "2026-11-15",
      "poster": "https://ticketimage.interpark.com/Play/image/large/26/26009314_p.gif",
-     "url": "https://nol.yanolja.com/ticket/products/26009314"
+     "url": "https://nol.yanolja.com/ticket/products/26009314",
+     "change": 0
     },
     {
      "rank": 4,
@@ -44,7 +47,8 @@
      "start": "2026-09-06",
      "end": "2026-11-15",
      "poster": "https://ticketimage.interpark.com/Play/image/large/26/26009625_p.gif",
-     "url": "https://nol.yanolja.com/ticket/products/26009625"
+     "url": "https://nol.yanolja.com/ticket/products/26009625",
+     "change": 0
     },
     {
      "rank": 5,
@@ -54,7 +58,8 @@
      "start": "2026-12-03",
      "end": "2027-02-21",
      "poster": "https://ticketimage.interpark.com/Play/image/large/26/26014015_p.gif",
-     "url": "https://nol.yanolja.com/ticket/products/26014015"
+     "url": "https://nol.yanolja.com/ticket/products/26014015",
+     "change": 0
     },
     {
      "rank": 6,
@@ -64,7 +69,8 @@
      "start": "2026-12-05",
      "end": "2027-03-14",
      "poster": "https://ticketimage.interpark.com/Play/image/large/L0/L0000150_p.gif",
-     "url": "https://nol.yanolja.com/ticket/products/L0000150"
+     "url": "https://nol.yanolja.com/ticket/products/L0000150",
+     "change": 0
     },
     {
      "rank": 7,
@@ -74,7 +80,8 @@
      "start": "2026-08-13",
      "end": "2027-03-01",
      "poster": "https://ticketimage.interpark.com/Play/image/large/26/26007416_p.gif",
-     "url": "https://nol.yanolja.com/ticket/products/26007416"
+     "url": "https://nol.yanolja.com/ticket/products/26007416",
+     "change": 0
     },
     {
      "rank": 8,
@@ -84,7 +91,8 @@
      "start": "2026-12-18",
      "end": "2027-01-03",
      "poster": "https://ticketimage.interpark.com/Play/image/large/26/26013215_p.gif",
-     "url": "https://nol.yanolja.com/ticket/products/26013215"
+     "url": "https://nol.yanolja.com/ticket/products/26013215",
+     "change": 0
     },
     {
      "rank": 9,
@@ -94,7 +102,8 @@
      "start": "2026-08-01",
      "end": "2026-11-01",
      "poster": "https://ticketimage.interpark.com/Play/image/large/26/26007442_p.gif",
-     "url": "https://nol.yanolja.com/ticket/products/26007442"
+     "url": "https://nol.yanolja.com/ticket/products/26007442",
+     "change": 0
     },
     {
      "rank": 10,
@@ -104,7 +113,8 @@
      "start": "2026-07-10",
      "end": "2026-10-18",
      "poster": "https://ticketimage.interpark.com/Play/image/large/L0/L0000142_p.gif",
-     "url": "https://nol.yanolja.com/ticket/products/L0000142"
+     "url": "https://nol.yanolja.com/ticket/products/L0000142",
+     "change": 0
     }
    ]
   },
