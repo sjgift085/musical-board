@@ -167,6 +167,10 @@ function renderContests() {
 
 /* ---------- 예매 순위 ---------- */
 
+const EXTERNAL_RANKINGS = [
+  { name: '티켓링크', url: 'https://www.ticketlink.co.kr/ranking' },
+];
+
 function rankingSources() {
   return Object.entries(state.rankings.sources || {}).filter(([, src]) => (src.items || []).length);
 }
@@ -177,7 +181,10 @@ function renderRankChips() {
     state.rankSource = sources.length ? sources[0][0] : null;
   }
   $('rankChips').innerHTML = sources.map(([id, src]) => `<button type="button"
-    class="chip${id === state.rankSource ? ' active' : ''}" data-rank="${esc(id)}">${esc(src.name)}</button>`).join('');
+    class="chip${id === state.rankSource ? ' active' : ''}" data-rank="${esc(id)}">${esc(src.name)}</button>`).join('')
+    // 자동 수집이 막혀 있는 사이트는 버튼을 누르면 그 사이트 랭킹 페이지를 새 창으로 연다
+    + EXTERNAL_RANKINGS.map((x) => `<a class="chip chip-link" href="${safeUrl(x.url)}" target="_blank" rel="noopener"
+        title="자동 수집이 막혀 있어 사이트에서 직접 확인">${esc(x.name)} ↗</a>`).join('');
 }
 
 function changeBadge(change) {
