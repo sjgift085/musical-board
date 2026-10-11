@@ -58,7 +58,7 @@ def test_rank_changes():
     assert [i["change"] for i in items] == [2, "new"]
 
 
-def test_news_keeps_only_industry_articles(monkeypatch):
+def test_news_collect_categorizes(monkeypatch):
     when = now_kst().strftime("%a, %d %b %Y %H:%M:%S %z")
     titles = [
         "문체부, 내년 K-뮤지컬 지원 예산 확대",
@@ -78,6 +78,7 @@ def test_news_keeps_only_industry_articles(monkeypatch):
         "문체부, 내년 K-뮤지컬 지원 예산 확대": "정책·지원",
         "한국뮤지컬협회 정기총회 개최": "협회·단체",
         "창작뮤지컬 산업 활성화 포럼 열려": "포럼·행사",
+        "뮤지컬 '샘플' 캐스팅 공개… 화려한 라인업": "작품 소식",
     }
 
 
@@ -102,3 +103,24 @@ def test_melon_jsonp(monkeypatch):
     items = rankings.melon(rankings.SOURCES[1])
     assert [(i["rank"], i["title"], i["change"]) for i in items] == [(1, "뮤지컬 〈둘〉", 2), (2, "뮤지컬 〈넷〉", "new")]
     assert items[0]["poster"] == "https://cdnticket.melon.co.kr/a.jpg"
+
+
+def test_categorize():
+    c = news.categorize
+    assert c("포즈 취하는 정영주 한국뮤지컬배우협회 이사장") is None          # 사진 설명
+    assert c("제23회 군포예인예술제, 군포연예예술인협회 정기공연 10일 개최") is None  # 지역 행사
+    assert c("부산진문화재단, 베트남 호찌민시연극협회 초청작 선보여") is None
+    assert c("한국뮤지컬배우협회 출범…초대 이사장에 정영주") == "협회·단체"
+    assert c("뮤지컬 창작자, 협회 창립 나선다") == "협회·단체"
+    assert c("문예진흥기금 공모 8일 시작…기초예술 지원예산 939억원") == "정책·지원"
+    assert c("2026 부산국제공연예술마켓 개막") == "포럼·행사"
+    assert c("뮤지컬 '레베카' 캐스팅 공개") == "작품 소식"
+    assert c("하이브 3분기 매출 1조 돌파") is None
+
+
+def test_similar_titles_are_merged():
+    w = news._words
+    assert news._similar(w("한국뮤지컬배우협회 출범…초대 이사장에 정영주"),
+                         w("한국뮤지컬배우협회 공식 출범...배우 정영주, 초대 이사장 선임"))
+    assert news._similar(w("뮤지컬창작자협회 설립 추진"), w("한국뮤지컬창작자협회 창립 준비"))
+    assert not news._similar(w("뮤지컬 '레베카' 캐스팅 공개"), w("뮤지컬 '시카고' 티켓 오픈"))

@@ -223,7 +223,9 @@ function newsItem(n) {
 }
 
 function renderNewsChips() {
-  const cats = [...new Set(state.news.map((n) => n.category).filter(Boolean))];
+  const ORDER = ['정책·지원', '포럼·행사', '협회·단체', '작품 소식'];
+  const present = new Set(state.news.map((n) => n.category).filter(Boolean));
+  const cats = [...ORDER.filter((c) => present.has(c)), ...[...present].filter((c) => !ORDER.includes(c))];
   $('newsChips').innerHTML = ['', ...cats].map((c) => `<button type="button"
     class="chip${(state.newsCategory || '') === c ? ' active' : ''}" data-cat="${esc(c)}">${esc(c || '전체')}</button>`).join('');
 }
