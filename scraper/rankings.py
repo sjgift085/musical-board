@@ -27,6 +27,15 @@ SOURCES = [
         "detail": "https://nol.yanolja.com/ticket/products/{0}",
     },
     {
+        # 순위 화면이 RankList.aspx 에 POST(pt=1 일간, ci=16 뮤지컬, et=기준일)로 HTML 조각을 받아 그린다
+        "id": "yes24",
+        "name": "예스24 티켓",
+        "url": "http://ticket.yes24.com/Rank/Musical",
+        "api": "http://ticket.yes24.com/New/Rank/Ajax/RankList.aspx",
+        "link_re": r"/Perf/(\d{4,})",
+        "detail": "http://ticket.yes24.com/Perf/{0}",
+    },
+    {
         # 화면은 자바스크립트로 그리고, 데이터는 아래 API(JSONP)에서 받음. 뮤지컬/연극이 섞여 있어 뮤지컬만 거른다.
         "id": "melon",
         "name": "멜론티켓",
@@ -211,8 +220,6 @@ def melon(source):
 
 # 아직 지원하지 않는 사이트의 구조를 확인하려고, 디버그 모드에서만 원본을 저장해 둔다
 PROBES = {
-    "probe-yes24.html": "http://ticket.yes24.com/Rank/Musical",
-    "probe-yes24-ranking.js": "https://tkfile.yes24.com/New/Js/ranking.js",
 }
 
 
@@ -226,9 +233,25 @@ def save_probes():
             print(f"[순위] probe {url}: {e}")
 
 
+def yes24(source):
+    res = requests.post(source["api"], timeout=30, headers={**HEADERS, "Referer": source["url"],
+                                                            "X-Requested-With": "XMLHttpRequest"},
+                        data={"pt": "1", "ci": "16", "et": now_kst().strftime("%Y-%m-%d")})
+    if not res.encoding or res.encoding.lower() == "iso-8859-1":
+        res.encoding = res.apparent_encoding
+    if DEBUG_DIR:
+        os.makedirs(DEBUG_DIR, exist_ok=True)
+        with open(os.path.join(DEBUG_DIR, "rank-yes24-api.html"), "w", encoding="utf-8") as f:
+            f.write(res.text)
+    res.raise_for_status()
+    return from_links(res.text, source["url"], source)
+
+
 def crawl_source(source):
     if source["id"] == "melon":
         return melon(source)
+    if source["id"] == "yes24":
+        return yes24(source)
     res = fetch(source["url"], debug_name=f"rank-{source['id']}.html")
     return from_json(res.text, source) or from_links(res.text, res.url, source)
 
