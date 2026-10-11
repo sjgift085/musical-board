@@ -106,7 +106,7 @@ def run_rankings(status):
 def main(argv):
     targets = argv or ["contests", "news", "rankings"]
     status = load_json("status.json", {})
-    status.setdefault("contests", {})
+    status["contests"] = {}  # 이번 실행에서 다시 채운다(목록에서 뺀 사이트가 남지 않게)
     status.pop("shows", None)
     for name in targets:
         try:

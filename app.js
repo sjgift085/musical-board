@@ -199,6 +199,7 @@ function renderRankings() {
         <a href="${safeUrl(r.url)}" target="_blank" rel="noopener">${esc(r.title)}</a>
         ${r.venue ? `<p>${esc(r.venue)}</p>` : ''}
         ${r.start ? `<p>${esc(r.start)}${r.end ? ` ~ ${esc(r.end)}` : ''}</p>` : ''}
+        ${r.rate ? `<p>예매율 ${esc(r.rate)}</p>` : ''}
       </div>
       ${changeBadge(r.change)}
     </li>`).join('');

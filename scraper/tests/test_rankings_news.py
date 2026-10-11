@@ -20,6 +20,11 @@ NEXT = {"props": {"pageProps": {"menu": [{"a": 1}], "ranking": [
 ]}}}
 JSON_PAGE = f'<script id="__NEXT_DATA__" type="application/json">{json.dumps(NEXT, ensure_ascii=False)}</script>'
 
+INTERPARK_LIKE = """<ul><li><a href="https://nol.yanolja.com/ticket/products/26013995"><article>
+ <img src="https://img.example/p.gif"><span>1위</span><h3>뮤지컬 〈하나〉</h3>
+ <p><span>장소 </span>샘플아트센터</p><p><span>공연기간 </span>26.12.22 ~ 27.02.28</p>
+ <span>예매율 25.6%</span></article></a></li></ul>"""
+
 LINK_PAGE = """
 <ul class="rank">
  <li><span>1</span><a href="/goods/B000001"><img src="https://img.example/b1.jpg" alt="뮤지컬 첫째"></a>
@@ -74,3 +79,26 @@ def test_news_keeps_only_industry_articles(monkeypatch):
         "한국뮤지컬협회 정기총회 개최": "협회·단체",
         "창작뮤지컬 산업 활성화 포럼 열려": "포럼·행사",
     }
+
+
+def test_ranking_interpark_card():
+    src = {**SRC, "link_re": r"/(?:ticket/products|goods)/(\w{6,})"}
+    [item] = rankings.from_links(INTERPARK_LIKE, "https://t.example/rank", src)
+    assert item["title"] == "뮤지컬 〈하나〉"
+    assert item["venue"] == "샘플아트센터"
+    assert (item["start"], item["end"]) == ("2026-12-22", "2027-02-28")
+    assert item["rate"] == "25.6%"
+    assert item["url"] == "https://t.example/goods/26013995"
+
+
+def test_melon_jsonp(monkeypatch):
+    body = 'rankingListFromHourly({"result":"0","data":[' + ",".join([
+        '{"curRank":1,"prevRank":3,"subTitle":"뮤지컬 〈둘〉","placeName":"극장","posterImg":"/a.jpg","prodId":11}',
+        '{"curRank":2,"prevRank":0,"subTitle":"연극 〈셋〉","placeName":"소극장","posterImg":"","prodId":12}',
+        '{"curRank":3,"prevRank":0,"subTitle":"뮤지컬 〈넷〉","placeName":"홀","posterImg":"","prodId":13}',
+    ]) + ']});'
+    resp = types.SimpleNamespace(text=body, raise_for_status=lambda: None)
+    monkeypatch.setattr(rankings.requests, "post", lambda *a, **k: resp)
+    items = rankings.melon(rankings.SOURCES[1])
+    assert [(i["rank"], i["title"], i["change"]) for i in items] == [(1, "뮤지컬 〈둘〉", 2), (2, "뮤지컬 〈넷〉", "new")]
+    assert items[0]["poster"] == "https://cdnticket.melon.co.kr/a.jpg"

@@ -7,40 +7,32 @@
 """
 import json
 import re
+
+import requests
 from urllib.parse import urljoin
 
 from bs4 import BeautifulSoup
 
-from common import clean, fetch, find_dates
+import os
+
+from common import DEBUG_DIR, HEADERS, clean, fetch, find_dates, now_kst
 
 SOURCES = [
     {
+        # 페이지 안에 순위가 그려져 있음. 상품 링크는 nol.yanolja.com/ticket/products/123
         "id": "interpark",
         "name": "인터파크(NOL) 티켓",
         "url": "https://tickets.interpark.com/contents/ranking?genre=MUSICAL",
-        "link_re": r"/goods/(\w{6,})",
-        "detail": "https://tickets.interpark.com/goods/{0}",
+        "link_re": r"/(?:ticket/products|goods)/(\w{6,})",
+        "detail": "https://nol.yanolja.com/ticket/products/{0}",
     },
     {
-        "id": "yes24",
-        "name": "예스24 티켓",
-        "url": "http://ticket.yes24.com/New/Rank/Ranking.aspx?genre=15457",
-        "link_re": r"/Perf/(\d{4,})",
-        "detail": "http://ticket.yes24.com/Perf/{0}",
-    },
-    {
+        # 화면은 자바스크립트로 그리고, 데이터는 아래 API(JSONP)에서 받음. 뮤지컬/연극이 섞여 있어 뮤지컬만 거른다.
         "id": "melon",
         "name": "멜론티켓",
-        "url": "https://ticket.melon.com/ranking/index.htm?genreType=GENRE_ART",
-        "link_re": r"prodId=(\d{4,})",
+        "url": "https://ticket.melon.com/ranking/index.htm",
+        "api": "https://tktapi.melon.com/poc/ranking/listFromHourly.json",
         "detail": "https://ticket.melon.com/performance/index.htm?prodId={0}",
-    },
-    {
-        "id": "ticketlink",
-        "name": "티켓링크",
-        "url": "https://www.ticketlink.co.kr/ranking?type=PERFORMANCE&categoryId=16",
-        "link_re": r"/product/(\d{4,})",
-        "detail": "https://www.ticketlink.co.kr/product/{0}",
     },
 ]
 TOP_N = 20
@@ -61,8 +53,16 @@ def _pick(d, keys):
     return ""
 
 
+SHORT_DATE_RE = re.compile(r"(?<![\d.])(\d{2})\.(\d{2})\.(\d{2})(?![\d.])")
+
+
+def _dates(text):
+    """'2026.10.01' 과 '26.10.01' 둘 다 읽는다."""
+    return find_dates(text) or [f"20{y}-{m}-{d}" for y, m, d in SHORT_DATE_RE.findall(text or "")]
+
+
 def _date(s):
-    found = find_dates(s)
+    found = _dates(s)
     if found:
         return found[0]
     m = re.fullmatch(r"(20\d{2})(\d{2})(\d{2})", s or "")
@@ -128,7 +128,9 @@ def from_links(html, base_url, source):
             continue
         code = m.group(1)
         img = a.find("img")
-        title = clean(a.get_text(" ")) or clean((img.get("alt") if img else "") or a.get("title") or "")
+        head = a.find(["h2", "h3", "h4", "strong"])
+        title = (clean(head.get_text(" ")) if head else "") or clean(a.get_text(" ")) \
+            or clean((img.get("alt") if img else "") or a.get("title") or "")
         if code not in info:
             order.append(code)
             info[code] = {"title": "", "poster": "", "row": ""}
@@ -144,18 +146,21 @@ def from_links(html, base_url, source):
                 if row.parent is None or row.parent.name in ("body", "html", "ul", "ol", "tbody"):
                     break
                 row = row.parent
-            cur["row"] = clean(row.get_text(" "))
+            cur["row"] = clean(a.get_text(" ")) if head else clean(row.get_text(" "))
 
     out = []
     for code in order:
         cur = info[code]
         if not cur["title"]:
             continue
-        dates = find_dates(cur["row"])
+        dates = _dates(cur["row"])
+        venue = re.search(r"장소\s+(.+?)(?:\s+공연기간|$)", cur["row"])
+        rate = re.search(r"예매율\s*([\d.]+)\s*%", cur["row"])
         out.append({
             "rank": len(out) + 1,
             "title": re.sub(r"^\d{1,2}\s+", "", cur["title"]),
-            "venue": "",
+            "venue": venue.group(1)[:60] if venue else "",
+            "rate": rate.group(1) + "%" if rate else "",
             "start": dates[0] if dates else "",
             "end": dates[1] if len(dates) > 1 else "",
             "poster": cur["poster"] if cur["poster"].startswith("http") else "",
@@ -166,7 +171,47 @@ def from_links(html, base_url, source):
     return out
 
 
+def melon(source):
+    res = requests.post(source["api"], timeout=30, headers={**HEADERS, "Referer": source["url"]}, data={
+        "v": "1", "rankType": "TR0006", "rankDt": now_kst().strftime("%Y%m%d"),
+        "gCode": "NEW_GENRE_ART", "callback": "rankingListFromHourly",
+    })
+    if DEBUG_DIR:
+        os.makedirs(DEBUG_DIR, exist_ok=True)
+        with open(os.path.join(DEBUG_DIR, "rank-melon-api.txt"), "w", encoding="utf-8") as f:
+            f.write(res.text)
+    res.raise_for_status()
+    body = res.text.strip()
+    if not body.startswith("{"):  # JSONP: callback({...});
+        body = body[body.index("(") + 1: body.rindex(")")]
+    data = json.loads(body)
+    out = []
+    for x in data.get("data") or []:
+        title = clean(x.get("subTitle") or x.get("title") or "")
+        if "뮤지컬" not in title:
+            continue
+        poster = x.get("posterImg") or ""
+        cur, prev = x.get("curRank"), x.get("prevRank")
+        change = None
+        if isinstance(cur, int) and isinstance(prev, int):
+            change = "new" if prev == 0 else prev - cur
+        out.append({
+            "rank": len(out) + 1,
+            "title": title,
+            "venue": clean(x.get("placeName") or ""),
+            "start": "", "end": "", "rate": "",
+            "poster": ("https://cdnticket.melon.co.kr" + poster) if poster.startswith("/") else poster,
+            "url": source["detail"].format(x.get("prodId")),
+            "change": change,
+        })
+        if len(out) >= TOP_N:
+            break
+    return out
+
+
 def crawl_source(source):
+    if source["id"] == "melon":
+        return melon(source)
     res = fetch(source["url"], debug_name=f"rank-{source['id']}.html")
     return from_json(res.text, source) or from_links(res.text, res.url, source)
 
@@ -176,6 +221,8 @@ def mark_changes(items, previous):
     norm = lambda t: re.sub(r"\W", "", t).replace("뮤지컬", "")
     prev = {norm(x["title"]): x["rank"] for x in previous}
     for it in items:
+        if it.get("change") is not None:
+            continue  # 사이트가 직접 알려 준 변동(멜론)은 그대로 쓴다
         before = prev.get(norm(it["title"]))
         it["change"] = "new" if before is None else before - it["rank"]
     return items

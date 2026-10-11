@@ -13,6 +13,8 @@ from bs4 import BeautifulSoup
 
 from common import DATE_RE, clean, fetch, find_dates
 
+# OTR(otr.co.kr/contest)은 자동 접속을 막는 보안 확인 화면을 돌려주므로 수집하지 않고,
+# 화면에서 '직접 확인' 링크로만 안내한다.
 SOURCES = [
     {
         "id": "artnuri",
@@ -26,6 +28,8 @@ SOURCES = [
         ),
         "pages": 3,
         "musical_filtered": True,  # 사이트 검색 조건에 이미 '뮤지컬' 장르가 걸려 있음
+        # 제목 링크: goView('CRL3616', '기관명', '001')
+        "js_link": "https://artnuri.or.kr/crawler/info/view.do?seNo={1}&key=2301170002&docid={0}",
     },
     {
         "id": "culture",
@@ -60,14 +64,8 @@ SOURCES = [
         ),
         "pages": 2,
         "musical_filtered": False,
-    },
-    {
-        "id": "otr",
-        "name": "OTR",
-        "home": "https://otr.co.kr",
-        "url": "https://otr.co.kr/contest/",
-        "pages": 1,
-        "musical_filtered": False,
+        # 제목 링크: javascript:goMasterView('1022')
+        "js_link": "https://www.storyum.kr/story/progrm/master/view.do?menuNo=500024&siteId=5&prgSn={0}",
     },
 ]
 
@@ -83,6 +81,11 @@ NOISE_HINTS = (
     "header", "footer", "gnb", "lnb", "snb", "nav", "menu", "breadcrumb", "location",
     "paging", "pagination", "quick", "banner", "popup", "sitemap", "skip", "family",
 )
+
+META_NOISE = {
+    "주관기관", "지원대상", "마감일", "상세보기", "자세히보기", "조회", "조회수", "등록일", "신청기간",
+    "접수기간", "진행상태", "외부", "내부",
+}
 
 DETAIL_HREF_RE = re.compile(
     r"(view|detail|read|show|seq|idx|sn=|no=|id=|/\d{3,}|/contest/[^/?#]+)", re.I
@@ -171,20 +174,20 @@ def _make_item(source, title, url, container_text, list_url):
     meta = container_text.replace(title, " ", 1)
     meta = DATE_RE.sub(" ", meta)
     meta = re.sub(r"\s*[~\-–]\s*(?=\s|$)", " ", meta)
-    meta = re.sub(r"^\s*\d{1,6}\s+", "", clean(meta))
-    meta = clean(meta)[:160]
-    period = ""
-    if len(dates) >= 2:
-        period = f"{dates[0]} ~ {dates[-1]}"
-    elif dates:
-        period = dates[0]
+    # 표 머리글·조회수·시각 같은 군더더기 제거
+    words = [w for w in clean(meta).split(" ")
+             if w not in META_NOISE and not re.fullmatch(r"\d{1,6}|\d{1,2}:\d{2}|[-~+]", w)]
+    meta = " ".join(words)[:160]
+    # 마감일은 가장 늦은 날짜로 본다 (스토리움처럼 기간 뒤에 등록일이 붙는 경우가 있음)
+    deadline = max(dates) if dates else ""
+    period = f"{dates[0]} ~ {deadline}" if dates and dates[0] != deadline else deadline
     return {
         "source": source["id"],
         "sourceName": source["name"],
         "title": title,
         "url": url or list_url,
         "period": period,
-        "deadline": dates[-1] if dates else "",
+        "deadline": deadline,
         "meta": meta,
     }
 
