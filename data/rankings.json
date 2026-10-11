@@ -1,10 +1,10 @@
 {
- "updatedAt": "2026-10-12T01:41:58+09:00",
+ "updatedAt": "2026-10-12T01:47:52+09:00",
  "sources": {
   "interpark": {
    "name": "인터파크(NOL) 티켓",
    "url": "https://tickets.interpark.com/contents/ranking?genre=MUSICAL",
-   "updatedAt": "2026-10-12T01:41:58+09:00",
+   "updatedAt": "2026-10-12T01:47:52+09:00",
    "items": [
     {
      "rank": 1,
@@ -121,7 +121,7 @@
   "melon": {
    "name": "멜론티켓",
    "url": "https://ticket.melon.com/ranking/index.htm",
-   "updatedAt": "2026-10-12T01:41:58+09:00",
+   "updatedAt": "2026-10-12T01:47:52+09:00",
    "items": [
     {
      "rank": 1,
