@@ -1,4 +1,163 @@
 {
- "updatedAt": "2026-10-12T01:31:27+09:00",
- "sources": {}
+ "updatedAt": "2026-10-12T01:35:08+09:00",
+ "sources": {
+  "interpark": {
+   "name": "인터파크(NOL) 티켓",
+   "url": "https://tickets.interpark.com/contents/ranking?genre=MUSICAL",
+   "updatedAt": "2026-10-12T01:35:08+09:00",
+   "items": [
+    {
+     "rank": 1,
+     "title": "뮤지컬 〈오페라의 유령〉 40주년 스페셜 시즌 (Phantom of The Opera)",
+     "venue": "블루스퀘어 우리은행홀",
+     "rate": "25.6%",
+     "start": "2026-12-22",
+     "end": "2027-02-28",
+     "poster": "https://ticketimage.interpark.com/Play/image/large/26/26013995_p.gif",
+     "url": "https://nol.yanolja.com/ticket/products/26013995"
+    },
+    {
+     "rank": 2,
+     "title": "뮤지컬 〈레베카〉",
+     "venue": "충무아트센터 대극장",
+     "rate": "11.5%",
+     "start": "2026-11-24",
+     "end": "2027-03-14",
+     "poster": "https://ticketimage.interpark.com/Play/image/large/26/26013993_p.gif",
+     "url": "https://nol.yanolja.com/ticket/products/26013993"
+    },
+    {
+     "rank": 3,
+     "title": "뮤지컬 〈엘리자벳〉",
+     "venue": "블루스퀘어 우리은행홀",
+     "rate": "7.8%",
+     "start": "2026-08-16",
+     "end": "2026-11-15",
+     "poster": "https://ticketimage.interpark.com/Play/image/large/26/26009314_p.gif",
+     "url": "https://nol.yanolja.com/ticket/products/26009314"
+    },
+    {
+     "rank": 4,
+     "title": "뮤지컬 〈광화문연가〉",
+     "venue": "디큐브 링크아트센터",
+     "rate": "7.4%",
+     "start": "2026-09-06",
+     "end": "2026-11-15",
+     "poster": "https://ticketimage.interpark.com/Play/image/large/26/26009625_p.gif",
+     "url": "https://nol.yanolja.com/ticket/products/26009625"
+    },
+    {
+     "rank": 5,
+     "title": "뮤지컬 〈미세스 다웃파이어〉",
+     "venue": "GS아트센터",
+     "rate": "4.0%",
+     "start": "2026-12-03",
+     "end": "2027-02-21",
+     "poster": "https://ticketimage.interpark.com/Play/image/large/26/26014015_p.gif",
+     "url": "https://nol.yanolja.com/ticket/products/26014015"
+    },
+    {
+     "rank": 6,
+     "title": "뮤지컬 〈시카고〉",
+     "venue": "LG아트센터 서울 LG SIGNATURE 홀",
+     "rate": "3.2%",
+     "start": "2026-12-05",
+     "end": "2027-03-14",
+     "poster": "https://ticketimage.interpark.com/Play/image/large/L0/L0000150_p.gif",
+     "url": "https://nol.yanolja.com/ticket/products/L0000150"
+    },
+    {
+     "rank": 7,
+     "title": "뮤지컬 〈겨울왕국〉 한국 초연 (FROZEN The Musical)",
+     "venue": "샤롯데씨어터",
+     "rate": "3.1%",
+     "start": "2026-08-13",
+     "end": "2027-03-01",
+     "poster": "https://ticketimage.interpark.com/Play/image/large/26/26007416_p.gif",
+     "url": "https://nol.yanolja.com/ticket/products/26007416"
+    },
+    {
+     "rank": 8,
+     "title": "뮤지컬 〈캣츠〉 내한공연 - 대구 (Musical CATS)",
+     "venue": "계명아트센터",
+     "rate": "2.5%",
+     "start": "2026-12-18",
+     "end": "2027-01-03",
+     "poster": "https://ticketimage.interpark.com/Play/image/large/26/26013215_p.gif",
+     "url": "https://nol.yanolja.com/ticket/products/26013215"
+    },
+    {
+     "rank": 9,
+     "title": "뮤지컬 〈디어 에반 핸슨〉 (Musical Dear Evan Hansen)",
+     "venue": "충무아트센터 대극장",
+     "rate": "2.4%",
+     "start": "2026-08-01",
+     "end": "2026-11-01",
+     "poster": "https://ticketimage.interpark.com/Play/image/large/26/26007442_p.gif",
+     "url": "https://nol.yanolja.com/ticket/products/26007442"
+    },
+    {
+     "rank": 10,
+     "title": "뮤지컬 드라큘라 (Dracula：The Musical)",
+     "venue": "LG아트센터 서울 LG SIGNATURE 홀",
+     "rate": "2.1%",
+     "start": "2026-07-10",
+     "end": "2026-10-18",
+     "poster": "https://ticketimage.interpark.com/Play/image/large/L0/L0000142_p.gif",
+     "url": "https://nol.yanolja.com/ticket/products/L0000142"
+    }
+   ]
+  },
+  "melon": {
+   "name": "멜론티켓",
+   "url": "https://ticket.melon.com/ranking/index.htm",
+   "updatedAt": "2026-10-12T01:35:08+09:00",
+   "items": [
+    {
+     "rank": 1,
+     "title": "뮤지컬 〈레베카〉",
+     "venue": "충무아트센터",
+     "start": "",
+     "end": "",
+     "rate": "",
+     "poster": "https://cdnticket.melon.co.kr/resource/image/upload/product/2026/09/20260929174455b87b4406-3e96-449d-ba41-d538056662ab.jpg",
+     "url": "https://ticket.melon.com/performance/index.htm?prodId=213984",
+     "change": 0
+    },
+    {
+     "rank": 2,
+     "title": "뮤지컬 〈엘리자벳〉",
+     "venue": "블루스퀘어 우리은행홀",
+     "start": "",
+     "end": "",
+     "rate": "",
+     "poster": "https://cdnticket.melon.co.kr/resource/image/upload/product/2026/07/20260722112927cd0de661-fdff-4c95-93e3-4467ed16b43f.jpg",
+     "url": "https://ticket.melon.com/performance/index.htm?prodId=213480",
+     "change": 0
+    },
+    {
+     "rank": 3,
+     "title": "뮤지컬 〈헬스키친〉 (Musical Hell’s Kitchen)",
+     "venue": "GS아트센터",
+     "start": "",
+     "end": "",
+     "rate": "",
+     "poster": "https://cdnticket.melon.co.kr/resource/image/upload/product/2026/07/2026072215062289f06f89-0def-49dc-aa79-607bb8bb86ff.jpg",
+     "url": "https://ticket.melon.com/performance/index.htm?prodId=213624",
+     "change": 0
+    },
+    {
+     "rank": 4,
+     "title": "뮤지컬 〈두 도시 이야기〉",
+     "venue": "광림아트센터",
+     "start": "",
+     "end": "",
+     "rate": "",
+     "poster": "https://cdnticket.melon.co.kr/resource/image/upload/product/2026/09/20260916173300e283df65-90f1-4ac7-a763-7f0eb0300bd5.jpg",
+     "url": "https://ticket.melon.com/performance/index.htm?prodId=213865",
+     "change": 0
+    }
+   ]
+  }
+ }
 }

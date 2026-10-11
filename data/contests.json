@@ -1,30 +1,30 @@
 {
- "updatedAt": "2026-10-12T01:30:51+09:00",
+ "updatedAt": "2026-10-12T01:34:34+09:00",
  "items": [
   {
    "source": "artnuri",
    "sourceName": "아트누리",
    "title": "2027년 인바운드국제협력강화(인바운드리서치지원)",
-   "url": "https://artnuri.or.kr/crawler/info/search.do?docid=&source=&pageSetting=1&sc_seNo=&key=2301170002&sc_orderBy=&recordCountPerPage=10&pageIndex=1&sc_hash=&sc_list=&seNo=&sw=&sc_genre=&sc_genre=%EB%AE%A4%EC%A7%80%EC%BB%AC&sc_target=&sc_local=&sc_field=&sc_isDo=",
+   "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=CRL3616",
    "period": "2026-11-05",
    "deadline": "2026-11-05",
-   "meta": "진행중 주관기관 지원대상 전체 마감일 1172 #한국문화예술위원회 #전체 상세보기",
+   "meta": "진행중 전체 #한국문화예술위원회 #전체",
    "tags": [
     "뮤지컬"
    ],
    "id": "61dbd47f111f9ae0",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "artnuri",
    "sourceName": "아트누리",
    "title": "2027년 인바운드국제협력강화(인바운드레지던시지원)",
-   "url": "https://artnuri.or.kr/crawler/info/search.do?docid=&source=&pageSetting=1&sc_seNo=&key=2301170002&sc_orderBy=&recordCountPerPage=10&pageIndex=1&sc_hash=&sc_list=&seNo=&sw=&sc_genre=&sc_genre=%EB%AE%A4%EC%A7%80%EC%BB%AC&sc_target=&sc_local=&sc_field=&sc_isDo=",
+   "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=CRL3615",
    "period": "2026-11-05",
    "deadline": "2026-11-05",
-   "meta": "진행중 주관기관 지원대상 단체 마감일 843 #한국문화예술위원회 #전체 상세보기",
+   "meta": "진행중 단체 #한국문화예술위원회 #전체",
    "tags": [
     "뮤지컬",
     "창작·공연"
@@ -32,64 +32,64 @@
    "id": "e55ebad83cccb875",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "artnuri",
    "sourceName": "아트누리",
    "title": "2027년 국제협업지원(ARKO사업연계)",
-   "url": "https://artnuri.or.kr/crawler/info/search.do?docid=&source=&pageSetting=1&sc_seNo=&key=2301170002&sc_orderBy=&recordCountPerPage=10&pageIndex=1&sc_hash=&sc_list=&seNo=&sw=&sc_genre=&sc_genre=%EB%AE%A4%EC%A7%80%EC%BB%AC&sc_target=&sc_local=&sc_field=&sc_isDo=",
+   "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=CRL3611",
    "period": "2026-11-05",
    "deadline": "2026-11-05",
-   "meta": "진행중 주관기관 지원대상 전체 마감일 1209 #한국문화예술위원회 #전체 상세보기",
+   "meta": "진행중 전체 #한국문화예술위원회 #전체",
    "tags": [
     "뮤지컬"
    ],
    "id": "ceef755c21e99e8f",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "artnuri",
    "sourceName": "아트누리",
    "title": "2027년 국제협업지원(창･제작)",
-   "url": "https://artnuri.or.kr/crawler/info/search.do?docid=&source=&pageSetting=1&sc_seNo=&key=2301170002&sc_orderBy=&recordCountPerPage=10&pageIndex=1&sc_hash=&sc_list=&seNo=&sw=&sc_genre=&sc_genre=%EB%AE%A4%EC%A7%80%EC%BB%AC&sc_target=&sc_local=&sc_field=&sc_isDo=",
+   "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=CRL3610",
    "period": "2026-11-05",
    "deadline": "2026-11-05",
-   "meta": "진행중 주관기관 지원대상 전체 마감일 2135 #한국문화예술위원회 #전체 상세보기",
+   "meta": "진행중 전체 #한국문화예술위원회 #전체",
    "tags": [
     "뮤지컬"
    ],
    "id": "9a9e7ba9cc47250f",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "artnuri",
    "sourceName": "아트누리",
    "title": "2027년 국제협업지원(기획･네트워크)",
-   "url": "https://artnuri.or.kr/crawler/info/search.do?docid=&source=&pageSetting=1&sc_seNo=&key=2301170002&sc_orderBy=&recordCountPerPage=10&pageIndex=1&sc_hash=&sc_list=&seNo=&sw=&sc_genre=&sc_genre=%EB%AE%A4%EC%A7%80%EC%BB%AC&sc_target=&sc_local=&sc_field=&sc_isDo=",
+   "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=CRL3609",
    "period": "2026-11-05",
    "deadline": "2026-11-05",
-   "meta": "진행중 주관기관 지원대상 전체 마감일 1421 #한국문화예술위원회 #전체 상세보기",
+   "meta": "진행중 전체 #한국문화예술위원회 #전체",
    "tags": [
     "뮤지컬"
    ],
    "id": "26b0db04e2e2c8bd",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "artnuri",
    "sourceName": "아트누리",
    "title": "2027년 해외레지던시및프로그램참가지원",
-   "url": "https://artnuri.or.kr/crawler/info/search.do?docid=&source=&pageSetting=1&sc_seNo=&key=2301170002&sc_orderBy=&recordCountPerPage=10&pageIndex=1&sc_hash=&sc_list=&seNo=&sw=&sc_genre=&sc_genre=%EB%AE%A4%EC%A7%80%EC%BB%AC&sc_target=&sc_local=&sc_field=&sc_isDo=",
+   "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=CRL3608",
    "period": "2026-11-05",
    "deadline": "2026-11-05",
-   "meta": "진행중 주관기관 지원대상 전체 마감일 1838 #한국문화예술위원회 #전체 상세보기",
+   "meta": "진행중 전체 #한국문화예술위원회 #전체",
    "tags": [
     "뮤지컬",
     "창작·공연"
@@ -97,16 +97,16 @@
    "id": "c65252e2ad0a495b",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "artnuri",
    "sourceName": "아트누리",
    "title": "2027년 어린이청소년을위한공연예술지원",
-   "url": "https://artnuri.or.kr/crawler/info/search.do?docid=&source=&pageSetting=1&sc_seNo=&key=2301170002&sc_orderBy=&recordCountPerPage=10&pageIndex=1&sc_hash=&sc_list=&seNo=&sw=&sc_genre=&sc_genre=%EB%AE%A4%EC%A7%80%EC%BB%AC&sc_target=&sc_local=&sc_field=&sc_isDo=",
+   "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=CRL3605",
    "period": "2026-11-05",
    "deadline": "2026-11-05",
-   "meta": "진행중 주관기관 지원대상 단체 마감일 1522 #한국문화예술위원회 #연극 #뮤지컬 #무용 #음악 #전통예술 #문화일반 상세보기",
+   "meta": "진행중 단체 #한국문화예술위원회 #연극 #뮤지컬 #무용 #음악 #전통예술 #문화일반",
    "tags": [
     "뮤지컬",
     "창작·공연"
@@ -114,16 +114,16 @@
    "id": "ef9682ccfde22d06",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "artnuri",
    "sourceName": "아트누리",
    "title": "2027년 대한민국공연예술제",
-   "url": "https://artnuri.or.kr/crawler/info/search.do?docid=&source=&pageSetting=1&sc_seNo=&key=2301170002&sc_orderBy=&recordCountPerPage=10&pageIndex=1&sc_hash=&sc_list=&seNo=&sw=&sc_genre=&sc_genre=%EB%AE%A4%EC%A7%80%EC%BB%AC&sc_target=&sc_local=&sc_field=&sc_isDo=",
+   "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=CRL3604",
    "period": "2026-11-05",
    "deadline": "2026-11-05",
-   "meta": "진행중 주관기관 지원대상 단체 마감일 1114 #한국문화예술위원회 #연극 #뮤지컬 #무용 #음악 #전통예술 상세보기",
+   "meta": "진행중 단체 #한국문화예술위원회 #연극 #뮤지컬 #무용 #음악 #전통예술",
    "tags": [
     "뮤지컬",
     "창작·공연"
@@ -131,16 +131,16 @@
    "id": "78a52d3c1e7036de",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "artnuri",
    "sourceName": "아트누리",
    "title": "2027년 공연예술비평활동활성화지원",
-   "url": "https://artnuri.or.kr/crawler/info/search.do?docid=&source=&pageSetting=1&sc_seNo=&key=2301170002&sc_orderBy=&recordCountPerPage=10&pageIndex=1&sc_hash=&sc_list=&seNo=&sw=&sc_genre=&sc_genre=%EB%AE%A4%EC%A7%80%EC%BB%AC&sc_target=&sc_local=&sc_field=&sc_isDo=",
+   "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=CRL3603",
    "period": "2026-11-05",
    "deadline": "2026-11-05",
-   "meta": "진행중 주관기관 지원대상 전체 마감일 799 #한국문화예술위원회 #연극 #뮤지컬 #무용 #음악 #전통예술 #문화일반 상세보기",
+   "meta": "진행중 전체 #한국문화예술위원회 #연극 #뮤지컬 #무용 #음악 #전통예술 #문화일반",
    "tags": [
     "뮤지컬",
     "창작·공연"
@@ -148,16 +148,16 @@
    "id": "3e0acb14f49a5135",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "artnuri",
    "sourceName": "아트누리",
    "title": "2027년 공연예술창작주체(공연장기획제작지원)",
-   "url": "https://artnuri.or.kr/crawler/info/search.do?docid=&source=&pageSetting=1&sc_seNo=&key=2301170002&sc_orderBy=&recordCountPerPage=10&pageIndex=1&sc_hash=&sc_list=&seNo=&sw=&sc_genre=&sc_genre=%EB%AE%A4%EC%A7%80%EC%BB%AC&sc_target=&sc_local=&sc_field=&sc_isDo=",
+   "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=CRL3602",
    "period": "2026-11-05",
    "deadline": "2026-11-05",
-   "meta": "진행중 주관기관 지원대상 단체 마감일 1176 #한국문화예술위원회 #연극 #뮤지컬 #무용 #음악 #전통예술 상세보기",
+   "meta": "진행중 단체 #한국문화예술위원회 #연극 #뮤지컬 #무용 #음악 #전통예술",
    "tags": [
     "뮤지컬",
     "창작·공연"
@@ -165,32 +165,32 @@
    "id": "ad6498980b1696a7",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "artnuri",
    "sourceName": "아트누리",
    "title": "진 2027년 인바운드국제협력강화(인바운드리서치지원)",
-   "url": "https://artnuri.or.kr/crawler/info/search.do?docid=&source=&pageSetting=1&sc_seNo=&key=2301170002&sc_orderBy=&recordCountPerPage=10&pageIndex=1&sc_hash=&sc_list=&seNo=&sw=&sc_genre=&sc_genre=%EB%AE%A4%EC%A7%80%EC%BB%AC&sc_target=&sc_local=&sc_field=&sc_isDo=",
+   "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=CRL3616",
    "period": "2026-11-05",
    "deadline": "2026-11-05",
-   "meta": "진 2027년 인바운드국제협력강화(인바운드리서치지원) 지원대상 전체 마감일 1172",
+   "meta": "진 2027년 인바운드국제협력강화(인바운드리서치지원) 전체",
    "tags": [
     "뮤지컬"
    ],
    "id": "0368302e59b93256",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "artnuri",
    "sourceName": "아트누리",
    "title": "진 2027년 인바운드국제협력강화(인바운드레지던시지원)",
-   "url": "https://artnuri.or.kr/crawler/info/search.do?docid=&source=&pageSetting=1&sc_seNo=&key=2301170002&sc_orderBy=&recordCountPerPage=10&pageIndex=1&sc_hash=&sc_list=&seNo=&sw=&sc_genre=&sc_genre=%EB%AE%A4%EC%A7%80%EC%BB%AC&sc_target=&sc_local=&sc_field=&sc_isDo=",
+   "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=CRL3615",
    "period": "2026-11-05",
    "deadline": "2026-11-05",
-   "meta": "진 2027년 인바운드국제협력강화(인바운드레지던시지원) 지원대상 단체 마감일 843",
+   "meta": "진 2027년 인바운드국제협력강화(인바운드레지던시지원) 단체",
    "tags": [
     "뮤지컬",
     "창작·공연"
@@ -198,64 +198,64 @@
    "id": "e1dd8e4865377ff7",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "artnuri",
    "sourceName": "아트누리",
    "title": "진 2027년 국제협업지원(ARKO사업연계)",
-   "url": "https://artnuri.or.kr/crawler/info/search.do?docid=&source=&pageSetting=1&sc_seNo=&key=2301170002&sc_orderBy=&recordCountPerPage=10&pageIndex=1&sc_hash=&sc_list=&seNo=&sw=&sc_genre=&sc_genre=%EB%AE%A4%EC%A7%80%EC%BB%AC&sc_target=&sc_local=&sc_field=&sc_isDo=",
+   "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=CRL3611",
    "period": "2026-11-05",
    "deadline": "2026-11-05",
-   "meta": "진 2027년 국제협업지원(ARKO사업연계) 지원대상 전체 마감일 1209",
+   "meta": "진 2027년 국제협업지원(ARKO사업연계) 전체",
    "tags": [
     "뮤지컬"
    ],
    "id": "3198dce4fc9500b5",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "artnuri",
    "sourceName": "아트누리",
    "title": "진 2027년 국제협업지원(창･제작)",
-   "url": "https://artnuri.or.kr/crawler/info/search.do?docid=&source=&pageSetting=1&sc_seNo=&key=2301170002&sc_orderBy=&recordCountPerPage=10&pageIndex=1&sc_hash=&sc_list=&seNo=&sw=&sc_genre=&sc_genre=%EB%AE%A4%EC%A7%80%EC%BB%AC&sc_target=&sc_local=&sc_field=&sc_isDo=",
+   "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=CRL3610",
    "period": "2026-11-05",
    "deadline": "2026-11-05",
-   "meta": "진 2027년 국제협업지원(창･제작) 지원대상 전체 마감일 2135",
+   "meta": "진 2027년 국제협업지원(창･제작) 전체",
    "tags": [
     "뮤지컬"
    ],
    "id": "4ebb1bcd12f56765",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "artnuri",
    "sourceName": "아트누리",
    "title": "진 2027년 국제협업지원(기획･네트워크)",
-   "url": "https://artnuri.or.kr/crawler/info/search.do?docid=&source=&pageSetting=1&sc_seNo=&key=2301170002&sc_orderBy=&recordCountPerPage=10&pageIndex=1&sc_hash=&sc_list=&seNo=&sw=&sc_genre=&sc_genre=%EB%AE%A4%EC%A7%80%EC%BB%AC&sc_target=&sc_local=&sc_field=&sc_isDo=",
+   "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=CRL3609",
    "period": "2026-11-05",
    "deadline": "2026-11-05",
-   "meta": "진 2027년 국제협업지원(기획･네트워크) 지원대상 전체 마감일 1421",
+   "meta": "진 2027년 국제협업지원(기획･네트워크) 전체",
    "tags": [
     "뮤지컬"
    ],
    "id": "a814d9cf199ea59d",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "artnuri",
    "sourceName": "아트누리",
    "title": "진 2027년 해외레지던시및프로그램참가지원",
-   "url": "https://artnuri.or.kr/crawler/info/search.do?docid=&source=&pageSetting=1&sc_seNo=&key=2301170002&sc_orderBy=&recordCountPerPage=10&pageIndex=1&sc_hash=&sc_list=&seNo=&sw=&sc_genre=&sc_genre=%EB%AE%A4%EC%A7%80%EC%BB%AC&sc_target=&sc_local=&sc_field=&sc_isDo=",
+   "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=CRL3608",
    "period": "2026-11-05",
    "deadline": "2026-11-05",
-   "meta": "진 2027년 해외레지던시및프로그램참가지원 지원대상 전체 마감일 1838",
+   "meta": "진 2027년 해외레지던시및프로그램참가지원 전체",
    "tags": [
     "뮤지컬",
     "창작·공연"
@@ -263,16 +263,16 @@
    "id": "da04bf1f793765b3",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "artnuri",
    "sourceName": "아트누리",
    "title": "진 2027년 어린이청소년을위한공연예술지원",
-   "url": "https://artnuri.or.kr/crawler/info/search.do?docid=&source=&pageSetting=1&sc_seNo=&key=2301170002&sc_orderBy=&recordCountPerPage=10&pageIndex=1&sc_hash=&sc_list=&seNo=&sw=&sc_genre=&sc_genre=%EB%AE%A4%EC%A7%80%EC%BB%AC&sc_target=&sc_local=&sc_field=&sc_isDo=",
+   "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=CRL3605",
    "period": "2026-11-05",
    "deadline": "2026-11-05",
-   "meta": "진 2027년 어린이청소년을위한공연예술지원 지원대상 단체 마감일 1522",
+   "meta": "진 2027년 어린이청소년을위한공연예술지원 단체",
    "tags": [
     "뮤지컬",
     "창작·공연"
@@ -280,16 +280,16 @@
    "id": "0ab2ef7f99c1c5f1",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "artnuri",
    "sourceName": "아트누리",
    "title": "진 2027년 대한민국공연예술제",
-   "url": "https://artnuri.or.kr/crawler/info/search.do?docid=&source=&pageSetting=1&sc_seNo=&key=2301170002&sc_orderBy=&recordCountPerPage=10&pageIndex=1&sc_hash=&sc_list=&seNo=&sw=&sc_genre=&sc_genre=%EB%AE%A4%EC%A7%80%EC%BB%AC&sc_target=&sc_local=&sc_field=&sc_isDo=",
+   "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=CRL3604",
    "period": "2026-11-05",
    "deadline": "2026-11-05",
-   "meta": "진 2027년 대한민국공연예술제 지원대상 단체 마감일 1114",
+   "meta": "진 2027년 대한민국공연예술제 단체",
    "tags": [
     "뮤지컬",
     "창작·공연"
@@ -297,16 +297,16 @@
    "id": "252dc3d83599db34",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "artnuri",
    "sourceName": "아트누리",
    "title": "진 2027년 공연예술비평활동활성화지원",
-   "url": "https://artnuri.or.kr/crawler/info/search.do?docid=&source=&pageSetting=1&sc_seNo=&key=2301170002&sc_orderBy=&recordCountPerPage=10&pageIndex=1&sc_hash=&sc_list=&seNo=&sw=&sc_genre=&sc_genre=%EB%AE%A4%EC%A7%80%EC%BB%AC&sc_target=&sc_local=&sc_field=&sc_isDo=",
+   "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=CRL3603",
    "period": "2026-11-05",
    "deadline": "2026-11-05",
-   "meta": "진 2027년 공연예술비평활동활성화지원 지원대상 전체 마감일 799",
+   "meta": "진 2027년 공연예술비평활동활성화지원 전체",
    "tags": [
     "뮤지컬",
     "창작·공연"
@@ -314,16 +314,16 @@
    "id": "3665dd65d77a471e",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "artnuri",
    "sourceName": "아트누리",
    "title": "진 2027년 공연예술창작주체(공연장기획제작지원)",
-   "url": "https://artnuri.or.kr/crawler/info/search.do?docid=&source=&pageSetting=1&sc_seNo=&key=2301170002&sc_orderBy=&recordCountPerPage=10&pageIndex=1&sc_hash=&sc_list=&seNo=&sw=&sc_genre=&sc_genre=%EB%AE%A4%EC%A7%80%EC%BB%AC&sc_target=&sc_local=&sc_field=&sc_isDo=",
+   "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=CRL3602",
    "period": "2026-11-05",
    "deadline": "2026-11-05",
-   "meta": "진 2027년 공연예술창작주체(공연장기획제작지원) 지원대상 단체 마감일 1176",
+   "meta": "진 2027년 공연예술창작주체(공연장기획제작지원) 단체",
    "tags": [
     "뮤지컬",
     "창작·공연"
@@ -331,16 +331,16 @@
    "id": "9443d8005f84cea1",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "artnuri",
    "sourceName": "아트누리",
    "title": "2027년 공연예술창작주체(중장기단체도약지원)",
-   "url": "https://artnuri.or.kr/crawler/info/search.do?docid=&source=&pageSetting=1&sc_seNo=&key=2301170002&sc_orderBy=&recordCountPerPage=10&pageIndex=2&sc_hash=&sc_list=&seNo=&sw=&sc_genre=&sc_genre=%EB%AE%A4%EC%A7%80%EC%BB%AC&sc_target=&sc_local=&sc_field=&sc_isDo=",
+   "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=CRL3601",
    "period": "2026-11-05",
    "deadline": "2026-11-05",
-   "meta": "진행중 주관기관 지원대상 단체 마감일 1790 #한국문화예술위원회 #연극 #뮤지컬 #무용 #음악 #전통예술 상세보기",
+   "meta": "진행중 단체 #한국문화예술위원회 #연극 #뮤지컬 #무용 #음악 #전통예술",
    "tags": [
     "뮤지컬",
     "창작·공연"
@@ -348,16 +348,16 @@
    "id": "18cf86882f0e31a0",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "artnuri",
    "sourceName": "아트누리",
    "title": "2027년 공연예술창작산실(2차 제작지원)",
-   "url": "https://artnuri.or.kr/crawler/info/search.do?docid=&source=&pageSetting=1&sc_seNo=&key=2301170002&sc_orderBy=&recordCountPerPage=10&pageIndex=2&sc_hash=&sc_list=&seNo=&sw=&sc_genre=&sc_genre=%EB%AE%A4%EC%A7%80%EC%BB%AC&sc_target=&sc_local=&sc_field=&sc_isDo=",
+   "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=CRL3599",
    "period": "2026-11-05",
    "deadline": "2026-11-05",
-   "meta": "진행중 주관기관 지원대상 개인,단체 마감일 1483 #한국문화예술위원회 #연극 #뮤지컬 #무용 #음악 #전통예술 상세보기",
+   "meta": "진행중 개인,단체 #한국문화예술위원회 #연극 #뮤지컬 #무용 #음악 #전통예술",
    "tags": [
     "뮤지컬",
     "창작·공연"
@@ -365,16 +365,16 @@
    "id": "82e7c44512c0fb49",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "artnuri",
    "sourceName": "아트누리",
    "title": "2027년 공연예술창작산실(올해의신작)",
-   "url": "https://artnuri.or.kr/crawler/info/search.do?docid=&source=&pageSetting=1&sc_seNo=&key=2301170002&sc_orderBy=&recordCountPerPage=10&pageIndex=2&sc_hash=&sc_list=&seNo=&sw=&sc_genre=&sc_genre=%EB%AE%A4%EC%A7%80%EC%BB%AC&sc_target=&sc_local=&sc_field=&sc_isDo=",
+   "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=CRL3598",
    "period": "2026-11-05",
    "deadline": "2026-11-05",
-   "meta": "진행중 주관기관 지원대상 개인,단체 마감일 1977 #한국문화예술위원회 #연극 #뮤지컬 #무용 #음악 #전통예술 상세보기",
+   "meta": "진행중 개인,단체 #한국문화예술위원회 #연극 #뮤지컬 #무용 #음악 #전통예술",
    "tags": [
     "뮤지컬",
     "창작·공연"
@@ -382,16 +382,16 @@
    "id": "379ac9fc63892ec3",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "artnuri",
    "sourceName": "아트누리",
    "title": "2027년 공연예술청년예술가지원",
-   "url": "https://artnuri.or.kr/crawler/info/search.do?docid=&source=&pageSetting=1&sc_seNo=&key=2301170002&sc_orderBy=&recordCountPerPage=10&pageIndex=2&sc_hash=&sc_list=&seNo=&sw=&sc_genre=&sc_genre=%EB%AE%A4%EC%A7%80%EC%BB%AC&sc_target=&sc_local=&sc_field=&sc_isDo=",
+   "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=CRL3596",
    "period": "2026-11-05",
    "deadline": "2026-11-05",
-   "meta": "진행중 주관기관 지원대상 개인 마감일 2014 #한국문화예술위원회 #연극 #뮤지컬 #무용 #음악 #전통예술 상세보기",
+   "meta": "진행중 개인 #한국문화예술위원회 #연극 #뮤지컬 #무용 #음악 #전통예술",
    "tags": [
     "뮤지컬",
     "창작·공연"
@@ -399,48 +399,48 @@
    "id": "980846d9992af5af",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "artnuri",
    "sourceName": "아트누리",
    "title": "2027년 예술대학의 예비예술인 현장연계지원",
-   "url": "https://artnuri.or.kr/crawler/info/search.do?docid=&source=&pageSetting=1&sc_seNo=&key=2301170002&sc_orderBy=&recordCountPerPage=10&pageIndex=2&sc_hash=&sc_list=&seNo=&sw=&sc_genre=&sc_genre=%EB%AE%A4%EC%A7%80%EC%BB%AC&sc_target=&sc_local=&sc_field=&sc_isDo=",
+   "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=CRL3584",
    "period": "2026-11-05",
    "deadline": "2026-11-05",
-   "meta": "진행중 주관기관 지원대상 단체 마감일 1129 #한국문화예술위원회 #전체 상세보기",
+   "meta": "진행중 단체 #한국문화예술위원회 #전체",
    "tags": [
     "뮤지컬"
    ],
    "id": "7d0cf0690853c8e9",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "artnuri",
    "sourceName": "아트누리",
    "title": "2026 충남미술관 국제포럼",
-   "url": "https://artnuri.or.kr/crawler/info/search.do?docid=&source=&pageSetting=1&sc_seNo=&key=2301170002&sc_orderBy=&recordCountPerPage=10&pageIndex=2&sc_hash=&sc_list=&seNo=&sw=&sc_genre=&sc_genre=%EB%AE%A4%EC%A7%80%EC%BB%AC&sc_target=&sc_local=&sc_field=&sc_isDo=",
+   "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=002&key=2301170002&docid=2610050005",
    "period": "2026-10-21",
    "deadline": "2026-10-21",
-   "meta": "진행중 주관기관 지원대상 개인,단체 마감일 182 #충남도청/주식회사 온워드브릿지 #전체 상세보기",
+   "meta": "진행중 개인,단체 #충남도청/주식회사 온워드브릿지 #전체",
    "tags": [
     "뮤지컬"
    ],
    "id": "a8cbc33347243e12",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "artnuri",
    "sourceName": "아트누리",
    "title": "2027년 문화예술 연수단원(무대기술인턴 포함)",
-   "url": "https://artnuri.or.kr/crawler/info/search.do?docid=&source=&pageSetting=1&sc_seNo=&key=2301170002&sc_orderBy=&recordCountPerPage=10&pageIndex=2&sc_hash=&sc_list=&seNo=&sw=&sc_genre=&sc_genre=%EB%AE%A4%EC%A7%80%EC%BB%AC&sc_target=&sc_local=&sc_field=&sc_isDo=",
+   "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=CRL3583",
    "period": "2026-11-05",
    "deadline": "2026-11-05",
-   "meta": "진행중 주관기관 지원대상 단체 마감일 1435 #한국문화예술위원회 #전체 상세보기",
+   "meta": "진행중 단체 #한국문화예술위원회 #전체",
    "tags": [
     "뮤지컬",
     "창작·공연"
@@ -448,64 +448,64 @@
    "id": "1b268c2fbe3f5267",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "artnuri",
    "sourceName": "아트누리",
    "title": "2027년 서울문화재단 예술지원 통합공모 공고",
-   "url": "https://artnuri.or.kr/crawler/info/search.do?docid=&source=&pageSetting=1&sc_seNo=&key=2301170002&sc_orderBy=&recordCountPerPage=10&pageIndex=2&sc_hash=&sc_list=&seNo=&sw=&sc_genre=&sc_genre=%EB%AE%A4%EC%A7%80%EC%BB%AC&sc_target=&sc_local=&sc_field=&sc_isDo=",
+   "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=SFAC_NOTICE_20261001044602001",
    "period": "2026-10-23",
    "deadline": "2026-10-23",
-   "meta": "진행중 주관기관 지원대상 전체 마감일 2523 #서울문화재단 #전체 상세보기",
+   "meta": "진행중 전체 #서울문화재단 #전체",
    "tags": [
     "뮤지컬"
    ],
    "id": "2622de6172995d66",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "artnuri",
    "sourceName": "아트누리",
    "title": "2026년도 대구광역시 전문가 컨설팅 참여자 모집",
-   "url": "https://artnuri.or.kr/crawler/info/search.do?docid=&source=&pageSetting=1&sc_seNo=&key=2301170002&sc_orderBy=&recordCountPerPage=10&pageIndex=2&sc_hash=&sc_list=&seNo=&sw=&sc_genre=&sc_genre=%EB%AE%A4%EC%A7%80%EC%BB%AC&sc_target=&sc_local=&sc_field=&sc_isDo=",
+   "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=S65257",
    "period": "2026-10-14",
    "deadline": "2026-10-14",
-   "meta": "진행중 주관기관 지원대상 전체 마감일 417 #대구문화예술진흥원 #전체 상세보기",
+   "meta": "진행중 전체 #대구문화예술진흥원 #전체",
    "tags": [
     "뮤지컬"
    ],
    "id": "d4e0e6dc99e8e319",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "artnuri",
    "sourceName": "아트누리",
    "title": "2026년 인천예술인 심리상담 및 심리검사 추가 접수 안내",
-   "url": "https://artnuri.or.kr/crawler/info/search.do?docid=&source=&pageSetting=1&sc_seNo=&key=2301170002&sc_orderBy=&recordCountPerPage=10&pageIndex=2&sc_hash=&sc_list=&seNo=&sw=&sc_genre=&sc_genre=%EB%AE%A4%EC%A7%80%EC%BB%AC&sc_target=&sc_local=&sc_field=&sc_isDo=",
+   "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=IFAC_MENU_20261001010805001",
    "period": "2026-10-15",
    "deadline": "2026-10-15",
-   "meta": "진행중 주관기관 지원대상 전체 마감일 401 #인천문화재단 #전체 상세보기",
+   "meta": "진행중 전체 #인천문화재단 #전체",
    "tags": [
     "뮤지컬"
    ],
    "id": "5e3465782308bdf9",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "artnuri",
    "sourceName": "아트누리",
    "title": "진 2027년 공연예술창작주체(중장기단체도약지원)",
-   "url": "https://artnuri.or.kr/crawler/info/search.do?docid=&source=&pageSetting=1&sc_seNo=&key=2301170002&sc_orderBy=&recordCountPerPage=10&pageIndex=2&sc_hash=&sc_list=&seNo=&sw=&sc_genre=&sc_genre=%EB%AE%A4%EC%A7%80%EC%BB%AC&sc_target=&sc_local=&sc_field=&sc_isDo=",
+   "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=CRL3601",
    "period": "2026-11-05",
    "deadline": "2026-11-05",
-   "meta": "진 2027년 공연예술창작주체(중장기단체도약지원) 지원대상 단체 마감일 1790",
+   "meta": "진 2027년 공연예술창작주체(중장기단체도약지원) 단체",
    "tags": [
     "뮤지컬",
     "창작·공연"
@@ -513,16 +513,16 @@
    "id": "838df451f682a4f5",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "artnuri",
    "sourceName": "아트누리",
    "title": "진 2027년 공연예술창작산실(2차 제작지원)",
-   "url": "https://artnuri.or.kr/crawler/info/search.do?docid=&source=&pageSetting=1&sc_seNo=&key=2301170002&sc_orderBy=&recordCountPerPage=10&pageIndex=2&sc_hash=&sc_list=&seNo=&sw=&sc_genre=&sc_genre=%EB%AE%A4%EC%A7%80%EC%BB%AC&sc_target=&sc_local=&sc_field=&sc_isDo=",
+   "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=CRL3599",
    "period": "2026-11-05",
    "deadline": "2026-11-05",
-   "meta": "진 2027년 공연예술창작산실(2차 제작지원) 지원대상 개인,단체 마감일 1483",
+   "meta": "진 2027년 공연예술창작산실(2차 제작지원) 개인,단체",
    "tags": [
     "뮤지컬",
     "창작·공연"
@@ -530,16 +530,16 @@
    "id": "b224be67c5917c0b",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "artnuri",
    "sourceName": "아트누리",
    "title": "진 2027년 공연예술창작산실(올해의신작)",
-   "url": "https://artnuri.or.kr/crawler/info/search.do?docid=&source=&pageSetting=1&sc_seNo=&key=2301170002&sc_orderBy=&recordCountPerPage=10&pageIndex=2&sc_hash=&sc_list=&seNo=&sw=&sc_genre=&sc_genre=%EB%AE%A4%EC%A7%80%EC%BB%AC&sc_target=&sc_local=&sc_field=&sc_isDo=",
+   "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=CRL3598",
    "period": "2026-11-05",
    "deadline": "2026-11-05",
-   "meta": "진 2027년 공연예술창작산실(올해의신작) 지원대상 개인,단체 마감일 1977",
+   "meta": "진 2027년 공연예술창작산실(올해의신작) 개인,단체",
    "tags": [
     "뮤지컬",
     "창작·공연"
@@ -547,16 +547,16 @@
    "id": "0ae256c22989ccff",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "artnuri",
    "sourceName": "아트누리",
    "title": "진 2027년 공연예술청년예술가지원",
-   "url": "https://artnuri.or.kr/crawler/info/search.do?docid=&source=&pageSetting=1&sc_seNo=&key=2301170002&sc_orderBy=&recordCountPerPage=10&pageIndex=2&sc_hash=&sc_list=&seNo=&sw=&sc_genre=&sc_genre=%EB%AE%A4%EC%A7%80%EC%BB%AC&sc_target=&sc_local=&sc_field=&sc_isDo=",
+   "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=CRL3596",
    "period": "2026-11-05",
    "deadline": "2026-11-05",
-   "meta": "진 2027년 공연예술청년예술가지원 지원대상 개인 마감일 2014",
+   "meta": "진 2027년 공연예술청년예술가지원 개인",
    "tags": [
     "뮤지컬",
     "창작·공연"
@@ -564,48 +564,48 @@
    "id": "57f4304420a1a5c2",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "artnuri",
    "sourceName": "아트누리",
    "title": "진 2027년 예술대학의 예비예술인 현장연계지원",
-   "url": "https://artnuri.or.kr/crawler/info/search.do?docid=&source=&pageSetting=1&sc_seNo=&key=2301170002&sc_orderBy=&recordCountPerPage=10&pageIndex=2&sc_hash=&sc_list=&seNo=&sw=&sc_genre=&sc_genre=%EB%AE%A4%EC%A7%80%EC%BB%AC&sc_target=&sc_local=&sc_field=&sc_isDo=",
+   "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=CRL3584",
    "period": "2026-11-05",
    "deadline": "2026-11-05",
-   "meta": "진 2027년 예술대학의 예비예술인 현장연계지원 지원대상 단체 마감일 1129",
+   "meta": "진 2027년 예술대학의 예비예술인 현장연계지원 단체",
    "tags": [
     "뮤지컬"
    ],
    "id": "fb873c850198e3fa",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "artnuri",
    "sourceName": "아트누리",
    "title": "진 2026 충남미술관 국제포럼",
-   "url": "https://artnuri.or.kr/crawler/info/search.do?docid=&source=&pageSetting=1&sc_seNo=&key=2301170002&sc_orderBy=&recordCountPerPage=10&pageIndex=2&sc_hash=&sc_list=&seNo=&sw=&sc_genre=&sc_genre=%EB%AE%A4%EC%A7%80%EC%BB%AC&sc_target=&sc_local=&sc_field=&sc_isDo=",
+   "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=002&key=2301170002&docid=2610050005",
    "period": "2026-10-21",
    "deadline": "2026-10-21",
-   "meta": "진 2026 충남미술관 국제포럼 지원대상 개인,단체 마감일 182",
+   "meta": "진 충남미술관 국제포럼 개인,단체",
    "tags": [
     "뮤지컬"
    ],
    "id": "314c1ba33894427f",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "artnuri",
    "sourceName": "아트누리",
    "title": "진 2027년 문화예술 연수단원(무대기술인턴 포함)",
-   "url": "https://artnuri.or.kr/crawler/info/search.do?docid=&source=&pageSetting=1&sc_seNo=&key=2301170002&sc_orderBy=&recordCountPerPage=10&pageIndex=2&sc_hash=&sc_list=&seNo=&sw=&sc_genre=&sc_genre=%EB%AE%A4%EC%A7%80%EC%BB%AC&sc_target=&sc_local=&sc_field=&sc_isDo=",
+   "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=CRL3583",
    "period": "2026-11-05",
    "deadline": "2026-11-05",
-   "meta": "진 2027년 문화예술 연수단원(무대기술인턴 포함) 지원대상 단체 마감일 1435",
+   "meta": "진 2027년 문화예술 연수단원(무대기술인턴 포함) 단체",
    "tags": [
     "뮤지컬",
     "창작·공연"
@@ -613,96 +613,96 @@
    "id": "4a232afa6490f1c0",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "artnuri",
    "sourceName": "아트누리",
    "title": "진 2027년 서울문화재단 예술지원 통합공모 공고",
-   "url": "https://artnuri.or.kr/crawler/info/search.do?docid=&source=&pageSetting=1&sc_seNo=&key=2301170002&sc_orderBy=&recordCountPerPage=10&pageIndex=2&sc_hash=&sc_list=&seNo=&sw=&sc_genre=&sc_genre=%EB%AE%A4%EC%A7%80%EC%BB%AC&sc_target=&sc_local=&sc_field=&sc_isDo=",
+   "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=SFAC_NOTICE_20261001044602001",
    "period": "2026-10-23",
    "deadline": "2026-10-23",
-   "meta": "진 2027년 서울문화재단 예술지원 통합공모 공고 지원대상 전체 마감일 2523",
+   "meta": "진 2027년 서울문화재단 예술지원 통합공모 공고 전체",
    "tags": [
     "뮤지컬"
    ],
    "id": "a7ce01851194e29d",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "artnuri",
    "sourceName": "아트누리",
    "title": "진 2026년도 대구광역시 전문가 컨설팅 참여자 모집",
-   "url": "https://artnuri.or.kr/crawler/info/search.do?docid=&source=&pageSetting=1&sc_seNo=&key=2301170002&sc_orderBy=&recordCountPerPage=10&pageIndex=2&sc_hash=&sc_list=&seNo=&sw=&sc_genre=&sc_genre=%EB%AE%A4%EC%A7%80%EC%BB%AC&sc_target=&sc_local=&sc_field=&sc_isDo=",
+   "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=S65257",
    "period": "2026-10-14",
    "deadline": "2026-10-14",
-   "meta": "진 2026년도 대구광역시 전문가 컨설팅 참여자 모집 지원대상 전체 마감일 417",
+   "meta": "진 2026년도 대구광역시 전문가 컨설팅 참여자 모집 전체",
    "tags": [
     "뮤지컬"
    ],
    "id": "6ebc21e28a082cf8",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "artnuri",
    "sourceName": "아트누리",
    "title": "진 2026년 인천예술인 심리상담 및 심리검사 추가 접수 안내",
-   "url": "https://artnuri.or.kr/crawler/info/search.do?docid=&source=&pageSetting=1&sc_seNo=&key=2301170002&sc_orderBy=&recordCountPerPage=10&pageIndex=2&sc_hash=&sc_list=&seNo=&sw=&sc_genre=&sc_genre=%EB%AE%A4%EC%A7%80%EC%BB%AC&sc_target=&sc_local=&sc_field=&sc_isDo=",
+   "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=IFAC_MENU_20261001010805001",
    "period": "2026-10-15",
    "deadline": "2026-10-15",
-   "meta": "진 2026년 인천예술인 심리상담 및 심리검사 추가 접수 안내 지원대상 전체 마감일 401",
+   "meta": "진 2026년 인천예술인 심리상담 및 심리검사 추가 접수 안내 전체",
    "tags": [
     "뮤지컬"
    ],
    "id": "25e22a2d9c7f3ab0",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "artnuri",
    "sourceName": "아트누리",
    "title": "2026 인천예술인 종합건강검진 지원 신청 안내(마감 임박) 공지",
-   "url": "https://artnuri.or.kr/crawler/info/search.do?docid=&source=&pageSetting=1&sc_seNo=&key=2301170002&sc_orderBy=&recordCountPerPage=10&pageIndex=3&sc_hash=&sc_list=&seNo=&sw=&sc_genre=&sc_genre=%EB%AE%A4%EC%A7%80%EC%BB%AC&sc_target=&sc_local=&sc_field=&sc_isDo=",
+   "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=IFAC_MENU_20261001011609001",
    "period": "2026-10-15",
    "deadline": "2026-10-15",
-   "meta": "진행중 주관기관 지원대상 전체 마감일 365 #인천문화재단 #전체 상세보기",
+   "meta": "진행중 전체 #인천문화재단 #전체",
    "tags": [
     "뮤지컬"
    ],
    "id": "fb3d378a5fa2461f",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "artnuri",
    "sourceName": "아트누리",
    "title": "제23회 안산거리극축제 국내공식참가작 공모",
-   "url": "https://artnuri.or.kr/crawler/info/search.do?docid=&source=&pageSetting=1&sc_seNo=&key=2301170002&sc_orderBy=&recordCountPerPage=10&pageIndex=3&sc_hash=&sc_list=&seNo=&sw=&sc_genre=&sc_genre=%EB%AE%A4%EC%A7%80%EC%BB%AC&sc_target=&sc_local=&sc_field=&sc_isDo=",
+   "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=S65176",
    "period": "2026-10-31",
    "deadline": "2026-10-31",
-   "meta": "진행중 주관기관 지원대상 전체 마감일 518 #안산문화재단 #연극 #뮤지컬 #무용 #음악 #전통예술 #다원예술 상세보기",
+   "meta": "진행중 전체 #안산문화재단 #연극 #뮤지컬 #무용 #음악 #전통예술 #다원예술",
    "tags": [
     "뮤지컬"
    ],
    "id": "70a2f8bed01f5e42",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "artnuri",
    "sourceName": "아트누리",
    "title": "2027년 상반기 거제문화예술회관 [공연장] 정기대관 공고",
-   "url": "https://artnuri.or.kr/crawler/info/search.do?docid=&source=&pageSetting=1&sc_seNo=&key=2301170002&sc_orderBy=&recordCountPerPage=10&pageIndex=3&sc_hash=&sc_list=&seNo=&sw=&sc_genre=&sc_genre=%EB%AE%A4%EC%A7%80%EC%BB%AC&sc_target=&sc_local=&sc_field=&sc_isDo=",
+   "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=GEOJE_NOTICE_20260915084003001",
    "period": "2026-10-23",
    "deadline": "2026-10-23",
-   "meta": "진행중 주관기관 지원대상 전체 마감일 514 #거제시문화예술재단 #연극 #뮤지컬 #무용 #음악 #전통예술 #다원예술 상세보기",
+   "meta": "진행중 전체 #거제시문화예술재단 #연극 #뮤지컬 #무용 #음악 #전통예술 #다원예술",
    "tags": [
     "뮤지컬",
     "창작·공연"
@@ -710,16 +710,16 @@
    "id": "07d812fe2687bda0",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "artnuri",
    "sourceName": "아트누리",
    "title": "2026년 천안문화재단 예술창작 집중지원 <공연작품 제작지원사업> 모집 공고",
-   "url": "https://artnuri.or.kr/crawler/info/search.do?docid=&source=&pageSetting=1&sc_seNo=&key=2301170002&sc_orderBy=&recordCountPerPage=10&pageIndex=3&sc_hash=&sc_list=&seNo=&sw=&sc_genre=&sc_genre=%EB%AE%A4%EC%A7%80%EC%BB%AC&sc_target=&sc_local=&sc_field=&sc_isDo=",
+   "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=S64922",
    "period": "2026-10-16",
    "deadline": "2026-10-16",
-   "meta": "진행중 주관기관 지원대상 전체 마감일 471 #천안문화재단 #연극 #뮤지컬 #무용 #음악 #전통예술 #다원예술 상세보기",
+   "meta": "진행중 전체 #천안문화재단 #연극 #뮤지컬 #무용 #음악 #전통예술 #다원예술",
    "tags": [
     "뮤지컬",
     "창작·공연"
@@ -727,16 +727,16 @@
    "id": "d28b8b5b582e2de9",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "artnuri",
    "sourceName": "아트누리",
    "title": "2027년 해외레지던시참가지원(지정) IETM 국제현대공연예술네트워크 글로벌 커넥트 및 정기총회 초청 프로그램",
-   "url": "https://artnuri.or.kr/crawler/info/search.do?docid=&source=&pageSetting=1&sc_seNo=&key=2301170002&sc_orderBy=&recordCountPerPage=10&pageIndex=3&sc_hash=&sc_list=&seNo=&sw=&sc_genre=&sc_genre=%EB%AE%A4%EC%A7%80%EC%BB%AC&sc_target=&sc_local=&sc_field=&sc_isDo=",
+   "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=CRL3581",
    "period": "2026-10-15",
    "deadline": "2026-10-15",
-   "meta": "진행중 주관기관 지원대상 개인 마감일 5454 #한국문화예술위원회 #연극 #뮤지컬 #무용 #음악 #전통예술 #다원예술 상세보기",
+   "meta": "진행중 개인 #한국문화예술위원회 #연극 #뮤지컬 #무용 #음악 #전통예술 #다원예술",
    "tags": [
     "뮤지컬",
     "창작·공연"
@@ -744,80 +744,80 @@
    "id": "bcff1701f5892c36",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "artnuri",
    "sourceName": "아트누리",
    "title": "2026년도 대구광역시 예술인 실태조사 참여",
-   "url": "https://artnuri.or.kr/crawler/info/search.do?docid=&source=&pageSetting=1&sc_seNo=&key=2301170002&sc_orderBy=&recordCountPerPage=10&pageIndex=3&sc_hash=&sc_list=&seNo=&sw=&sc_genre=&sc_genre=%EB%AE%A4%EC%A7%80%EC%BB%AC&sc_target=&sc_local=&sc_field=&sc_isDo=",
+   "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=S64839",
    "period": "2026-10-31",
    "deadline": "2026-10-31",
-   "meta": "진행중 주관기관 지원대상 전체 마감일 414 #대구문화예술진흥원 #전체 상세보기",
+   "meta": "진행중 전체 #대구문화예술진흥원 #전체",
    "tags": [
     "뮤지컬"
    ],
    "id": "e45df2619278f77a",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "artnuri",
    "sourceName": "아트누리",
    "title": "2026년 하반기 면목역 문화광장 사전 예약 안내",
-   "url": "https://artnuri.or.kr/crawler/info/search.do?docid=&source=&pageSetting=1&sc_seNo=&key=2301170002&sc_orderBy=&recordCountPerPage=10&pageIndex=3&sc_hash=&sc_list=&seNo=&sw=&sc_genre=&sc_genre=%EB%AE%A4%EC%A7%80%EC%BB%AC&sc_target=&sc_local=&sc_field=&sc_isDo=",
+   "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=JNFAC_NOTICE_20260825065002001",
    "period": "2026-11-20",
    "deadline": "2026-11-20",
-   "meta": "진행중 주관기관 지원대상 전체 마감일 832 #중랑문화재단 #연극 #시각예술 #뮤지컬 #무용 #음악 #전통예술 상세보기",
+   "meta": "진행중 전체 #중랑문화재단 #연극 #시각예술 #뮤지컬 #무용 #음악 #전통예술",
    "tags": [
     "뮤지컬"
    ],
    "id": "7ca76b9e1c37e3f1",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "artnuri",
    "sourceName": "아트누리",
    "title": "2026년 생활안정자금 융자 사업 안내(상시 운영)",
-   "url": "https://artnuri.or.kr/crawler/info/search.do?docid=&source=&pageSetting=1&sc_seNo=&key=2301170002&sc_orderBy=&recordCountPerPage=10&pageIndex=3&sc_hash=&sc_list=&seNo=&sw=&sc_genre=&sc_genre=%EB%AE%A4%EC%A7%80%EC%BB%AC&sc_target=&sc_local=&sc_field=&sc_isDo=",
+   "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=S64276",
    "period": "2026-12-31",
    "deadline": "2026-12-31",
-   "meta": "진행중 주관기관 지원대상 전체 마감일 1162 #한국예술인복지재단 #전체 상세보기",
+   "meta": "진행중 전체 #한국예술인복지재단 #전체",
    "tags": [
     "뮤지컬"
    ],
    "id": "6cca254735fa6318",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "artnuri",
    "sourceName": "아트누리",
    "title": "2026년 은평구 지역예술인 DB구축 <ㅇㅍ아트태그> 참여자 모집 공고",
-   "url": "https://artnuri.or.kr/crawler/info/search.do?docid=&source=&pageSetting=1&sc_seNo=&key=2301170002&sc_orderBy=&recordCountPerPage=10&pageIndex=3&sc_hash=&sc_list=&seNo=&sw=&sc_genre=&sc_genre=%EB%AE%A4%EC%A7%80%EC%BB%AC&sc_target=&sc_local=&sc_field=&sc_isDo=",
+   "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=S64261",
    "period": "2026-12-31",
    "deadline": "2026-12-31",
-   "meta": "진행중 주관기관 지원대상 전체 마감일 725 #은평문화재단 #전체 상세보기",
+   "meta": "진행중 전체 #은평문화재단 #전체",
    "tags": [
     "뮤지컬"
    ],
    "id": "9e21997f85c5e74b",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "artnuri",
    "sourceName": "아트누리",
    "title": "서울문화재단 대학로센터 <제철공연> 참여단체 모집",
-   "url": "https://artnuri.or.kr/crawler/info/search.do?docid=&source=&pageSetting=1&sc_seNo=&key=2301170002&sc_orderBy=&recordCountPerPage=10&pageIndex=3&sc_hash=&sc_list=&seNo=&sw=&sc_genre=&sc_genre=%EB%AE%A4%EC%A7%80%EC%BB%AC&sc_target=&sc_local=&sc_field=&sc_isDo=",
+   "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=SFAC_NOTICE_20260808044603001",
    "period": "2026-11-24",
    "deadline": "2026-11-24",
-   "meta": "진행중 주관기관 지원대상 단체 마감일 2043 #서울문화재단 #연극 #뮤지컬 #무용 #음악 #전통예술 상세보기",
+   "meta": "진행중 단체 #서울문화재단 #연극 #뮤지컬 #무용 #음악 #전통예술",
    "tags": [
     "뮤지컬",
     "창작·공연"
@@ -825,48 +825,48 @@
    "id": "df1b9db3bbd62b58",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "artnuri",
    "sourceName": "아트누리",
    "title": "진 2026 인천예술인 종합건강검진 지원 신청 안내(마감 임박) 공지",
-   "url": "https://artnuri.or.kr/crawler/info/search.do?docid=&source=&pageSetting=1&sc_seNo=&key=2301170002&sc_orderBy=&recordCountPerPage=10&pageIndex=3&sc_hash=&sc_list=&seNo=&sw=&sc_genre=&sc_genre=%EB%AE%A4%EC%A7%80%EC%BB%AC&sc_target=&sc_local=&sc_field=&sc_isDo=",
+   "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=IFAC_MENU_20261001011609001",
    "period": "2026-10-15",
    "deadline": "2026-10-15",
-   "meta": "진 2026 인천예술인 종합건강검진 지원 신청 안내(마감 임박) 공지 지원대상 전체 마감일 365",
+   "meta": "진 인천예술인 종합건강검진 지원 신청 안내(마감 임박) 공지 전체",
    "tags": [
     "뮤지컬"
    ],
    "id": "e9130cb34825e487",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "artnuri",
    "sourceName": "아트누리",
    "title": "진 제23회 안산거리극축제 국내공식참가작 공모",
-   "url": "https://artnuri.or.kr/crawler/info/search.do?docid=&source=&pageSetting=1&sc_seNo=&key=2301170002&sc_orderBy=&recordCountPerPage=10&pageIndex=3&sc_hash=&sc_list=&seNo=&sw=&sc_genre=&sc_genre=%EB%AE%A4%EC%A7%80%EC%BB%AC&sc_target=&sc_local=&sc_field=&sc_isDo=",
+   "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=S65176",
    "period": "2026-10-31",
    "deadline": "2026-10-31",
-   "meta": "진 제23회 안산거리극축제 국내공식참가작 공모 지원대상 전체 마감일 518",
+   "meta": "진 제23회 안산거리극축제 국내공식참가작 공모 전체",
    "tags": [
     "뮤지컬"
    ],
    "id": "8df8d3f0a78c6043",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "artnuri",
    "sourceName": "아트누리",
    "title": "진 2027년 상반기 거제문화예술회관 [공연장] 정기대관 공고",
-   "url": "https://artnuri.or.kr/crawler/info/search.do?docid=&source=&pageSetting=1&sc_seNo=&key=2301170002&sc_orderBy=&recordCountPerPage=10&pageIndex=3&sc_hash=&sc_list=&seNo=&sw=&sc_genre=&sc_genre=%EB%AE%A4%EC%A7%80%EC%BB%AC&sc_target=&sc_local=&sc_field=&sc_isDo=",
+   "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=GEOJE_NOTICE_20260915084003001",
    "period": "2026-10-23",
    "deadline": "2026-10-23",
-   "meta": "진 2027년 상반기 거제문화예술회관 [공연장] 정기대관 공고 지원대상 전체 마감일 514",
+   "meta": "진 2027년 상반기 거제문화예술회관 [공연장] 정기대관 공고 전체",
    "tags": [
     "뮤지컬",
     "창작·공연"
@@ -874,16 +874,16 @@
    "id": "6734650030267d16",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "artnuri",
    "sourceName": "아트누리",
    "title": "진 2026년 천안문화재단 예술창작 집중지원 <공연작품 제작지원사업> 모집 공고",
-   "url": "https://artnuri.or.kr/crawler/info/search.do?docid=&source=&pageSetting=1&sc_seNo=&key=2301170002&sc_orderBy=&recordCountPerPage=10&pageIndex=3&sc_hash=&sc_list=&seNo=&sw=&sc_genre=&sc_genre=%EB%AE%A4%EC%A7%80%EC%BB%AC&sc_target=&sc_local=&sc_field=&sc_isDo=",
+   "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=S64922",
    "period": "2026-10-16",
    "deadline": "2026-10-16",
-   "meta": "진 2026년 천안문화재단 예술창작 집중지원 <공연작품 제작지원사업> 모집 공고 지원대상 전체 마감일 471",
+   "meta": "진 2026년 천안문화재단 예술창작 집중지원 <공연작품 제작지원사업> 모집 공고 전체",
    "tags": [
     "뮤지컬",
     "창작·공연"
@@ -891,16 +891,16 @@
    "id": "e1e78f15a3e9771f",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "artnuri",
    "sourceName": "아트누리",
    "title": "진 2027년 해외레지던시참가지원(지정) IETM 국제현대공연예술네트워크 글로벌 커넥트 및 정기총회 초청 프로그램",
-   "url": "https://artnuri.or.kr/crawler/info/search.do?docid=&source=&pageSetting=1&sc_seNo=&key=2301170002&sc_orderBy=&recordCountPerPage=10&pageIndex=3&sc_hash=&sc_list=&seNo=&sw=&sc_genre=&sc_genre=%EB%AE%A4%EC%A7%80%EC%BB%AC&sc_target=&sc_local=&sc_field=&sc_isDo=",
+   "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=CRL3581",
    "period": "2026-10-15",
    "deadline": "2026-10-15",
-   "meta": "진 2027년 해외레지던시참가지원(지정) IETM 국제현대공연예술네트워크 글로벌 커넥트 및 정기총회 초청 프로그램 지원대상 개인 마감일 5454",
+   "meta": "진 2027년 해외레지던시참가지원(지정) IETM 국제현대공연예술네트워크 글로벌 커넥트 및 정기총회 초청 프로그램 개인",
    "tags": [
     "뮤지컬",
     "창작·공연"
@@ -908,80 +908,80 @@
    "id": "4c7d7b6248d078f8",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "artnuri",
    "sourceName": "아트누리",
    "title": "진 2026년도 대구광역시 예술인 실태조사 참여",
-   "url": "https://artnuri.or.kr/crawler/info/search.do?docid=&source=&pageSetting=1&sc_seNo=&key=2301170002&sc_orderBy=&recordCountPerPage=10&pageIndex=3&sc_hash=&sc_list=&seNo=&sw=&sc_genre=&sc_genre=%EB%AE%A4%EC%A7%80%EC%BB%AC&sc_target=&sc_local=&sc_field=&sc_isDo=",
+   "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=S64839",
    "period": "2026-10-31",
    "deadline": "2026-10-31",
-   "meta": "진 2026년도 대구광역시 예술인 실태조사 참여 지원대상 전체 마감일 414",
+   "meta": "진 2026년도 대구광역시 예술인 실태조사 참여 전체",
    "tags": [
     "뮤지컬"
    ],
    "id": "db540b0a43411253",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "artnuri",
    "sourceName": "아트누리",
    "title": "진 2026년 하반기 면목역 문화광장 사전 예약 안내",
-   "url": "https://artnuri.or.kr/crawler/info/search.do?docid=&source=&pageSetting=1&sc_seNo=&key=2301170002&sc_orderBy=&recordCountPerPage=10&pageIndex=3&sc_hash=&sc_list=&seNo=&sw=&sc_genre=&sc_genre=%EB%AE%A4%EC%A7%80%EC%BB%AC&sc_target=&sc_local=&sc_field=&sc_isDo=",
+   "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=JNFAC_NOTICE_20260825065002001",
    "period": "2026-11-20",
    "deadline": "2026-11-20",
-   "meta": "진 2026년 하반기 면목역 문화광장 사전 예약 안내 지원대상 전체 마감일 832",
+   "meta": "진 2026년 하반기 면목역 문화광장 사전 예약 안내 전체",
    "tags": [
     "뮤지컬"
    ],
    "id": "bc7cffe2ea08aec6",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "artnuri",
    "sourceName": "아트누리",
    "title": "진 2026년 생활안정자금 융자 사업 안내(상시 운영)",
-   "url": "https://artnuri.or.kr/crawler/info/search.do?docid=&source=&pageSetting=1&sc_seNo=&key=2301170002&sc_orderBy=&recordCountPerPage=10&pageIndex=3&sc_hash=&sc_list=&seNo=&sw=&sc_genre=&sc_genre=%EB%AE%A4%EC%A7%80%EC%BB%AC&sc_target=&sc_local=&sc_field=&sc_isDo=",
+   "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=S64276",
    "period": "2026-12-31",
    "deadline": "2026-12-31",
-   "meta": "진 2026년 생활안정자금 융자 사업 안내(상시 운영) 지원대상 전체 마감일 1162",
+   "meta": "진 2026년 생활안정자금 융자 사업 안내(상시 운영) 전체",
    "tags": [
     "뮤지컬"
    ],
    "id": "dc219dafb43d9252",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "artnuri",
    "sourceName": "아트누리",
    "title": "진 2026년 은평구 지역예술인 DB구축 <ㅇㅍ아트태그> 참여자 모집 공고",
-   "url": "https://artnuri.or.kr/crawler/info/search.do?docid=&source=&pageSetting=1&sc_seNo=&key=2301170002&sc_orderBy=&recordCountPerPage=10&pageIndex=3&sc_hash=&sc_list=&seNo=&sw=&sc_genre=&sc_genre=%EB%AE%A4%EC%A7%80%EC%BB%AC&sc_target=&sc_local=&sc_field=&sc_isDo=",
+   "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=S64261",
    "period": "2026-12-31",
    "deadline": "2026-12-31",
-   "meta": "진 2026년 은평구 지역예술인 DB구축 <ㅇㅍ아트태그> 참여자 모집 공고 지원대상 전체 마감일 725",
+   "meta": "진 2026년 은평구 지역예술인 DB구축 <ㅇㅍ아트태그> 참여자 모집 공고 전체",
    "tags": [
     "뮤지컬"
    ],
    "id": "6b12406c63d4cd59",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "artnuri",
    "sourceName": "아트누리",
    "title": "진 서울문화재단 대학로센터 <제철공연> 참여단체 모집",
-   "url": "https://artnuri.or.kr/crawler/info/search.do?docid=&source=&pageSetting=1&sc_seNo=&key=2301170002&sc_orderBy=&recordCountPerPage=10&pageIndex=3&sc_hash=&sc_list=&seNo=&sw=&sc_genre=&sc_genre=%EB%AE%A4%EC%A7%80%EC%BB%AC&sc_target=&sc_local=&sc_field=&sc_isDo=",
+   "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=SFAC_NOTICE_20260808044603001",
    "period": "2026-11-24",
    "deadline": "2026-11-24",
-   "meta": "진 서울문화재단 대학로센터 <제철공연> 참여단체 모집 지원대상 단체 마감일 2043",
+   "meta": "진 서울문화재단 대학로센터 <제철공연> 참여단체 모집 단체",
    "tags": [
     "뮤지컬",
     "창작·공연"
@@ -989,7 +989,7 @@
    "id": "9436fa694220f4e8",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "culture",
@@ -998,12 +998,12 @@
    "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=2&rcrtSn=234899&menuNo=200104&sSort=2&pageIndex=1",
    "period": "2026-10-12",
    "deadline": "2026-10-12",
-   "meta": "서초문화재단 지원대상 일반인 기타 진행중 마감일",
+   "meta": "서초문화재단 일반인 기타 진행중",
    "tags": [],
    "id": "cc3d90c303f74dd8",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "culture",
@@ -1012,12 +1012,12 @@
    "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=2&rcrtSn=234871&menuNo=200104&sSort=2&pageIndex=1",
    "period": "2026-10-12",
    "deadline": "2026-10-12",
-   "meta": "은평문화재단 지원대상 일반인,예술인,관련종사자 교육지원 진행중 마감일",
+   "meta": "은평문화재단 일반인,예술인,관련종사자 교육지원 진행중",
    "tags": [],
    "id": "e362c1394ebc9c68",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "culture",
@@ -1026,12 +1026,12 @@
    "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=2&rcrtSn=232863&menuNo=200104&sSort=2&pageIndex=1",
    "period": "2026-10-12",
    "deadline": "2026-10-12",
-   "meta": "(재)예술경영지원센터 지원대상 기업·단체 복지 진행중 마감일",
+   "meta": "(재)예술경영지원센터 기업·단체 복지 진행중",
    "tags": [],
    "id": "0848083d78142026",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "culture",
@@ -1040,14 +1040,14 @@
    "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=2&rcrtSn=229476&menuNo=200104&sSort=2&pageIndex=1",
    "period": "2026-10-12",
    "deadline": "2026-10-12",
-   "meta": "서초문화재단 지원대상 예술인 창작지원 사업지원 진행중 마감일",
+   "meta": "서초문화재단 예술인 창작지원 사업지원 진행중",
    "tags": [
     "창작·공연"
    ],
    "id": "bb2ed7ce27c3d2ea",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "culture",
@@ -1056,12 +1056,12 @@
    "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=2&rcrtSn=228790&menuNo=200104&sSort=2&pageIndex=1",
    "period": "2026-10-12",
    "deadline": "2026-10-12",
-   "meta": "대구문화예술진흥원 지원대상 예술인,기업·단체 공간 시설 진행중 마감일",
+   "meta": "대구문화예술진흥원 예술인,기업·단체 공간 시설 진행중",
    "tags": [],
    "id": "cc1d81a766ee89fe",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "culture",
@@ -1070,12 +1070,12 @@
    "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=2&rcrtSn=225937&menuNo=200104&sSort=2&pageIndex=1",
    "period": "2026-10-12",
    "deadline": "2026-10-12",
-   "meta": "청주시문화산업진흥재단 지원대상 일반인,예술인,관련종사자 기타 진행중 마감일",
+   "meta": "청주시문화산업진흥재단 일반인,예술인,관련종사자 기타 진행중",
    "tags": [],
    "id": "d1703e85c4ed954e",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "culture",
@@ -1084,12 +1084,12 @@
    "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=2&rcrtSn=235118&menuNo=200104&sSort=2&pageIndex=1",
    "period": "2026-10-13",
    "deadline": "2026-10-13",
-   "meta": "영등포문화재단 지원대상 일반인,예술인,관련종사자 프로그램·행사 진행중 마감일",
+   "meta": "영등포문화재단 일반인,예술인,관련종사자 프로그램·행사 진행중",
    "tags": [],
    "id": "fae083be0a9cbaf8",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "culture",
@@ -1098,12 +1098,12 @@
    "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=2&rcrtSn=234803&menuNo=200104&sSort=2&pageIndex=1",
    "period": "2026-10-13",
    "deadline": "2026-10-13",
-   "meta": "부천문화재단 지원대상 일반인 사업지원 진행중 마감일",
+   "meta": "부천문화재단 일반인 사업지원 진행중",
    "tags": [],
    "id": "3396aadbfd074ef5",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "culture",
@@ -1112,12 +1112,12 @@
    "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=2&rcrtSn=232860&menuNo=200104&sSort=2&pageIndex=1",
    "period": "2026-10-13",
    "deadline": "2026-10-13",
-   "meta": "예술의전당 지원대상 예술인,관련종사자,기업·단체 공간 시설 진행중 마감일",
+   "meta": "예술의전당 예술인,관련종사자,기업·단체 공간 시설 진행중",
    "tags": [],
    "id": "f4efc71f4bde706d",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "culture",
@@ -1126,12 +1126,12 @@
    "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=2&rcrtSn=232498&menuNo=200104&sSort=2&pageIndex=1",
    "period": "2026-10-13",
    "deadline": "2026-10-13",
-   "meta": "강원문화재단 2026 아트 커넥트 강원 참가자 모집 공고 (강원문화예술지원사업 네트워킹 프로그램) 지원대상 예술인,관련종사자,기업·단체 사업지원 교육지원 프로그램·행사 진행중 마감일",
+   "meta": "강원문화재단 아트 커넥트 강원 참가자 모집 공고 (강원문화예술지원사업 네트워킹 프로그램) 예술인,관련종사자,기업·단체 사업지원 교육지원 프로그램·행사 진행중",
    "tags": [],
    "id": "484a9eca8d3a3b43",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "culture",
@@ -1145,7 +1145,7 @@
    "id": "56a69da22d8fea25",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "culture",
@@ -1154,12 +1154,12 @@
    "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=2&rcrtSn=232422&menuNo=200104&sSort=2&pageIndex=2",
    "period": "2026-10-13",
    "deadline": "2026-10-13",
-   "meta": "한국언론진흥재단 지원대상 관련종사자 프로그램·행사 진행중 마감일",
+   "meta": "한국언론진흥재단 관련종사자 프로그램·행사 진행중",
    "tags": [],
    "id": "7d92c16a36c32980",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "culture",
@@ -1168,12 +1168,12 @@
    "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=2&rcrtSn=235228&menuNo=200104&sSort=2&pageIndex=2",
    "period": "2026-10-14",
    "deadline": "2026-10-14",
-   "meta": "순천문화재단 지원대상 일반인 프로그램·행사 진행중 마감일",
+   "meta": "순천문화재단 일반인 프로그램·행사 진행중",
    "tags": [],
    "id": "678cb4bef1bb197f",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "culture",
@@ -1182,12 +1182,12 @@
    "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=2&rcrtSn=234820&menuNo=200104&sSort=2&pageIndex=2",
    "period": "2026-10-14",
    "deadline": "2026-10-14",
-   "meta": "대구문화예술진흥원 지원대상 예술인 교육지원 프로그램·행사 진행중 마감일",
+   "meta": "대구문화예술진흥원 예술인 교육지원 프로그램·행사 진행중",
    "tags": [],
    "id": "a6b45cdb03ea54b3",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "culture",
@@ -1196,12 +1196,12 @@
    "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=2&rcrtSn=229899&menuNo=200104&sSort=2&pageIndex=2",
    "period": "2026-10-14",
    "deadline": "2026-10-14",
-   "meta": "강릉문화재단 지원대상 일반인 프로그램·행사 진행중 마감일",
+   "meta": "강릉문화재단 일반인 프로그램·행사 진행중",
    "tags": [],
    "id": "e1777ad6453b2eff",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "culture",
@@ -1210,12 +1210,12 @@
    "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=2&rcrtSn=229898&menuNo=200104&sSort=2&pageIndex=2",
    "period": "2026-10-14",
    "deadline": "2026-10-14",
-   "meta": "강릉문화재단 지원대상 예술인 프로그램·행사 진행중 마감일",
+   "meta": "강릉문화재단 예술인 프로그램·행사 진행중",
    "tags": [],
    "id": "e543a52d540a9574",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "culture",
@@ -1224,12 +1224,12 @@
    "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=2&rcrtSn=229819&menuNo=200104&sSort=2&pageIndex=2",
    "period": "2026-10-14",
    "deadline": "2026-10-14",
-   "meta": "경북문화재단 지원대상 일반인 프로그램·행사 진행중 마감일",
+   "meta": "경북문화재단 일반인 프로그램·행사 진행중",
    "tags": [],
    "id": "a553d9e8fbfd69fd",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "culture",
@@ -1238,12 +1238,12 @@
    "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=2&rcrtSn=234869&menuNo=200104&sSort=2&pageIndex=2",
    "period": "2026-10-15",
    "deadline": "2026-10-15",
-   "meta": "용인문화재단 지원대상 일반인 교육지원 진행중 마감일",
+   "meta": "용인문화재단 일반인 교육지원 진행중",
    "tags": [],
    "id": "90a9e429f98aedfc",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "culture",
@@ -1252,12 +1252,12 @@
    "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=2&rcrtSn=234851&menuNo=200104&sSort=2&pageIndex=2",
    "period": "2026-10-15",
    "deadline": "2026-10-15",
-   "meta": "제주문화예술재단 지원대상 예술인 교육지원 진행중 마감일",
+   "meta": "제주문화예술재단 예술인 교육지원 진행중",
    "tags": [],
    "id": "46f8dbfa28f594df",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "culture",
@@ -1266,12 +1266,12 @@
    "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=2&rcrtSn=234850&menuNo=200104&sSort=2&pageIndex=2",
    "period": "2026-10-15",
    "deadline": "2026-10-15",
-   "meta": "인천문화재단 지원대상 예술인 복지 진행중 마감일",
+   "meta": "인천문화재단 예술인 복지 진행중",
    "tags": [],
    "id": "cfbaf1c32ef42b2b",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "culture",
@@ -1280,12 +1280,12 @@
    "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=2&rcrtSn=234849&menuNo=200104&sSort=2&pageIndex=2",
    "period": "2026-10-15",
    "deadline": "2026-10-15",
-   "meta": "인천문화재단 지원대상 예술인 복지 진행중 마감일",
+   "meta": "인천문화재단 예술인 복지 진행중",
    "tags": [],
    "id": "1f3a528844915374",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "culture",
@@ -1294,12 +1294,12 @@
    "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=2&rcrtSn=229926&menuNo=200104&sSort=2&pageIndex=3",
    "period": "2026-10-15",
    "deadline": "2026-10-15",
-   "meta": "동작문화재단 지원대상 일반인 교육지원 진행중 마감일",
+   "meta": "동작문화재단 일반인 교육지원 진행중",
    "tags": [],
    "id": "af0f493f6d71c06b",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "culture",
@@ -1308,14 +1308,14 @@
    "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=2&rcrtSn=229720&menuNo=200104&sSort=2&pageIndex=3",
    "period": "2026-10-15",
    "deadline": "2026-10-15",
-   "meta": "한국문화예술위원회 지원대상 관련종사자 프로그램·행사 진행중 마감일",
+   "meta": "한국문화예술위원회 관련종사자 프로그램·행사 진행중",
    "tags": [
     "창작·공연"
    ],
    "id": "1d672ce6fe1c43d2",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "culture",
@@ -1324,12 +1324,12 @@
    "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=2&rcrtSn=229631&menuNo=200104&sSort=2&pageIndex=3",
    "period": "2026-10-15",
    "deadline": "2026-10-15",
-   "meta": "관악문화재단 지원대상 일반인,예술인,관련종사자 프로그램·행사 진행중 마감일",
+   "meta": "관악문화재단 일반인,예술인,관련종사자 프로그램·행사 진행중",
    "tags": [],
    "id": "dd7cab0e9d66e4d7",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "culture",
@@ -1338,12 +1338,12 @@
    "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=2&rcrtSn=230145&menuNo=200104&sSort=2&pageIndex=3",
    "period": "2026-10-16",
    "deadline": "2026-10-16",
-   "meta": "국립민속박물관 지원대상 기업·단체 사업지원 진행중 마감일",
+   "meta": "국립민속박물관 기업·단체 사업지원 진행중",
    "tags": [],
    "id": "72982bb7b830ee30",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "culture",
@@ -1352,12 +1352,12 @@
    "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=2&rcrtSn=229924&menuNo=200104&sSort=2&pageIndex=3",
    "period": "2026-10-16",
    "deadline": "2026-10-16",
-   "meta": "대구문화예술진흥원 대구 청년 음악가 인큐베이팅을 위한 <2026 DCH 앙상블 아카데미-금관> 참가자 모집 지원대상 예술인,관련종사자 교육지원 진행중 마감일",
+   "meta": "대구문화예술진흥원 대구 청년 음악가 인큐베이팅을 위한 <2026 DCH 앙상블 아카데미-금관> 참가자 모집 예술인,관련종사자 교육지원 진행중",
    "tags": [],
    "id": "30f7688a6669e015",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "culture",
@@ -1366,12 +1366,12 @@
    "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=2&rcrtSn=229823&menuNo=200104&sSort=2&pageIndex=3",
    "period": "2026-10-16",
    "deadline": "2026-10-16",
-   "meta": "창원문화재단 지원대상 관련종사자 교육지원 프로그램·행사 진행중 마감일",
+   "meta": "창원문화재단 관련종사자 교육지원 프로그램·행사 진행중",
    "tags": [],
    "id": "970efc631bc36cff",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "culture",
@@ -1380,12 +1380,12 @@
    "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=2&rcrtSn=229816&menuNo=200104&sSort=2&pageIndex=3",
    "period": "2026-10-16",
    "deadline": "2026-10-16",
-   "meta": "(재)한국장애인문화예술원 지원대상 예술인,관련종사자 기타 진행중 마감일",
+   "meta": "(재)한국장애인문화예술원 예술인,관련종사자 기타 진행중",
    "tags": [],
    "id": "0f84aa6618f483c4",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "culture",
@@ -1394,14 +1394,14 @@
    "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=2&rcrtSn=229762&menuNo=200104&sSort=2&pageIndex=3",
    "period": "2026-10-16",
    "deadline": "2026-10-16",
-   "meta": "천안문화재단 지원대상 기업·단체 창작지원 진행중 마감일",
+   "meta": "천안문화재단 기업·단체 창작지원 진행중",
    "tags": [
     "창작·공연"
    ],
    "id": "95b01d7d95dd89b9",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "culture",
@@ -1410,12 +1410,12 @@
    "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=2&rcrtSn=229049&menuNo=200104&sSort=2&pageIndex=3",
    "period": "2026-10-16",
    "deadline": "2026-10-16",
-   "meta": "한국예술종합학교 지원대상 일반인 기타 진행중 마감일",
+   "meta": "한국예술종합학교 일반인 기타 진행중",
    "tags": [],
    "id": "54f16f0be81ba229",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "culture",
@@ -1424,12 +1424,12 @@
    "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=2&rcrtSn=234833&menuNo=200104&sSort=2&pageIndex=3",
    "period": "2026-10-18",
    "deadline": "2026-10-18",
-   "meta": "(재)예술경영지원센터 지원대상 일반인,예술인,관련종사자 프로그램·행사 진행중 마감일",
+   "meta": "(재)예술경영지원센터 일반인,예술인,관련종사자 프로그램·행사 진행중",
    "tags": [],
    "id": "2adfe1d86fe75fd7",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "arko",
@@ -1438,7 +1438,7 @@
    "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=CRL3605",
    "period": "2026-10-08 ~ 2026-11-05",
    "deadline": "2026-11-05",
-   "meta": "아트누리 한국문화예술위원회 연극 뮤지컬 무용 + 전국 단체",
+   "meta": "아트누리 한국문화예술위원회 연극 뮤지컬 무용 전국 단체",
    "tags": [
     "뮤지컬",
     "창작·공연"
@@ -1446,7 +1446,7 @@
    "id": "537633cb0dd9ebe3",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "arko",
@@ -1455,7 +1455,7 @@
    "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=CRL3604",
    "period": "2026-10-08 ~ 2026-11-05",
    "deadline": "2026-11-05",
-   "meta": "아트누리 한국문화예술위원회 연극 뮤지컬 무용 + 전국 단체",
+   "meta": "아트누리 한국문화예술위원회 연극 뮤지컬 무용 전국 단체",
    "tags": [
     "뮤지컬",
     "창작·공연"
@@ -1463,7 +1463,7 @@
    "id": "8f8669b0c7fa4547",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "arko",
@@ -1472,7 +1472,7 @@
    "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=CRL3603",
    "period": "2026-10-08 ~ 2026-11-05",
    "deadline": "2026-11-05",
-   "meta": "아트누리 한국문화예술위원회 연극 뮤지컬 무용 + 전국 전체",
+   "meta": "아트누리 한국문화예술위원회 연극 뮤지컬 무용 전국 전체",
    "tags": [
     "뮤지컬",
     "창작·공연"
@@ -1480,7 +1480,7 @@
    "id": "07e78b1660795f66",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "arko",
@@ -1489,7 +1489,7 @@
    "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=CRL3602",
    "period": "2026-10-08 ~ 2026-11-05",
    "deadline": "2026-11-05",
-   "meta": "아트누리 한국문화예술위원회 연극 뮤지컬 무용 + 전국 단체",
+   "meta": "아트누리 한국문화예술위원회 연극 뮤지컬 무용 전국 단체",
    "tags": [
     "뮤지컬",
     "창작·공연"
@@ -1497,7 +1497,7 @@
    "id": "9a7cc34ba6f87928",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "arko",
@@ -1506,7 +1506,7 @@
    "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=CRL3601",
    "period": "2026-10-08 ~ 2026-11-05",
    "deadline": "2026-11-05",
-   "meta": "아트누리 한국문화예술위원회 연극 뮤지컬 무용 + 전국 단체",
+   "meta": "아트누리 한국문화예술위원회 연극 뮤지컬 무용 전국 단체",
    "tags": [
     "뮤지컬",
     "창작·공연"
@@ -1514,7 +1514,7 @@
    "id": "e368187817b3b1d0",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "arko",
@@ -1523,7 +1523,7 @@
    "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=CRL3599",
    "period": "2026-10-08 ~ 2026-11-05",
    "deadline": "2026-11-05",
-   "meta": "아트누리 한국문화예술위원회 연극 뮤지컬 무용 + 전국 개인,단체",
+   "meta": "아트누리 한국문화예술위원회 연극 뮤지컬 무용 전국 개인,단체",
    "tags": [
     "뮤지컬",
     "창작·공연"
@@ -1531,7 +1531,7 @@
    "id": "df1a9cee50551720",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "arko",
@@ -1540,7 +1540,7 @@
    "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=CRL3598",
    "period": "2026-10-08 ~ 2026-11-05",
    "deadline": "2026-11-05",
-   "meta": "아트누리 한국문화예술위원회 연극 뮤지컬 무용 + 전국 개인,단체",
+   "meta": "아트누리 한국문화예술위원회 연극 뮤지컬 무용 전국 개인,단체",
    "tags": [
     "뮤지컬",
     "창작·공연"
@@ -1548,7 +1548,7 @@
    "id": "24069bfc8a9209b3",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "arko",
@@ -1557,7 +1557,7 @@
    "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=CRL3596",
    "period": "2026-10-08 ~ 2026-11-05",
    "deadline": "2026-11-05",
-   "meta": "아트누리 한국문화예술위원회 연극 뮤지컬 무용 + 전국 개인",
+   "meta": "아트누리 한국문화예술위원회 연극 뮤지컬 무용 전국 개인",
    "tags": [
     "뮤지컬",
     "창작·공연"
@@ -1565,7 +1565,7 @@
    "id": "2a8d87a6a55310ed",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "arko",
@@ -1574,14 +1574,14 @@
    "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=S65176",
    "period": "2026-09-28 ~ 2026-10-31",
    "deadline": "2026-10-31",
-   "meta": "아트누리 안산문화재단 연극 뮤지컬 무용 + 전국 전체",
+   "meta": "아트누리 안산문화재단 연극 뮤지컬 무용 전국 전체",
    "tags": [
     "뮤지컬"
    ],
    "id": "0784122a8f57f1d7",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "arko",
@@ -1590,7 +1590,7 @@
    "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=GEOJE_NOTICE_20260915084003001",
    "period": "2026-09-21 ~ 2026-10-23",
    "deadline": "2026-10-23",
-   "meta": "아트누리 거제시문화예술재단 연극 뮤지컬 무용 + 경남 전체",
+   "meta": "아트누리 거제시문화예술재단 연극 뮤지컬 무용 경남 전체",
    "tags": [
     "뮤지컬",
     "창작·공연"
@@ -1598,7 +1598,7 @@
    "id": "81ec21fb8039562c",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "arko",
@@ -1607,7 +1607,7 @@
    "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=S64922",
    "period": "2026-10-12 ~ 2026-10-16",
    "deadline": "2026-10-16",
-   "meta": "아트누리 천안문화재단 연극 뮤지컬 무용 + 충남 전체",
+   "meta": "아트누리 천안문화재단 연극 뮤지컬 무용 충남 전체",
    "tags": [
     "뮤지컬",
     "창작·공연"
@@ -1615,7 +1615,7 @@
    "id": "4f8e73ff281c662d",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "arko",
@@ -1624,7 +1624,7 @@
    "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=CRL3581",
    "period": "2026-09-15 ~ 2026-10-15",
    "deadline": "2026-10-15",
-   "meta": "아트누리 한국문화예술위원회 연극 뮤지컬 무용 + 해외 개인",
+   "meta": "아트누리 한국문화예술위원회 연극 뮤지컬 무용 해외 개인",
    "tags": [
     "뮤지컬",
     "창작·공연"
@@ -1632,7 +1632,7 @@
    "id": "fb71ef54b8fb4a12",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "arko",
@@ -1641,14 +1641,14 @@
    "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=JNFAC_NOTICE_20260825065002001",
    "period": "2026-08-25 ~ 2026-11-20",
    "deadline": "2026-11-20",
-   "meta": "아트누리 중랑문화재단 연극 시각 뮤지컬 + 서울 전체",
+   "meta": "아트누리 중랑문화재단 연극 시각 뮤지컬 서울 전체",
    "tags": [
     "뮤지컬"
    ],
    "id": "9975f83ba07f9c58",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "arko",
@@ -1657,7 +1657,7 @@
    "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=SFAC_NOTICE_20260808044603001",
    "period": "2026-08-10 ~ 2026-11-24",
    "deadline": "2026-11-24",
-   "meta": "아트누리 서울문화재단 연극 뮤지컬 무용 + 서울 단체",
+   "meta": "아트누리 서울문화재단 연극 뮤지컬 무용 서울 단체",
    "tags": [
     "뮤지컬",
     "창작·공연"
@@ -1665,7 +1665,7 @@
    "id": "1af113ea6a1b8334",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "arko",
@@ -1682,7 +1682,7 @@
    "id": "0e9b967fabfa8c57",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "arko",
@@ -1691,7 +1691,7 @@
    "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=YJCF_NOTICE_20260528091009001",
    "period": "2026-05-26 ~ 2026-11-30",
    "deadline": "2026-11-30",
-   "meta": "아트누리 여주세종문화관광재단 연극 뮤지컬 무용 + 경기 전체",
+   "meta": "아트누리 여주세종문화관광재단 연극 뮤지컬 무용 경기 전체",
    "tags": [
     "뮤지컬",
     "창작·공연"
@@ -1699,7 +1699,7 @@
    "id": "94f4c45868767cbb",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "arko",
@@ -1708,7 +1708,7 @@
    "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=S62166",
    "period": "2026-05-20 ~ 2026-10-31",
    "deadline": "2026-10-31",
-   "meta": "아트누리 전라남도문화재단 연극 뮤지컬 무용 + 전남 전체",
+   "meta": "아트누리 전라남도문화재단 연극 뮤지컬 무용 전남 전체",
    "tags": [
     "뮤지컬",
     "창작·공연"
@@ -1716,7 +1716,7 @@
    "id": "fcf0604150be25fa",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "arko",
@@ -1725,14 +1725,14 @@
    "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=S61195",
    "period": "2026-04-15 ~ 2026-10-31",
    "deadline": "2026-10-31",
-   "meta": "아트누리 청주시문화산업진흥재단 시각 연극 뮤지컬 + 충북 전체",
+   "meta": "아트누리 청주시문화산업진흥재단 시각 연극 뮤지컬 충북 전체",
    "tags": [
     "뮤지컬"
    ],
    "id": "e05f8b43376aefc8",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "arko",
@@ -1741,14 +1741,14 @@
    "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=S61101",
    "period": "2026-07-01 ~ 2026-12-31",
    "deadline": "2026-12-31",
-   "meta": "아트누리 남동문화재단 연극 뮤지컬 무용 + 서울 전체",
+   "meta": "아트누리 남동문화재단 연극 뮤지컬 무용 서울 전체",
    "tags": [
     "뮤지컬"
    ],
    "id": "cd2a92bc28890b56",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "arko",
@@ -1757,7 +1757,7 @@
    "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=CRL3479",
    "period": "2026-01-01 ~ 2026-12-28",
    "deadline": "2026-12-28",
-   "meta": "아트누리 제주문화예술재단 연극 뮤지컬 무용 + 제주 전체",
+   "meta": "아트누리 제주문화예술재단 연극 뮤지컬 무용 제주 전체",
    "tags": [
     "뮤지컬",
     "창작·공연"
@@ -1765,7 +1765,7 @@
    "id": "fdb69083b649ee01",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "arko",
@@ -1774,7 +1774,7 @@
    "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=CRL3600",
    "period": "2027-05-01 ~ 2027-05-15",
    "deadline": "2027-05-15",
-   "meta": "아트누리 한국문화예술위원회 연극 뮤지컬 무용 + 전국 개인,단체",
+   "meta": "아트누리 한국문화예술위원회 연극 뮤지컬 무용 전국 개인,단체",
    "tags": [
     "뮤지컬",
     "창작·공연"
@@ -1782,7 +1782,7 @@
    "id": "989f6dd7ec986194",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "arko",
@@ -1799,7 +1799,7 @@
    "id": "76dac840f1b9be05",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "arko",
@@ -1808,7 +1808,7 @@
    "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=YPCF_BUSINESS_NOTICE_20260820060009001",
    "period": "2026-10-19 ~ 2026-11-02",
    "deadline": "2026-11-02",
-   "meta": "아트누리 양평문화재단 연극 뮤지컬 무용 + 경기 전체",
+   "meta": "아트누리 양평문화재단 연극 뮤지컬 무용 경기 전체",
    "tags": [
     "뮤지컬",
     "창작·공연"
@@ -1816,7 +1816,7 @@
    "id": "93dc70939945b298",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "arko",
@@ -1825,14 +1825,14 @@
    "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=SFAC_NOTICE_20260921044201001",
    "period": "2026-09-20 ~ 2026-09-22",
    "deadline": "2026-09-22",
-   "meta": "아트누리 서울문화재단 연극 뮤지컬 무용 + 서울 전체",
+   "meta": "아트누리 서울문화재단 연극 뮤지컬 무용 서울 전체",
    "tags": [
     "뮤지컬"
    ],
    "id": "9e048144174e0e5d",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "arko",
@@ -1841,7 +1841,7 @@
    "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=S64948",
    "period": "2026-09-15 ~ 2026-09-21",
    "deadline": "2026-09-21",
-   "meta": "아트누리 남동문화재단 연극 뮤지컬 무용 + 인천 전체",
+   "meta": "아트누리 남동문화재단 연극 뮤지컬 무용 인천 전체",
    "tags": [
     "뮤지컬",
     "창작·공연"
@@ -1849,7 +1849,7 @@
    "id": "a45b9f7034256a63",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "arko",
@@ -1858,7 +1858,7 @@
    "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=S64872",
    "period": "2026-09-16 ~ 2026-09-22",
    "deadline": "2026-09-22",
-   "meta": "아트누리 군포문화재단 연극 뮤지컬 무용 + 경기 전체",
+   "meta": "아트누리 군포문화재단 연극 뮤지컬 무용 경기 전체",
    "tags": [
     "뮤지컬",
     "창작·공연"
@@ -1866,7 +1866,7 @@
    "id": "307a91b4871ba7f4",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "arko",
@@ -1875,14 +1875,14 @@
    "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=S64814",
    "period": "2026-09-09 ~ 2026-09-14",
    "deadline": "2026-09-14",
-   "meta": "아트누리 강북문화재단 음악 무용 전통 + 서울 전체",
+   "meta": "아트누리 강북문화재단 음악 무용 전통 서울 전체",
    "tags": [
     "뮤지컬"
    ],
    "id": "aaf2449710f8403b",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "arko",
@@ -1891,7 +1891,7 @@
    "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=IFAC_MENU_20260903010805001",
    "period": "2026-09-03 ~ 2026-09-23",
    "deadline": "2026-09-23",
-   "meta": "아트누리 인천문화재단 연극 뮤지컬 무용 + 인천 전체",
+   "meta": "아트누리 인천문화재단 연극 뮤지컬 무용 인천 전체",
    "tags": [
     "뮤지컬",
     "창작·공연"
@@ -1899,7 +1899,7 @@
    "id": "ac60385c9932c4c1",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "arko",
@@ -1908,14 +1908,14 @@
    "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=S64661",
    "period": "2026-09-07 ~ 2026-09-23",
    "deadline": "2026-09-23",
-   "meta": "아트누리 구로문화재단 연극 뮤지컬 무용 + 서울 전체",
+   "meta": "아트누리 구로문화재단 연극 뮤지컬 무용 서울 전체",
    "tags": [
     "뮤지컬"
    ],
    "id": "606471948e198e87",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "arko",
@@ -1931,155 +1931,155 @@
    "id": "24cf16280efd79b4",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "storyum",
    "sourceName": "스토리움",
    "title": "[메타크래프트] 2026 노벨피아 우주최강 웹소설 공모전",
-   "url": "https://www.storyum.kr/story/progrm/master/listStartN.do?menuNo=500024&searchCnd=&prgSe=&prgNm=&sdate=&edate=&reqstMthd=&progrsSttus=&deptId=&useAt=&prgCn=&siteSe=story&degree=&viewType=&siteId=5&inoutSe=&pageIndex=1",
-   "period": "2026-10-01 ~ 2026-09-08",
-   "deadline": "2026-09-08",
-   "meta": "외부 00:00 23:59 진행중 1249",
+   "url": "https://www.storyum.kr/story/progrm/master/view.do?menuNo=500024&siteId=5&prgSn=1022",
+   "period": "2026-10-01 ~ 2026-10-29",
+   "deadline": "2026-10-29",
+   "meta": "진행중",
    "tags": [],
    "id": "34573cd2d2fc7e48",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "storyum",
    "sourceName": "스토리움",
    "title": "[동아사이언스 과학동아] 2026 SF스토리 공모전",
-   "url": "https://www.storyum.kr/story/progrm/master/listStartN.do?menuNo=500024&searchCnd=&prgSe=&prgNm=&sdate=&edate=&reqstMthd=&progrsSttus=&deptId=&useAt=&prgCn=&siteSe=story&degree=&viewType=&siteId=5&inoutSe=&pageIndex=1",
-   "period": "2026-08-31 ~ 2026-09-11",
-   "deadline": "2026-09-11",
-   "meta": "외부 00:00 23:59 진행중 1452",
+   "url": "https://www.storyum.kr/story/progrm/master/view.do?menuNo=500024&siteId=5&prgSn=1024",
+   "period": "2026-08-31 ~ 2026-11-08",
+   "deadline": "2026-11-08",
+   "meta": "진행중",
    "tags": [
     "창작·공연"
    ],
    "id": "e98b6eac6a9a7f52",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "storyum",
    "sourceName": "스토리움",
    "title": "[알라딘커뮤니케이션] 알라딘 디스커버 프로젝트 그만둔 이야기 공모전",
-   "url": "https://www.storyum.kr/story/progrm/master/listStartN.do?menuNo=500024&searchCnd=&prgSe=&prgNm=&sdate=&edate=&reqstMthd=&progrsSttus=&deptId=&useAt=&prgCn=&siteSe=story&degree=&viewType=&siteId=5&inoutSe=&pageIndex=1",
-   "period": "2026-08-20 ~ 2026-09-08",
-   "deadline": "2026-09-08",
-   "meta": "외부 00:00 23:59 진행중 1370",
+   "url": "https://www.storyum.kr/story/progrm/master/view.do?menuNo=500024&siteId=5&prgSn=1017",
+   "period": "2026-08-20 ~ 2026-10-31",
+   "deadline": "2026-10-31",
+   "meta": "진행중",
    "tags": [],
    "id": "d1af4db1397f72d4",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "storyum",
    "sourceName": "스토리움",
    "title": "[부천국제판타스틱영화제] 제1회 BIFAN Ⅹ 더만타스토리 AI 숏폼 드라마 대본 공모전",
-   "url": "https://www.storyum.kr/story/progrm/master/listStartN.do?menuNo=500024&searchCnd=&prgSe=&prgNm=&sdate=&edate=&reqstMthd=&progrsSttus=&deptId=&useAt=&prgCn=&siteSe=story&degree=&viewType=&siteId=5&inoutSe=&pageIndex=1",
-   "period": "2026-07-12 ~ 2026-09-08",
-   "deadline": "2026-09-08",
-   "meta": "외부 00:00 23:59 진행중 1076",
+   "url": "https://www.storyum.kr/story/progrm/master/view.do?menuNo=500024&siteId=5&prgSn=1018",
+   "period": "2026-07-12 ~ 2026-10-15",
+   "deadline": "2026-10-15",
+   "meta": "진행중",
    "tags": [
     "창작·공연"
    ],
    "id": "855302b564fcef89",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "storyum",
    "sourceName": "스토리움",
    "title": "[한국만화영상진흥원] 2026 대한민국 만화평론공모전",
-   "url": "https://www.storyum.kr/story/progrm/master/listStartN.do?menuNo=500024&searchCnd=&prgSe=&prgNm=&sdate=&edate=&reqstMthd=&progrsSttus=&deptId=&useAt=&prgCn=&siteSe=story&degree=&viewType=&siteId=5&inoutSe=&pageIndex=1",
-   "period": "2026-09-23 ~ 2026-09-08",
-   "deadline": "2026-09-08",
-   "meta": "외부 00:00 15:00 종료 265",
+   "url": "https://www.storyum.kr/story/progrm/master/view.do?menuNo=500024&siteId=5&prgSn=1020",
+   "period": "2026-09-23 ~ 2026-09-30",
+   "deadline": "2026-09-30",
+   "meta": "종료",
    "tags": [],
    "id": "31cd9071772b201a",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "storyum",
    "sourceName": "스토리움",
    "title": "[밀리의서재] 2026 밀리 작가의 집 입주 작가 2기 공모",
-   "url": "https://www.storyum.kr/story/progrm/master/listStartN.do?menuNo=500024&searchCnd=&prgSe=&prgNm=&sdate=&edate=&reqstMthd=&progrsSttus=&deptId=&useAt=&prgCn=&siteSe=story&degree=&viewType=&siteId=5&inoutSe=&pageIndex=1",
-   "period": "2026-09-21 ~ 2026-09-22",
-   "deadline": "2026-09-22",
-   "meta": "외부 00:00 23:59 종료 1083",
+   "url": "https://www.storyum.kr/story/progrm/master/view.do?menuNo=500024&siteId=5&prgSn=1029",
+   "period": "2026-09-21 ~ 2026-10-11",
+   "deadline": "2026-10-11",
+   "meta": "종료",
    "tags": [
     "창작·공연"
    ],
    "id": "662ea4785cc671d2",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "storyum",
    "sourceName": "스토리움",
    "title": "[충북과학기술혁신원×진천 K스토리창작클러스터] 제3회 전국 K스토리 공모전",
-   "url": "https://www.storyum.kr/story/progrm/master/listStartN.do?menuNo=500024&searchCnd=&prgSe=&prgNm=&sdate=&edate=&reqstMthd=&progrsSttus=&deptId=&useAt=&prgCn=&siteSe=story&degree=&viewType=&siteId=5&inoutSe=&pageIndex=1",
-   "period": "2026-09-14 ~ 2026-09-08",
-   "deadline": "2026-09-08",
-   "meta": "KOCCA 00:00 14:00 종료 1337",
+   "url": "https://www.storyum.kr/story/progrm/master/view.do?menuNo=500024&siteId=5&prgSn=1016",
+   "period": "2026-09-14 ~ 2026-10-01",
+   "deadline": "2026-10-01",
+   "meta": "KOCCA 종료",
    "tags": [
     "창작·공연"
    ],
    "id": "e45e0232923f0784",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "storyum",
    "sourceName": "스토리움",
    "title": "[문화체육관광부 X 한국문화기술기획평가원] 「문화기술 얼라이언스: Culture-driven AI Tech」 모집공고",
-   "url": "https://www.storyum.kr/story/progrm/master/listStartN.do?menuNo=500024&searchCnd=&prgSe=&prgNm=&sdate=&edate=&reqstMthd=&progrsSttus=&deptId=&useAt=&prgCn=&siteSe=story&degree=&viewType=&siteId=5&inoutSe=&pageIndex=1",
-   "period": "2026-09-08 ~ 2026-09-14",
-   "deadline": "2026-09-14",
-   "meta": "KOCCA [문화체육관광부 X 한국문화기술기획평가원] 「문화기술 얼라이언스: Culture-driven AI Tech」 모집공고 00:00 18:00 종료 370",
+   "url": "https://www.storyum.kr/story/progrm/master/view.do?menuNo=500024&siteId=5&prgSn=1028",
+   "period": "2026-09-08 ~ 2026-09-18",
+   "deadline": "2026-09-18",
+   "meta": "KOCCA [문화체육관광부 X 한국문화기술기획평가원] 「문화기술 얼라이언스: Culture-driven AI Tech」 모집공고 종료",
    "tags": [],
    "id": "e3995d1686e777d1",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "storyum",
    "sourceName": "스토리움",
    "title": "[문피아] 2026 대한민국 SF판타지 웹소설 공모전",
-   "url": "https://www.storyum.kr/story/progrm/master/listStartN.do?menuNo=500024&searchCnd=&prgSe=&prgNm=&sdate=&edate=&reqstMthd=&progrsSttus=&deptId=&useAt=&prgCn=&siteSe=story&degree=&viewType=&siteId=5&inoutSe=&pageIndex=1",
-   "period": "2026-09-02 ~ 2026-09-08",
-   "deadline": "2026-09-08",
-   "meta": "외부 00:00 23:59 종료 1625",
+   "url": "https://www.storyum.kr/story/progrm/master/view.do?menuNo=500024&siteId=5&prgSn=1019",
+   "period": "2026-09-02 ~ 2026-10-06",
+   "deadline": "2026-10-06",
+   "meta": "종료",
    "tags": [],
    "id": "b056a6851555a71e",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "storyum",
    "sourceName": "스토리움",
    "title": "[문화체육관광부×한국문화정보원] 문화데이터 활용 영상 제작 AI 챌린지",
-   "url": "https://www.storyum.kr/story/progrm/master/listStartN.do?menuNo=500024&searchCnd=&prgSe=&prgNm=&sdate=&edate=&reqstMthd=&progrsSttus=&deptId=&useAt=&prgCn=&siteSe=story&degree=&viewType=&siteId=5&inoutSe=&pageIndex=1",
-   "period": "2026-09-01 ~ 2026-09-08",
-   "deadline": "2026-09-08",
-   "meta": "외부 00:00 23:59 종료 435",
+   "url": "https://www.storyum.kr/story/progrm/master/view.do?menuNo=500024&siteId=5&prgSn=1021",
+   "period": "2026-09-01 ~ 2026-09-28",
+   "deadline": "2026-09-28",
+   "meta": "종료",
    "tags": [],
    "id": "b13461a149abe61b",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "storyum",
@@ -2093,76 +2093,76 @@
    "id": "1f16b658e7810f2d",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "storyum",
    "sourceName": "스토리움",
    "title": "[한국만화영상진흥원] 제24회 대한민국 창작만화 공모전 개최",
-   "url": "https://www.storyum.kr/story/progrm/master/listStartN.do?menuNo=500024&searchCnd=&prgSe=&prgNm=&sdate=&edate=&reqstMthd=&progrsSttus=&deptId=&useAt=&prgCn=&siteSe=story&degree=&viewType=&siteId=5&inoutSe=&pageIndex=2",
-   "period": "2026-08-25 ~ 2026-08-11",
-   "deadline": "2026-08-11",
-   "meta": "외부 00:00 15:00 종료 1430",
+   "url": "https://www.storyum.kr/story/progrm/master/view.do?menuNo=500024&siteId=5&prgSn=1009",
+   "period": "2026-08-25 ~ 2026-09-22",
+   "deadline": "2026-09-22",
+   "meta": "종료",
    "tags": [
     "창작·공연"
    ],
    "id": "2a26eeb90b120dba",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "storyum",
    "sourceName": "스토리움",
    "title": "[JC미디어X네이버시리즈] 2026 JC미디어X네이버시리즈 웹소설 공모전 (차세대 작가를 찾습니다) 현대판타지",
-   "url": "https://www.storyum.kr/story/progrm/master/listStartN.do?menuNo=500024&searchCnd=&prgSe=&prgNm=&sdate=&edate=&reqstMthd=&progrsSttus=&deptId=&useAt=&prgCn=&siteSe=story&degree=&viewType=&siteId=5&inoutSe=&pageIndex=2",
-   "period": "2026-08-05 ~ 2026-08-11",
-   "deadline": "2026-08-11",
-   "meta": "외부 00:00 23:59 종료 3889",
+   "url": "https://www.storyum.kr/story/progrm/master/view.do?menuNo=500024&siteId=5&prgSn=1011",
+   "period": "2026-08-05 ~ 2026-09-06",
+   "deadline": "2026-09-06",
+   "meta": "종료",
    "tags": [
     "창작·공연"
    ],
    "id": "c647904b3f26ff01",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "storyum",
    "sourceName": "스토리움",
    "title": "[넷마블문화재단] 넷마블 어깨동무문고 공모전",
-   "url": "https://www.storyum.kr/story/progrm/master/listStartN.do?menuNo=500024&searchCnd=&prgSe=&prgNm=&sdate=&edate=&reqstMthd=&progrsSttus=&deptId=&useAt=&prgCn=&siteSe=story&degree=&viewType=&siteId=5&inoutSe=&pageIndex=2",
-   "period": "2026-07-31 ~ 2026-07-13",
-   "deadline": "2026-07-13",
-   "meta": "외부 00:00 23:59 종료 2100",
+   "url": "https://www.storyum.kr/story/progrm/master/view.do?menuNo=500024&siteId=5&prgSn=1000",
+   "period": "2026-07-31 ~ 2026-08-28",
+   "deadline": "2026-08-28",
+   "meta": "종료",
    "tags": [],
    "id": "d014227687f69469",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "storyum",
    "sourceName": "스토리움",
    "title": "[서울영상위원회] Production Office 2026년 9월입주 제작사 모집 (B형 3실)",
-   "url": "https://www.storyum.kr/story/progrm/master/listStartN.do?menuNo=500024&searchCnd=&prgSe=&prgNm=&sdate=&edate=&reqstMthd=&progrsSttus=&deptId=&useAt=&prgCn=&siteSe=story&degree=&viewType=&siteId=5&inoutSe=&pageIndex=2",
-   "period": "2026-07-29 ~ 2026-07-29",
-   "deadline": "2026-07-29",
-   "meta": "외부 00:00 18:00 종료 587",
+   "url": "https://www.storyum.kr/story/progrm/master/view.do?menuNo=500024&siteId=5&prgSn=1007",
+   "period": "2026-07-29 ~ 2026-08-17",
+   "deadline": "2026-08-17",
+   "meta": "종료",
    "tags": [],
    "id": "3cd6dd59d4506d54",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "storyum",
    "sourceName": "스토리움",
    "title": "[예술경영지원센터] 2026 뮤지컬 창작진 글로벌 아카데미",
-   "url": "https://www.storyum.kr/story/progrm/master/listStartN.do?menuNo=500024&searchCnd=&prgSe=&prgNm=&sdate=&edate=&reqstMthd=&progrsSttus=&deptId=&useAt=&prgCn=&siteSe=story&degree=&viewType=&siteId=5&inoutSe=&pageIndex=2",
-   "period": "2026-07-22 ~ 2026-07-22",
-   "deadline": "2026-07-22",
-   "meta": "외부 00:00 16:00 종료 685",
+   "url": "https://www.storyum.kr/story/progrm/master/view.do?menuNo=500024&siteId=5&prgSn=1005",
+   "period": "2026-07-22 ~ 2026-07-31",
+   "deadline": "2026-07-31",
+   "meta": "종료",
    "tags": [
     "뮤지컬",
     "창작·공연"
@@ -2170,79 +2170,79 @@
    "id": "3075b7b51c3aa074",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "storyum",
    "sourceName": "스토리움",
    "title": "[DB재단] 제8회 Dream Big Art Awards 미디어아트 공모전",
-   "url": "https://www.storyum.kr/story/progrm/master/listStartN.do?menuNo=500024&searchCnd=&prgSe=&prgNm=&sdate=&edate=&reqstMthd=&progrsSttus=&deptId=&useAt=&prgCn=&siteSe=story&degree=&viewType=&siteId=5&inoutSe=&pageIndex=2",
-   "period": "2026-07-20 ~ 2026-08-11",
-   "deadline": "2026-08-11",
-   "meta": "외부 00:00 18:00 종료 620",
+   "url": "https://www.storyum.kr/story/progrm/master/view.do?menuNo=500024&siteId=5&prgSn=1010",
+   "period": "2026-07-20 ~ 2026-09-14",
+   "deadline": "2026-09-14",
+   "meta": "종료",
    "tags": [],
    "id": "0700662f3de2b4a7",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "storyum",
    "sourceName": "스토리움",
    "title": "[국무조정실] 2026 지속가능발전 숏폼 영상공모전",
-   "url": "https://www.storyum.kr/story/progrm/master/listStartN.do?menuNo=500024&searchCnd=&prgSe=&prgNm=&sdate=&edate=&reqstMthd=&progrsSttus=&deptId=&useAt=&prgCn=&siteSe=story&degree=&viewType=&siteId=5&inoutSe=&pageIndex=2",
-   "period": "2026-07-20 ~ 2026-08-11",
-   "deadline": "2026-08-11",
-   "meta": "외부 00:00 23:59 종료 479",
+   "url": "https://www.storyum.kr/story/progrm/master/view.do?menuNo=500024&siteId=5&prgSn=1012",
+   "period": "2026-07-20 ~ 2026-09-18",
+   "deadline": "2026-09-18",
+   "meta": "종료",
    "tags": [],
    "id": "5b6437ec1d49b12c",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "storyum",
    "sourceName": "스토리움",
    "title": "[한국콘텐츠진흥원] 2026 콘텐츠IP 마켓 참가기업 모집공고",
-   "url": "https://www.storyum.kr/story/progrm/master/listStartN.do?menuNo=500024&searchCnd=&prgSe=&prgNm=&sdate=&edate=&reqstMthd=&progrsSttus=&deptId=&useAt=&prgCn=&siteSe=story&degree=&viewType=&siteId=5&inoutSe=&pageIndex=2",
-   "period": "2026-07-15 ~ 2026-07-23",
-   "deadline": "2026-07-23",
-   "meta": "KOCCA 00:00 11:00 종료 1216",
+   "url": "https://www.storyum.kr/story/progrm/master/view.do?menuNo=500024&siteId=5&prgSn=1006",
+   "period": "2026-07-15 ~ 2026-08-19",
+   "deadline": "2026-08-19",
+   "meta": "KOCCA 종료",
    "tags": [],
    "id": "fdabc28736a4136e",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "storyum",
    "sourceName": "스토리움",
    "title": "추천스토리 X 디앤씨미디어 IP 프로젝트(~ 8월 18일(화) 15:00:00 마감)",
-   "url": "https://www.storyum.kr/story/progrm/master/listStartN.do?menuNo=500024&searchCnd=&prgSe=&prgNm=&sdate=&edate=&reqstMthd=&progrsSttus=&deptId=&useAt=&prgCn=&siteSe=story&degree=&viewType=&siteId=5&inoutSe=&pageIndex=2",
-   "period": "2026-07-10 ~ 2026-06-29",
-   "deadline": "2026-06-29",
-   "meta": "KOCCA 10:00 15:00 종료 11768",
+   "url": "https://www.storyum.kr/story/progrm/master/view.do?menuNo=500024&siteId=5&prgSn=996",
+   "period": "2026-07-10 ~ 2026-08-18",
+   "deadline": "2026-08-18",
+   "meta": "KOCCA 종료",
    "tags": [
     "창작·공연"
    ],
    "id": "69ca7055eea915a3",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   },
   {
    "source": "storyum",
    "sourceName": "스토리움",
    "title": "[방송미디어통신위원회] 2026 시청자미디어대상 방송영상 공모전",
-   "url": "https://www.storyum.kr/story/progrm/master/listStartN.do?menuNo=500024&searchCnd=&prgSe=&prgNm=&sdate=&edate=&reqstMthd=&progrsSttus=&deptId=&useAt=&prgCn=&siteSe=story&degree=&viewType=&siteId=5&inoutSe=&pageIndex=2",
-   "period": "2026-07-06 ~ 2026-07-13",
-   "deadline": "2026-07-13",
-   "meta": "외부 00:00 14:00 종료 1203",
+   "url": "https://www.storyum.kr/story/progrm/master/view.do?menuNo=500024&siteId=5&prgSn=1003",
+   "period": "2026-07-06 ~ 2026-09-07",
+   "deadline": "2026-09-07",
+   "meta": "종료",
    "tags": [],
    "id": "8e7b82d76b08343e",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-10-12T01:30:51+09:00"
+   "lastSeen": "2026-10-12T01:34:34+09:00"
   }
  ]
 }
