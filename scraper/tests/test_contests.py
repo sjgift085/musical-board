@@ -100,3 +100,10 @@ def test_card_link_uses_inner_headline_and_strips_target():
       <li><a href="/view?id=2">2026 예술산업보증 공모 안내 지원대상 기업</a> 2026.10.01 ~ 2026.10.12</li></ul>"""
     items = contests.extract_items(html, "https://ex.kr/", SRC)
     assert titles(items) == ["2027년 공연예술창작산실(올해의신작)", "2026 예술산업보증 공모 안내"]
+
+
+def test_status_badge_is_not_part_of_title():
+    html = """<ul><li><a href="#none" class="title" onclick="goView('CRL1', '기관', '001')">
+      <span class="state-st prog">진</span> 2027년 공연예술창작산실</a> 마감일 2026-11-05</li></ul>"""
+    items = contests.extract_items(html, "https://ex.kr/", SRC)
+    assert titles(items) == ["2027년 공연예술창작산실"]

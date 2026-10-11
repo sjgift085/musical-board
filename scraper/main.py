@@ -100,6 +100,7 @@ def run_rankings(status):
         st_all[source["id"]] = st
         print(f"[순위] {source['name']}: {st['count']}건 {st.get('error', '')}")
     save_json("rankings.json", {"updatedAt": now, "sources": out})
+    rankings.save_probes()
     status["rankings"] = st_all
 
 

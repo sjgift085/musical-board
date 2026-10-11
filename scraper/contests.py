@@ -119,8 +119,26 @@ HEADLINE_SEL = (
 )
 
 
+BADGE_RE = re.compile(r"state|badge|ico|flag|label|status", re.I)
+
+
+def _text_without_badges(a):
+    """'진(진행중)' 같은 상태 표시 요소의 글자는 빼고 링크 글자를 읽는다."""
+    parts = []
+    for text in a.find_all(string=True):
+        node, badge = text.parent, False
+        while node is not None and node is not a:
+            if BADGE_RE.search(" ".join(node.get("class") or [])):
+                badge = True
+                break
+            node = node.parent
+        if not badge:
+            parts.append(text)
+    return clean(" ".join(parts))
+
+
 def _title_of(a):
-    title = clean(a.get_text(" "))
+    title = _text_without_badges(a)
     # 카드 전체를 감싼 링크라면 그 안의 제목 요소만 쓴다
     if len(title) > 40:
         for h in a.select(HEADLINE_SEL):

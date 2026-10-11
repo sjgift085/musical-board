@@ -209,6 +209,23 @@ def melon(source):
     return out
 
 
+# 아직 지원하지 않는 사이트의 구조를 확인하려고, 디버그 모드에서만 원본을 저장해 둔다
+PROBES = {
+    "probe-yes24.html": "http://ticket.yes24.com/Rank/Musical",
+    "probe-yes24-ranking.js": "https://tkfile.yes24.com/New/Js/ranking.js",
+}
+
+
+def save_probes():
+    if not DEBUG_DIR:
+        return
+    for name, url in PROBES.items():
+        try:
+            fetch(url, retries=1, debug_name=name)
+        except Exception as e:  # noqa: BLE001
+            print(f"[순위] probe {url}: {e}")
+
+
 def crawl_source(source):
     if source["id"] == "melon":
         return melon(source)
