@@ -3,15 +3,15 @@
   "artnuri": {
    "name": "아트누리",
    "home": "https://artnuri.or.kr",
-   "checkedAt": "2026-10-12T01:47:20+09:00",
+   "checkedAt": "2026-10-12T01:51:51+09:00",
    "ok": true,
-   "count": 60,
+   "count": 30,
    "added": 0
   },
   "culture": {
    "name": "문화포털",
    "home": "https://www.culture.go.kr",
-   "checkedAt": "2026-10-12T01:47:20+09:00",
+   "checkedAt": "2026-10-12T01:51:51+09:00",
    "ok": true,
    "count": 56,
    "added": 0
@@ -19,7 +19,7 @@
   "arko": {
    "name": "아르코 통합플랫폼",
    "home": "https://thearts.arko.or.kr",
-   "checkedAt": "2026-10-12T01:47:20+09:00",
+   "checkedAt": "2026-10-12T01:51:51+09:00",
    "ok": true,
    "count": 30,
    "added": 0
@@ -27,31 +27,31 @@
   "storyum": {
    "name": "스토리움",
    "home": "https://www.storyum.kr",
-   "checkedAt": "2026-10-12T01:47:20+09:00",
+   "checkedAt": "2026-10-12T01:51:51+09:00",
    "ok": true,
    "count": 21,
    "added": 0
   }
  },
  "news": {
-  "checkedAt": "2026-10-12T01:47:52+09:00",
-  "count": 133,
+  "checkedAt": "2026-10-12T01:52:29+09:00",
+  "count": 135,
   "errors": [],
   "ok": true
  },
- "updatedAt": "2026-10-12T01:47:54+09:00",
+ "updatedAt": "2026-10-12T01:52:36+09:00",
  "rankings": {
   "interpark": {
    "name": "인터파크(NOL) 티켓",
    "home": "https://tickets.interpark.com/contents/ranking?genre=MUSICAL",
-   "checkedAt": "2026-10-12T01:47:52+09:00",
+   "checkedAt": "2026-10-12T01:52:29+09:00",
    "ok": true,
    "count": 10
   },
   "melon": {
    "name": "멜론티켓",
    "home": "https://ticket.melon.com/ranking/index.htm",
-   "checkedAt": "2026-10-12T01:47:52+09:00",
+   "checkedAt": "2026-10-12T01:52:29+09:00",
    "ok": true,
    "count": 4
   }
