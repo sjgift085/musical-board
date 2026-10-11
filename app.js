@@ -89,6 +89,19 @@ function isSinceLastVisit(item) {
   return !item.baseline && !!state.lastVisit && new Date(item.firstSeen) > new Date(state.lastVisit);
 }
 
+// 자동 수집이 막혀 있는 사이트: 버튼을 누르면 그 사이트를 새 창으로 연다
+const EXTERNAL_CONTESTS = [
+  { name: 'OTR', url: 'https://otr.co.kr/contest/' },
+];
+const EXTERNAL_RANKINGS = [
+  { name: '티켓링크', url: 'https://www.ticketlink.co.kr/ranking' },
+];
+
+function externalChips(list) {
+  return list.map((x) => `<a class="chip chip-link" href="${safeUrl(x.url)}" target="_blank" rel="noopener"
+    title="자동 수집이 막혀 있어 사이트에서 직접 확인">${esc(x.name)} ↗</a>`).join('');
+}
+
 function renderSourceChips() {
   const names = new Map();
   state.contests.forEach((c) => names.set(c.source, c.sourceName));
@@ -99,7 +112,7 @@ function renderSourceChips() {
   $('sourceChips').innerHTML = chips.map(([id, name]) => {
     const active = id === '' ? state.sources.size === 0 : state.sources.has(id);
     return `<button type="button" class="chip${active ? ' active' : ''}" data-source="${esc(id)}">${esc(name)}</button>`;
-  }).join('');
+  }).join('') + externalChips(EXTERNAL_CONTESTS);
 }
 
 function renderContests() {
@@ -167,9 +180,6 @@ function renderContests() {
 
 /* ---------- 예매 순위 ---------- */
 
-const EXTERNAL_RANKINGS = [
-  { name: '티켓링크', url: 'https://www.ticketlink.co.kr/ranking' },
-];
 
 function rankingSources() {
   return Object.entries(state.rankings.sources || {}).filter(([, src]) => (src.items || []).length);
@@ -182,9 +192,7 @@ function renderRankChips() {
   }
   $('rankChips').innerHTML = sources.map(([id, src]) => `<button type="button"
     class="chip${id === state.rankSource ? ' active' : ''}" data-rank="${esc(id)}">${esc(src.name)}</button>`).join('')
-    // 자동 수집이 막혀 있는 사이트는 버튼을 누르면 그 사이트 랭킹 페이지를 새 창으로 연다
-    + EXTERNAL_RANKINGS.map((x) => `<a class="chip chip-link" href="${safeUrl(x.url)}" target="_blank" rel="noopener"
-        title="자동 수집이 막혀 있어 사이트에서 직접 확인">${esc(x.name)} ↗</a>`).join('');
+    + externalChips(EXTERNAL_RANKINGS);
 }
 
 function changeBadge(change) {

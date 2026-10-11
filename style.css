@@ -261,6 +261,4 @@ dd { margin: 0; overflow-wrap: anywhere; }
 .move.new { color: var(--accent); }
 .news-chips { margin: 12px 0 4px; }
 .news .badge { font-size: .75rem; margin-right: 4px; }
-.manual { font-size: .85rem; color: var(--muted); margin: 0 0 12px; }
-.manual a { color: var(--accent); }
 .chip-link { text-decoration: none; display: inline-flex; align-items: center; }
