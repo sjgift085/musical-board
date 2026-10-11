@@ -7,7 +7,7 @@
 
 | 탭 | 출처 | 비고 |
 | --- | --- | --- |
-| 공모 | [아트누리](https://artnuri.or.kr) · [문화포털](https://www.culture.go.kr) · [아르코 통합플랫폼](https://thearts.arko.or.kr) · [스토리움](https://www.storyum.kr) | 각 사이트 목록 첫 1~3페이지. [OTR](https://otr.co.kr/contest/)은 자동 접속을 막아 화면에 링크만 안내 |
+| 공모 | [아트누리](https://artnuri.or.kr) · [문화포털](https://www.culture.go.kr) · [아르코 통합플랫폼](https://thearts.arko.or.kr) · [스토리움](https://www.storyum.kr) · 지역([충주문화관광재단](https://cjcf.or.kr/new/bbs/board.php?bo_table=offering), [충북문화재단](https://www.cbfc.or.kr/home/sub.php?menukey=6441) — 공연예술·뮤지컬·연극 공모만) | 각 사이트 목록 첫 1~3페이지. [OTR](https://otr.co.kr/contest/)은 자동 접속을 막아 화면에 링크만 안내 |
 | 예매 순위 | 인터파크(NOL)·예스24·멜론티켓 뮤지컬 순위 (티켓링크는 자동 접속 차단으로 제외) | 사이트별 상위 20위, 지난 수집 대비 ▲▼/NEW |
 | 업계 소식 | Google 뉴스 RSS (+ 네이버 뉴스 API, 선택) | 최근 45일 정책·지원 / 포럼·행사(뮤지컬이 들어간 지역 예술제·축제 포함) / 협회·단체 기사, 그 뒤에 최근 14일 뮤지컬 작품 소식(개막·캐스팅·티켓 오픈 등, 최대 40건). 사진 설명만 있는 기사는 뺌 |
 

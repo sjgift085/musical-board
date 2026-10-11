@@ -13,6 +13,9 @@ from bs4 import BeautifulSoup
 
 from common import DATE_RE, clean, fetch, find_dates
 
+# 지역 재단 공모는 종류가 다양해서 공연 분야 공모만 남긴다
+REGION_INCLUDE = r"공연예술|공연 예술|뮤지컬|연극"
+
 # OTR(otr.co.kr/contest)은 자동 접속을 막는 보안 확인 화면을 돌려주므로 수집하지 않고,
 # 화면에서 '직접 확인' 링크로만 안내한다.
 SOURCES = [
@@ -67,6 +70,27 @@ SOURCES = [
         "musical_filtered": False,
         # 제목 링크: javascript:goMasterView('1022')
         "js_link": "https://www.storyum.kr/story/progrm/master/view.do?menuNo=500024&siteId=5&prgSn={0}",
+    },
+    # ---- 지역 재단: 화면에서는 '지역' 버튼 하나로 묶어 보여 준다 ----
+    {
+        "id": "cjcf",
+        "name": "충주문화관광재단",
+        "group": "region", "group_name": "지역",
+        "home": "https://cjcf.or.kr",
+        "url": "https://cjcf.or.kr/new/bbs/board.php?bo_table=offering&sca=%EA%B3%B5%EB%AA%A8%EC%A4%91&page={page}",
+        "pages": 3,
+        "musical_filtered": False,
+        "include_re": REGION_INCLUDE,
+    },
+    {
+        "id": "cbfc",
+        "name": "충북문화재단",
+        "group": "region", "group_name": "지역",
+        "home": "https://www.cbfc.or.kr",
+        "url": "https://www.cbfc.or.kr/home/sub.php?menukey=6441",
+        "pages": 1,
+        "musical_filtered": False,
+        "include_re": REGION_INCLUDE,
     },
 ]
 
@@ -300,6 +324,10 @@ def crawl_source(source):
             break  # 다음 페이지가 없거나 같은 내용 반복
         for it in new:
             titles.add(it["title"])
+            if source.get("include_re") and not re.search(source["include_re"], it["title"] + " " + it["meta"]):
+                continue
+            if source.get("group"):
+                it["group"], it["groupName"] = source["group"], source["group_name"]
             items.append(tag_item(it, source))
         if "{page}" not in source["url"]:
             break

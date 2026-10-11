@@ -25,6 +25,8 @@ def run_contests(status):
 
     for source in contests.SOURCES:
         st = {"name": source["name"], "home": source["home"], "checkedAt": now}
+        if source.get("group"):
+            st.update(group=source["group"], groupName=source["group_name"])
         try:
             items = contests.crawl_source(source)
         except Exception as e:  # noqa: BLE001 - 한 사이트 실패가 전체를 막지 않게

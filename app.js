@@ -102,12 +102,17 @@ function externalChips(list) {
     title="자동 수집이 막혀 있어 사이트에서 직접 확인">${esc(x.name)} ↗</a>`).join('');
 }
 
+function sourceKey(c) {
+  return c.group || c.source;
+}
+
 function renderSourceChips() {
+  // 지역 재단처럼 group 이 있으면 버튼 하나로 묶는다
   const names = new Map();
-  state.contests.forEach((c) => names.set(c.source, c.sourceName));
   Object.entries(state.status.contests || {}).forEach(([id, s]) => {
-    if (s && s.name) names.set(id, s.name);
+    if (s && s.name) names.set(s.group || id, s.groupName || s.name);
   });
+  state.contests.forEach((c) => names.set(sourceKey(c), c.groupName || c.sourceName));
   const chips = [['', '전체'], ...names.entries()];
   $('sourceChips').innerHTML = chips.map(([id, name]) => {
     const active = id === '' ? state.sources.size === 0 : state.sources.has(id);
@@ -123,7 +128,7 @@ function renderContests() {
   const sort = $('contestSort').value;
 
   let list = state.contests.filter((c) => {
-    if (state.sources.size && !state.sources.has(c.source)) return false;
+    if (state.sources.size && !state.sources.has(sourceKey(c))) return false;
     if (onlyRelevant && !(c.tags || []).length) return false;
     if (onlyNew && !isNew(c)) return false;
     const left = dday(c.deadline);
@@ -157,7 +162,7 @@ function renderContests() {
       ...(c.tags || []).map((t) => `<span class="badge">${esc(t)}</span>`),
     ].join('');
     return `<li class="card${isNew(c) ? ' is-new' : ''}">
-      <div class="card-top"><span class="src">${esc(c.sourceName)}</span>${badges}${due}</div>
+      <div class="card-top"><span class="src">${c.groupName ? `${esc(c.groupName)} · ` : ''}${esc(c.sourceName)}</span>${badges}${due}</div>
       <a class="title" href="${safeUrl(c.url)}" target="_blank" rel="noopener">${esc(c.title)}</a>
       ${c.period ? `<p class="period">기간 ${esc(c.period)}</p>` : ''}
       ${c.meta ? `<p class="meta">${esc(c.meta)}</p>` : ''}
