@@ -1,10 +1,10 @@
 {
- "updatedAt": "2026-10-15T04:28:26+09:00",
+ "updatedAt": "2026-10-15T08:58:18+09:00",
  "sources": {
   "interpark": {
    "name": "인터파크(NOL) 티켓",
    "url": "https://tickets.interpark.com/contents/ranking?genre=MUSICAL",
-   "updatedAt": "2026-10-15T04:28:26+09:00",
+   "updatedAt": "2026-10-15T08:58:18+09:00",
    "items": [
     {
      "rank": 1,
@@ -121,7 +121,7 @@
   "yes24": {
    "name": "예스24 티켓",
    "url": "http://ticket.yes24.com/Rank/Musical",
-   "updatedAt": "2026-10-15T04:28:26+09:00",
+   "updatedAt": "2026-10-15T08:58:18+09:00",
    "items": [
     {
      "rank": 1,
@@ -129,7 +129,7 @@
      "start": "2026-11-03",
      "end": "2027-01-24",
      "venue": "링크아트센터 페이코홀",
-     "rate": "30.6%",
+     "rate": "31.2%",
      "poster": "https://tkfile.yes24.com/upload2/perfblog/202609/20260921/20260921-60316.jpg",
      "change": 20,
      "url": "http://ticket.yes24.com/Perf/60316"
@@ -140,7 +140,7 @@
      "start": "2026-11-10",
      "end": "2026-11-10",
      "venue": "블루스퀘어 우리은행홀",
-     "rate": "23.2%",
+     "rate": "22.3%",
      "poster": "https://tkfile.yes24.com/upload2/perfblog/202610/20261012/20261012-60602.jpg",
      "change": "new",
      "url": "http://ticket.yes24.com/Perf/60602"
@@ -151,7 +151,7 @@
      "start": "2026-10-06",
      "end": "2027-01-03",
      "venue": "두산아트센터 연강홀",
-     "rate": "11.5%",
+     "rate": "11.1%",
      "poster": "https://tkfile.yes24.com/upload2/perfblog/202608/20260824/20260824-59852.jpg",
      "change": 15,
      "url": "http://ticket.yes24.com/Perf/59852"
@@ -162,7 +162,7 @@
      "start": "2026-09-10",
      "end": "2026-11-29",
      "venue": "NOL 서경스퀘어 스콘1관",
-     "rate": "7.3%",
+     "rate": "7.7%",
      "poster": "https://tkfile.yes24.com/upload2/perfblog/202609/20260928/20260928-59239.jpg",
      "change": -3,
      "url": "http://ticket.yes24.com/Perf/59239"
@@ -173,7 +173,7 @@
      "start": "2026-08-13",
      "end": "2027-03-01",
      "venue": "샤롯데씨어터",
-     "rate": "5.2%",
+     "rate": "5%",
      "poster": "https://tkfile.yes24.com/upload2/perfblog/202605/20260529/20260529-58563.jpg",
      "change": -2,
      "url": "http://ticket.yes24.com/Perf/58563"
@@ -184,7 +184,7 @@
      "start": "2026-12-22",
      "end": "2027-02-28",
      "venue": "블루스퀘어 우리은행홀",
-     "rate": "4.3%",
+     "rate": "4.5%",
      "poster": "https://tkfile.yes24.com/upload2/perfblog/202610/20261007/20261007-60521.jpg",
      "change": -2,
      "url": "http://ticket.yes24.com/Perf/60521"
@@ -195,32 +195,32 @@
      "start": "2026-09-16",
      "end": "2026-11-29",
      "venue": "플러스씨어터",
-     "rate": "2.6%",
+     "rate": "2.8%",
      "poster": "https://tkfile.yes24.com/upload2/perfblog/202608/20260811/20260811-59639.jpg",
      "change": -5,
      "url": "http://ticket.yes24.com/Perf/59639"
     },
     {
      "rank": 8,
+     "title": "[창원] 창작 뮤지컬 [여명]",
+     "start": "2026-11-06",
+     "end": "2026-11-08",
+     "venue": "창원 3ㆍ15아트홀 대극장",
+     "rate": "2.3%",
+     "poster": "https://tkfile.yes24.com/upload2/perfblog/202609/20260923/20260923-60365.jpg",
+     "change": 1,
+     "url": "http://ticket.yes24.com/Perf/60365"
+    },
+    {
+     "rank": 9,
      "title": "뮤지컬 [엠. 버터플라이]",
      "start": "2026-09-22",
      "end": "2026-12-13",
      "venue": "예스24스테이지 1관",
      "rate": "2.3%",
      "poster": "https://tkfile.yes24.com/upload2/perfblog/202608/20260804/20260804-59565.jpg",
-     "change": -2,
+     "change": -3,
      "url": "http://ticket.yes24.com/Perf/59565"
-    },
-    {
-     "rank": 9,
-     "title": "[창원] 창작 뮤지컬 [여명]",
-     "start": "2026-11-06",
-     "end": "2026-11-08",
-     "venue": "창원 3ㆍ15아트홀 대극장",
-     "rate": "2%",
-     "poster": "https://tkfile.yes24.com/upload2/perfblog/202609/20260923/20260923-60365.jpg",
-     "change": 0,
-     "url": "http://ticket.yes24.com/Perf/60365"
     },
     {
      "rank": 10,
@@ -228,7 +228,7 @@
      "start": "2026-07-24",
      "end": "2026-11-08",
      "venue": "GS아트센터",
-     "rate": "1.6%",
+     "rate": "1.7%",
      "poster": "https://tkfile.yes24.com/upload2/perfblog/202609/20260914/20260914-58477.jpg",
      "change": 4,
      "url": "http://ticket.yes24.com/Perf/58477"
@@ -279,28 +279,17 @@
     },
     {
      "rank": 15,
-     "title": "뮤지컬 [사의찬미 2026 2ND STAGE]",
-     "start": "2026-09-08",
-     "end": "2026-10-25",
-     "venue": "링크아트센터 페이코홀",
+     "title": "식스 더 뮤지컬(SIX THE MUSICAL)",
+     "start": "2026-12-15",
+     "end": "2027-03-01",
+     "venue": "홍익대 대학로 아트센터 대극장",
      "rate": "0.6%",
-     "poster": "https://tkfile.yes24.com/upload2/perfblog/202608/20260812/20260812-59718.jpg",
-     "change": 1,
-     "url": "http://ticket.yes24.com/Perf/59718"
+     "poster": "https://tkfile.yes24.com/upload2/perfblog/202610/20261002/20261002-60484_2.jpg",
+     "change": -3,
+     "url": "http://ticket.yes24.com/Perf/60484"
     },
     {
      "rank": 16,
-     "title": "[창원] 뮤지컬 [마리퀴리]",
-     "start": "2026-11-21",
-     "end": "2026-11-22",
-     "venue": "창원성산아트홀 대극장",
-     "rate": "0.5%",
-     "poster": "https://tkfile.yes24.com/upload2/perfblog/202609/20260922/20260922-60331.jpg",
-     "change": -6,
-     "url": "http://ticket.yes24.com/Perf/60331"
-    },
-    {
-     "rank": 17,
      "title": "[안산] 뮤지컬 [우리가 사랑을 쓰던 날]",
      "start": "2026-10-31",
      "end": "2026-10-31",
@@ -311,15 +300,26 @@
      "url": "http://ticket.yes24.com/Perf/60645"
     },
     {
-     "rank": 18,
-     "title": "식스 더 뮤지컬(SIX THE MUSICAL)",
-     "start": "2026-12-15",
-     "end": "2027-03-01",
-     "venue": "홍익대 대학로 아트센터 대극장",
+     "rank": 17,
+     "title": "뮤지컬 [사의찬미 2026 2ND STAGE]",
+     "start": "2026-09-08",
+     "end": "2026-10-25",
+     "venue": "링크아트센터 페이코홀",
      "rate": "0.5%",
-     "poster": "https://tkfile.yes24.com/upload2/perfblog/202610/20261002/20261002-60484_2.jpg",
-     "change": -6,
-     "url": "http://ticket.yes24.com/Perf/60484"
+     "poster": "https://tkfile.yes24.com/upload2/perfblog/202608/20260812/20260812-59718.jpg",
+     "change": -1,
+     "url": "http://ticket.yes24.com/Perf/59718"
+    },
+    {
+     "rank": 18,
+     "title": "[창원] 뮤지컬 [마리퀴리]",
+     "start": "2026-11-21",
+     "end": "2026-11-22",
+     "venue": "창원성산아트홀 대극장",
+     "rate": "0.5%",
+     "poster": "https://tkfile.yes24.com/upload2/perfblog/202609/20260922/20260922-60331.jpg",
+     "change": -8,
+     "url": "http://ticket.yes24.com/Perf/60331"
     },
     {
      "rank": 19,
@@ -348,7 +348,7 @@
   "melon": {
    "name": "멜론티켓",
    "url": "https://ticket.melon.com/ranking/index.htm",
-   "updatedAt": "2026-10-15T04:28:26+09:00",
+   "updatedAt": "2026-10-15T08:58:18+09:00",
    "items": [
     {
      "rank": 1,
