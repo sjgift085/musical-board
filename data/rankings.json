@@ -1,16 +1,16 @@
 {
- "updatedAt": "2026-10-14T23:33:53+09:00",
+ "updatedAt": "2026-10-15T04:28:26+09:00",
  "sources": {
   "interpark": {
    "name": "인터파크(NOL) 티켓",
    "url": "https://tickets.interpark.com/contents/ranking?genre=MUSICAL",
-   "updatedAt": "2026-10-14T23:33:53+09:00",
+   "updatedAt": "2026-10-15T04:28:26+09:00",
    "items": [
     {
      "rank": 1,
      "title": "뮤지컬 〈오셀로와 이아고〉",
      "venue": "대학로 자유극장",
-     "rate": "20.4%",
+     "rate": "19.2%",
      "start": "2026-09-08",
      "end": "2026-11-22",
      "poster": "https://ticketimage.interpark.com/Play/image/large/26/26011611_p.gif",
@@ -21,7 +21,7 @@
      "rank": 2,
      "title": "뮤지컬 스위니토드(SWEENEY TODD) - 10주년",
      "venue": "디큐브 링크아트센터",
-     "rate": "10.0%",
+     "rate": "10.5%",
      "start": "2026-12-04",
      "end": "2027-05-02",
      "poster": "https://ticketimage.interpark.com/Play/image/large/26/26014509_p.gif",
@@ -32,7 +32,7 @@
      "rank": 3,
      "title": "뮤지컬 〈오페라의 유령〉 40주년 스페셜 시즌 (Phantom of The Opera)",
      "venue": "블루스퀘어 우리은행홀",
-     "rate": "8.6%",
+     "rate": "8.7%",
      "start": "2026-12-22",
      "end": "2027-02-28",
      "poster": "https://ticketimage.interpark.com/Play/image/large/26/26013995_p.gif",
@@ -54,29 +54,29 @@
      "rank": 5,
      "title": "뮤지컬 〈엘리자벳〉",
      "venue": "블루스퀘어 우리은행홀",
-     "rate": "7.4%",
+     "rate": "7.8%",
      "start": "2026-08-16",
      "end": "2026-11-15",
      "poster": "https://ticketimage.interpark.com/Play/image/large/26/26009314_p.gif",
      "url": "https://nol.yanolja.com/ticket/products/26009314",
-     "change": 1
+     "change": 0
     },
     {
      "rank": 6,
      "title": "뮤지컬 〈렛미플라이〉",
      "venue": "두산아트센터 연강홀",
-     "rate": "5.8%",
+     "rate": "5.4%",
      "start": "2026-10-06",
      "end": "2027-01-03",
      "poster": "https://ticketimage.interpark.com/Play/image/large/26/26012259_p.gif",
      "url": "https://nol.yanolja.com/ticket/products/26012259",
-     "change": -1
+     "change": 0
     },
     {
      "rank": 7,
      "title": "뮤지컬 〈레베카〉",
      "venue": "충무아트센터 대극장",
-     "rate": "4.9%",
+     "rate": "5.0%",
      "start": "2026-11-24",
      "end": "2027-03-14",
      "poster": "https://ticketimage.interpark.com/Play/image/large/26/26013993_p.gif",
@@ -98,7 +98,7 @@
      "rank": 9,
      "title": "2026 뮤지컬 〈미드나잇 : 앤틀러스〉",
      "venue": "NOL 유니플렉스 1관",
-     "rate": "2.7%",
+     "rate": "2.6%",
      "start": "2026-10-04",
      "end": "2026-11-15",
      "poster": "https://ticketimage.interpark.com/Play/image/large/26/26012145_p.gif",
@@ -121,7 +121,7 @@
   "yes24": {
    "name": "예스24 티켓",
    "url": "http://ticket.yes24.com/Rank/Musical",
-   "updatedAt": "2026-10-14T23:33:53+09:00",
+   "updatedAt": "2026-10-15T04:28:26+09:00",
    "items": [
     {
      "rank": 1,
@@ -348,7 +348,7 @@
   "melon": {
    "name": "멜론티켓",
    "url": "https://ticket.melon.com/ranking/index.htm",
-   "updatedAt": "2026-10-14T23:33:53+09:00",
+   "updatedAt": "2026-10-15T04:28:26+09:00",
    "items": [
     {
      "rank": 1,
