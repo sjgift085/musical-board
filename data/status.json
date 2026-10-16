@@ -3,7 +3,7 @@
   "artnuri": {
    "name": "아트누리",
    "home": "https://artnuri.or.kr",
-   "checkedAt": "2026-10-16T06:29:30+09:00",
+   "checkedAt": "2026-10-16T13:39:06+09:00",
    "ok": true,
    "count": 30,
    "added": 0
@@ -11,7 +11,7 @@
   "culture": {
    "name": "문화포털",
    "home": "https://www.culture.go.kr",
-   "checkedAt": "2026-10-16T06:29:30+09:00",
+   "checkedAt": "2026-10-16T13:39:06+09:00",
    "ok": true,
    "count": 59,
    "added": 0
@@ -19,7 +19,7 @@
   "arko": {
    "name": "아르코 통합플랫폼",
    "home": "https://thearts.arko.or.kr",
-   "checkedAt": "2026-10-16T06:29:30+09:00",
+   "checkedAt": "2026-10-16T13:39:06+09:00",
    "ok": true,
    "count": 30,
    "added": 0
@@ -27,7 +27,7 @@
   "storyum": {
    "name": "스토리움",
    "home": "https://www.storyum.kr",
-   "checkedAt": "2026-10-16T06:29:30+09:00",
+   "checkedAt": "2026-10-16T13:39:06+09:00",
    "ok": true,
    "count": 21,
    "added": 0
@@ -35,7 +35,7 @@
   "cbfc": {
    "name": "충북문화재단",
    "home": "https://www.cbfc.or.kr",
-   "checkedAt": "2026-10-16T06:29:30+09:00",
+   "checkedAt": "2026-10-16T13:39:06+09:00",
    "group": "region",
    "groupName": "지역",
    "ok": true,
@@ -45,33 +45,33 @@
   }
  },
  "news": {
-  "checkedAt": "2026-10-16T06:30:13+09:00",
-  "count": 165,
+  "checkedAt": "2026-10-16T13:41:12+09:00",
+  "count": 166,
   "errors": [],
   "ok": true
  },
- "updatedAt": "2026-10-16T06:30:14+09:00",
+ "updatedAt": "2026-10-16T13:41:14+09:00",
  "rankings": {
   "interpark": {
    "name": "인터파크(NOL) 티켓",
    "home": "https://tickets.interpark.com/contents/ranking?genre=MUSICAL",
-   "checkedAt": "2026-10-16T06:30:13+09:00",
+   "checkedAt": "2026-10-16T13:41:12+09:00",
    "ok": true,
    "count": 10
   },
   "yes24": {
    "name": "예스24 티켓",
    "home": "http://ticket.yes24.com/Rank/Musical",
-   "checkedAt": "2026-10-16T06:30:13+09:00",
+   "checkedAt": "2026-10-16T13:41:12+09:00",
    "ok": true,
    "count": 20
   },
   "melon": {
    "name": "멜론티켓",
    "home": "https://ticket.melon.com/ranking/index.htm",
-   "checkedAt": "2026-10-16T06:30:13+09:00",
+   "checkedAt": "2026-10-16T13:41:12+09:00",
    "ok": true,
-   "count": 3
+   "count": 5
   }
  }
 }
