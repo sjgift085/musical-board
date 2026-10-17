@@ -1,10 +1,10 @@
 {
- "updatedAt": "2026-10-18T05:42:07+09:00",
+ "updatedAt": "2026-10-18T08:11:38+09:00",
  "sources": {
   "interpark": {
    "name": "인터파크(NOL) 티켓",
    "url": "https://tickets.interpark.com/contents/ranking?genre=MUSICAL",
-   "updatedAt": "2026-10-18T05:42:07+09:00",
+   "updatedAt": "2026-10-18T08:11:38+09:00",
    "items": [
     {
      "rank": 1,
@@ -121,7 +121,7 @@
   "yes24": {
    "name": "예스24 티켓",
    "url": "http://ticket.yes24.com/Rank/Musical",
-   "updatedAt": "2026-10-18T05:42:07+09:00",
+   "updatedAt": "2026-10-18T08:11:38+09:00",
    "items": [
     {
      "rank": 1,
