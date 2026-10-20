@@ -1,10 +1,10 @@
 {
- "updatedAt": "2026-10-20T05:37:54+09:00",
+ "updatedAt": "2026-10-20T09:25:51+09:00",
  "sources": {
   "interpark": {
    "name": "인터파크(NOL) 티켓",
    "url": "https://tickets.interpark.com/contents/ranking?genre=MUSICAL",
-   "updatedAt": "2026-10-20T05:37:54+09:00",
+   "updatedAt": "2026-10-20T09:25:51+09:00",
    "items": [
     {
      "rank": 1,
@@ -92,7 +92,7 @@
      "end": "2026-12-13",
      "poster": "https://ticketimage.interpark.com/Play/image/large/26/26011453_p.gif",
      "url": "https://nol.yanolja.com/ticket/products/26011453",
-     "change": 2
+     "change": 0
     },
     {
      "rank": 9,
@@ -114,14 +114,14 @@
      "end": "2027-05-02",
      "poster": "https://ticketimage.interpark.com/Play/image/large/26/26014509_p.gif",
      "url": "https://nol.yanolja.com/ticket/products/26014509",
-     "change": -2
+     "change": 0
     }
    ]
   },
   "yes24": {
    "name": "예스24 티켓",
    "url": "http://ticket.yes24.com/Rank/Musical",
-   "updatedAt": "2026-10-20T05:37:54+09:00",
+   "updatedAt": "2026-10-20T09:25:51+09:00",
    "items": [
     {
      "rank": 1,
@@ -348,7 +348,7 @@
   "melon": {
    "name": "멜론티켓",
    "url": "https://ticket.melon.com/ranking/index.htm",
-   "updatedAt": "2026-10-19T22:30:28+09:00",
+   "updatedAt": "2026-10-20T09:25:51+09:00",
    "items": [
     {
      "rank": 1,
