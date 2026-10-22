@@ -1,11 +1,20 @@
 {
- "updatedAt": "2026-10-22T13:58:43+09:00",
+ "updatedAt": "2026-10-22T21:01:55+09:00",
  "items": [
   {
-   "title": "예술가는 무엇을 기록하고 남겨야 할까…아르코, 창작기록 관리 워크숍",
-   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBmM09RX2JrU2FoeVpQc28xbHgwckRWZUMwMTVsYXU1OWhHVDY4dnlUX0paX2tONHNTcVdoWTdWVnY4NzZaUUlLejRPYTU5bTJueHRVMHNpbTdqcVVISk1zanNOYk04U3o0OWFFOHFXSVlYelXSAXNBVV95cUxQZjNPUV9ia1NhaHlaUHNvMWx4MHJEVmVDMDE1bGF1NTloR1Q2OHZ5VF9KWl9rTjRzU3FXaFk3VlZ2ODc2WlFJS3o0T2E1OW0ybnh0VTBzaW03anFVSEpNc2pzTmJNOFN6NDlhRThxV0lZWHpV?oc=5",
-   "press": "K스피릿",
-   "published": "2026-10-22T11:37:34+09:00",
+   "title": "문체부 소속 유관기관 46곳 중 절반 이상, 임원후보추천위원회(임추위) 절차와 검증 기록 없이 기관장을 임명",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE43ZE1zd2JPeUJpcTQyTHREaUJsanFYZEYzWjMzNVZyVEp0QWczUUM1T25GZDZjSmdsYXgzSVU0RUZaWS1GN0pIbVk5Z1FiSjZuRFRDbUljc3ZXVVFGcXdoTFpuQ0hTYUk5?oc=5",
+   "press": "정경시사 FOCUS",
+   "published": "2026-10-22T19:53:09+09:00",
+   "summary": "",
+   "via": "Google 뉴스",
+   "category": "정책·지원"
+  },
+  {
+   "title": "뮤지컬부터 거리공연까지…종로 대학로서 '차 없는 거리 축제'",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9KVkxrZHBFVkRySFpROFJ3QnFRTzRGaXZPbzcwQ19uQ2FzU18xekZ5bE9TTnVJMkxZdy1oY1NDbjFLa0RxU0FJU05iU3gwYTA?oc=5",
+   "press": "뉴스1",
+   "published": "2026-10-22T14:11:57+09:00",
    "summary": "",
    "via": "Google 뉴스",
    "category": "포럼·행사"
@@ -13,7 +22,7 @@
   {
    "title": "“책 안 읽던 사람도 빠져든다”…홍천 책 축제, AI·뮤지컬·작가 강연 총출동",
    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5nMnE1bFZUeGFFZ3FjaVUxUWZVSlNSTHR6d0hwUVc2aXFaZ3FsaVFUSHNvdGFqRWFHVlU3RkUzbjRYblNfY1FGdmk0bjAxV0RKZWd0TjZEQ1lEa2kyZXIyVVNNYjZFQUVKMGs4OXU5S1F2dw?oc=5",
-   "press": "www.reporternside.com",
+   "press": "http://www.reporternside.com/",
    "published": "2026-10-22T10:36:53+09:00",
    "summary": "",
    "via": "Google 뉴스",
@@ -38,15 +47,6 @@
    "category": "포럼·행사"
   },
   {
-   "title": "2026 서울아트마켓, 공연예술 교류 넘어 유통·협력 가능성 넓히며 성료",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1hVU84T0FpNFV2U2hZejBhM3Z4ZHo0WkJwUTJUVm9XbVFiWGdWMjdlak9kdFBBRXpnUTJRUENabHIzOWRZLWE0ZHBXMkVNcVh0RmFEN1RjZVBTQjN5cS1YSjNNNlBwbkxsQmFISTRB0gFuQVVfeXFMTWFVTzhPQWk0VXZTaFl6MGEzdnhkejRaQnBRMlRWb1dtUWJYZ1YyN2VqT2R0UEFFemdRMlFQQ1pscjM5ZFktYTRkcFcyRU1xWHRGYUQ3VGNlUFNCM3lxLVhKM002UHBuTGxCYUhJNEE?oc=5",
-   "press": "파이낸셜투데이",
-   "published": "2026-10-22T00:32:35+09:00",
-   "summary": "",
-   "via": "Google 뉴스",
-   "category": "포럼·행사"
-  },
-  {
    "title": "서울아트마켓 막 내려…30개국 1,800명 모여 공연예술 교류",
    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB3eVl0dFBZWV9Ma2M0S1cxTFc4S3g2eFJ1RlFSMGRNMVhCRlcyMFJINmFQbjF0SVZZOWpvRVViZkk1cmZYTzJRMXljc0dXazVSRENianUtM2JBOEo5cjdwNFVSaVJKN1FoYWFjZ3ZB?oc=5",
    "press": "국제뉴스",
@@ -63,15 +63,6 @@
    "summary": "",
    "via": "Google 뉴스",
    "category": "정책·지원"
-  },
-  {
-   "title": "한마음혈액원, 헌혈자에 뮤지컬 '두 도시 이야기' 선물…14번째 사랑나눔축제",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBlYW9ONS0tcGt1S2pTQktrSmNTMW5LNzZQVGQ1U0dsMWFuMWlSNWJQS2Rack1XNkczeEVQUUpkZE85ay0wZlFrVUpXdEpGam5KcXAyR1ZCaG1OaWJZMTN3c2FkV1R3QllnTHc4WQ?oc=5",
-   "press": "약사공론",
-   "published": "2026-10-20T15:31:43+09:00",
-   "summary": "",
-   "via": "Google 뉴스",
-   "category": "포럼·행사"
   },
   {
    "title": "동래구 초등생 21명, 영어 뮤지컬 '캣츠'로 동래읍성역사축제 무대 올랐다",
@@ -117,6 +108,15 @@
    "summary": "",
    "via": "Google 뉴스",
    "category": "정책·지원"
+  },
+  {
+   "title": "에녹, 10월 2주차 스타트렌드 뮤지컬 남자 462만 표로 1위…전국 축제 누비며 팬심 사로잡다",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9lMEtpVkhtZjFOd3RTRXE3UnhtOFNVUGtWVmRDNDBucE9Ia1lkYjNhQi1OMmxUcTFBVnFBb0xaR3ozd0NHUHh5anB6SGs4MC1NNFpEM211dXZBYWhrdklzSzE1SlpwR2ViWkk40gFvQVVfeXFMT0dvQ3otaXo5RDZZR0F0OUpqS1FNeWJxbWpmYWZoYXVlSDk3R2pQc3FQejJBbm5NMXBhV1NONDJ6ak5LM3dhMWI3UlRxbHNoNnRIeENqZ2QzaWZkcTFwN2tHMXU1SG1uYWM1R1NVb2Zr?oc=5",
+   "press": "더퍼블릭",
+   "published": "2026-10-19T11:06:36+09:00",
+   "summary": "",
+   "via": "Google 뉴스",
+   "category": "포럼·행사"
   },
   {
    "title": "평택 안정리 뮤지컬 무대로 변신 2026 마토예술제 31일 개최",
@@ -213,6 +213,15 @@
    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5KaUs2MFZSRDg3WTJSUXhwZ2VvUHdfd1d5emJNNjhvLWhNTlVVY1d1LWxleGlsVC1LTHpKZmZVMzdmZjZGeU0wSjFUeW1mQWRGY1dnU0ZQenBtQmPSAWBBVV95cUxPYnRhYUZZZm9hYk5oXzVWSXIyTndYaU83dWlzN0dqV25IN0praVhkSkNGY0J6RmRyS1RIcjJHLTQzWHp3UFNsanI4UF9ZNGhkbHk1WElyUHM0MS1qZXAzcm0?oc=5",
    "press": "연합뉴스",
    "published": "2026-10-17T10:25:10+09:00",
+   "summary": "",
+   "via": "Google 뉴스",
+   "category": "정책·지원"
+  },
+  {
+   "title": "무안군, 농촌지원 복합산업화 공모 선정 및 창작 뮤지컬 ‘라스트 쇼’",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8tYjdENTVaYmtTaE04bHk4QTdEbUJ5bFhoaXZVX19UT0JvR0QxRnlNemdVZnZtWkc1anZaNlIyTlpodF9CU0JGU1drc1NUclNUblhwSWgxR1lsNlM4SVowSDZSUC01ZFAxX0RDZWh5SUNueEHSAXdBVV95cUxQMlJoRXFINEtvTWJwdnNWYjlORkEyTDV1LVd0VURRUVlXb3RPaThRNW9sOGJxdXcxQ0RmUm9sM1JaQlVxU0VsMmduUXlCZ3M2Y2hVSFFFNmdoQ0lWMHVVbWt4eUJqSnN1UGx3SkNFRElrQ1JhT292RQ?oc=5",
+   "press": "뉴스프리존",
+   "published": "2026-10-16T19:42:09+09:00",
    "summary": "",
    "via": "Google 뉴스",
    "category": "정책·지원"
@@ -362,6 +371,15 @@
    "category": "포럼·행사"
   },
   {
+   "title": "국립극장, 파주 헤이리서 가을 공연예술축제 개최…인형극부터 뮤지컬까지",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1HdkhfNGx6Q19udzJwOWVGaHItek9OeGJmRWNPM2ozQlp6azhYVlBERUN1a0pFZkRiWnEyck5sM0Jka0ZZRkYzS3c0U0c4NE5QV1dPYTVjOUF4R0tBSkl0UEw2a3BnRkZfVVZOYg?oc=5",
+   "press": "뉴스탭",
+   "published": "2026-10-13T17:45:20+09:00",
+   "summary": "",
+   "via": "Google 뉴스",
+   "category": "포럼·행사"
+  },
+  {
    "title": "“상실과 고통을 넘어 피어나는 생명력의 찬가”… 한성대 현대무용전공 ‘프로젝트 S’, 대한민국무용대상 대통령상 이어 부산국제공연예술마켓 공식 초청 공연 성황",
    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBDQzlJeTZLdGl0ckxqX1ZZS1NhQjJpMzByVHdaM3ZoQllyVUExWVJNNG9vNkxOUTJ2ZmlWVWZXNXdWTkd1WDVxOXZsX1ZrSGpka3JvaU53MUZGb3lFZ0podlJrNmFZTHI2MVg4dDhXcw?oc=5",
    "press": "스마트경제",
@@ -425,6 +443,15 @@
    "category": "포럼·행사"
   },
   {
+   "title": "2026 서울아트마켓, 13일 개막…국내외 공연예술 교류 확대",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1DZmptNnhiMEhGQldDTHVfY0JkM2FET18zQThQOVhZZHhrajEyMjhpenVDckxMVEZGSUlZeHBqM3ltbEdTV3RidG5zd0ZIakd0aGVkX2lpV1pPaHZFOGRiTmU4dXQ?oc=5",
+   "press": "www.bntnews.co.kr",
+   "published": "2026-10-12T16:00:00+09:00",
+   "summary": "",
+   "via": "Google 뉴스",
+   "category": "포럼·행사"
+  },
+  {
    "title": "세계 공연예술 시장 잇는 서울아트마켓 13일 개막",
    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9ndnlIamZlUHZaa0FzdFNWS1NNdHZZcWpRamdJdGlXcG92R3REWllSNUk0SzhYWmsyajlqZlhfQ0JERUYwd0tra0dJSzNQMEN6ZUpBMEtJc0J5aWYzQXpJLUQyMGxIazNRa1FZTXhB?oc=5",
    "press": "아시아투데이",
@@ -437,6 +464,15 @@
    "title": "공연예술 유통·협업 플랫폼 ‘2026 서울아트마켓’ 개막",
    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAxUk9oRzd3dnB2VlpNelI5M3gyTUV5Vlh2U3BqSW1ua04zQlpaWEV0eEhna0kzU2d0eWxNeWxFNzM5YUU2eGkyOTlBZHl1d185bGJVM1F6TzZkZ1pVM3ljNVJpRUlIOWNtdVVv?oc=5",
    "press": "서울문화투데이",
+   "published": "2026-10-12T16:00:00+09:00",
+   "summary": "",
+   "via": "Google 뉴스",
+   "category": "포럼·행사"
+  },
+  {
+   "title": "국내외 공연예술 관계자 한자리에…서울아트마켓 열린다",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5YVUFwM3RZbkg4cDZueDZ3TXd4UnFHRDNvbEgwejFVTFZORWZFUThjWXdLUDU1TlJOLU8zNVlSQ2tYX0lIZkk1TDdiMklSeXlvZVllbHppMm03V0HSAWBBVV95cUxNcE5RWjJlV2lVOHJoNVdrZjZfeXhIOElTXzR6QUNqaDBYQjMzc3dndnNncFVEUFQzd1c4clhoNm1OYjVYTDJiTDFDV0NobzdDM1RSVHdraHB0M2QyX0kyMWU?oc=5",
+   "press": "연합뉴스",
    "published": "2026-10-12T16:00:00+09:00",
    "summary": "",
    "via": "Google 뉴스",
@@ -461,28 +497,10 @@
    "category": "포럼·행사"
   },
   {
-   "title": "2026 서울아트마켓, 13일 개막…국내외 공연예술 교류 확대",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1DZmptNnhiMEhGQldDTHVfY0JkM2FET18zQThQOVhZZHhrajEyMjhpenVDckxMVEZGSUlZeHBqM3ltbEdTV3RidG5zd0ZIakd0aGVkX2lpV1pPaHZFOGRiTmU4dXQ?oc=5",
-   "press": "www.bntnews.co.kr",
-   "published": "2026-10-12T16:00:00+09:00",
-   "summary": "",
-   "via": "Google 뉴스",
-   "category": "포럼·행사"
-  },
-  {
    "title": "세계 공연계 큰손들 서울로...서울아트마켓 13일 개막",
    "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE41OGJfSF9xbWhuSzAzNkVTbjQ4eXNOUGFQVjl3YUV3cjg1RHFVeDF2Y2o3d3FWSVpMYWdXRmN3b0VWVnc5Qnc?oc=5",
    "press": "매일경제",
    "published": "2026-10-12T15:08:41+09:00",
-   "summary": "",
-   "via": "Google 뉴스",
-   "category": "포럼·행사"
-  },
-  {
-   "title": "국내외 공연예술 관계자 한자리에…서울아트마켓 열린다",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5YVUFwM3RZbkg4cDZueDZ3TXd4UnFHRDNvbEgwejFVTFZORWZFUThjWXdLUDU1TlJOLU8zNVlSQ2tYX0lIZkk1TDdiMklSeXlvZVllbHppMm03V0HSAWBBVV95cUxNcE5RWjJlV2lVOHJoNVdrZjZfeXhIOElTXzR6QUNqaDBYQjMzc3dndnNncFVEUFQzd1c4clhoNm1OYjVYTDJiTDFDV0NobzdDM1RSVHdraHB0M2QyX0kyMWU?oc=5",
-   "press": "연합뉴스",
-   "published": "2026-10-12T11:45:27+09:00",
    "summary": "",
    "via": "Google 뉴스",
    "category": "포럼·행사"
@@ -524,15 +542,6 @@
    "category": "포럼·행사"
   },
   {
-   "title": "'제1회 웨강아오 대만구 국제연극제 특별포럼 및 프로젝트 발표회', 中 홍콩서 개최-Xinhua",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE03aGlWcTl0YmlWM2ZUQm1oRl9tQmF3UTlES25mQU00cW8wTW1sRjFhYzZ1LXlRRlM1YmlzS3JMVHJBVm9hQldQS3dzdmpEaDhpNUFBb1RvUlVYdVY2dUFMM0poemZ6SHljZ3M5VFRWT0FVNW1mQkt3MDNDYjY?oc=5",
-   "press": "신화망",
-   "published": "2026-10-10T10:29:29+09:00",
-   "summary": "",
-   "via": "Google 뉴스",
-   "category": "포럼·행사"
-  },
-  {
    "title": "문체부, ‘2026 대한민국은 공연중’ 캠페인 추진",
    "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5vN3duSnFGZ1kzeGZYRjRIaHpwTnE1UWFpblVDdnFSbTZZdThuREFJcmdBcXdSTGFpa0tvWGJtR0RXVmM1eHZv?oc=5",
    "press": "파인뉴스 (청솔뉴스)",
@@ -549,6 +558,15 @@
    "summary": "",
    "via": "Google 뉴스",
    "category": "포럼·행사"
+  },
+  {
+   "title": "문예진흥기금 939억 원 '역대 최대'…2027년 지원사업 공모 시작",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1vMVlkNHltYnNBLW0tUFI4WGJnSlFRSWJXbDJBVFFJbGZ4ZmhVak95U21mdXBlTEZjcFhvSjA0Q1c2WTBxczRXbUdqU1ktdy1oQTJadnhPNzFIbF80cDNtdHNNd01FbGdPeV8ySHhUNlNfblE?oc=5",
+   "press": "코리아이글뉴스",
+   "published": "2026-10-08T17:20:00+09:00",
+   "summary": "",
+   "via": "Google 뉴스",
+   "category": "정책·지원"
   },
   {
    "title": "나주영산강축제 첫날 9만명 찾아… 뮤지컬·드론·불꽃쇼로 개막",
@@ -839,15 +857,6 @@
    "category": "포럼·행사"
   },
   {
-   "title": "[NC인터뷰] 이범헌 한국문화예술위원장 “K컬처 뿌리부터 키운다… 지원체계 전면 손질”",
-   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1uREY2TDJjWTZDdEJyOGlsWWRlenBQMVFvV3otUmlESV9uY1FLdmwxanFJU3ZCTkVGR0kzbGZtVjJMLUVlcVA5cWtrcUNnZm1nR0Y4ZUg0ZzF0VUpzQW5KOEF4Z1hDdw?oc=5",
-   "press": "뉴스컬처",
-   "published": "2026-09-28T16:00:00+09:00",
-   "summary": "",
-   "via": "Google 뉴스",
-   "category": "정책·지원"
-  },
-  {
    "title": "뮤지컬 작가·작곡가도 뭉친다...한국뮤지컬창작자협회 창립 준비",
    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBEbnVCeTBjUXBndG5yc0h0c0hVT2d3RWZSZkFHcWpVOGJiOEkxdkRYY1oxQlpoNEg1bEg3VllZM1ItemFCXzF4WUJkcFNyazk0Q1FlMkJKaTFqb3Itemc?oc=5",
    "press": "YTN",
@@ -887,15 +896,6 @@
    "title": "뮤지컬 작가·작곡가도 모인다…한국뮤지컬창작자협회 창립 준비",
    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9sXzNRbFByckNqSW1HbGVvUFh0RVBkRGZsWERKTFlXZzdsQ1lmeHJyc3ZxakJoMVNobzY0b25LdmxKU3hYMVJIamc4bUpiaV9wV3h0QkstVDkxeGfSAWBBVV95cUxOV05KQm1VYVprUjBta0xOUmtTUEJQeVotZF9BaWdISDd3bnVWNFQ0Tm1yT08yOHRUaFBJQ3BuY0lrUW5QVFhhNWl6b0FwejdwQkJQaDhFdG51dGZiVjktZVE?oc=5",
    "press": "연합뉴스",
-   "published": "2026-09-27T16:00:00+09:00",
-   "summary": "",
-   "via": "Google 뉴스",
-   "category": "협회·단체"
-  },
-  {
-   "title": "뮤지컬 창작자, 협회 창립 나선다...\"산업 전체 발전 위해\"",
-   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBqMTdFT1A1dHRQY1Mwb1pkMVFYamZBMjROdTNuaEtJck1GQ3pIN3gzWlE1TUN2YVJPNDV1WUVuMTlCcDhfUzBlazdtQU5hWVVVWWZ3VEcyRkg3cFhwZDNpSkhVS3diZw?oc=5",
-   "press": "뉴스컬처",
    "published": "2026-09-27T16:00:00+09:00",
    "summary": "",
    "via": "Google 뉴스",
@@ -1001,6 +1001,15 @@
    "category": "협회·단체"
   },
   {
+   "title": "한국뮤지컬배우협회 공식 출범... 초대 이사장 정영주 선임",
+   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1XQWFXeWJTTlh5UHFvc0tWbjRWcWlkVElxbG8wTWpQSDhnMXBIMTJJMGUtbmxTbTBxalpnWXQ3V0pZQ19rdGhpMFRnVUMxUQ?oc=5",
+   "press": "인사이트",
+   "published": "2026-09-21T16:00:00+09:00",
+   "summary": "",
+   "via": "Google 뉴스",
+   "category": "협회·단체"
+  },
+  {
    "title": "한국뮤지컬배우협회 창립⋯초대 이사장 정영주 \"함께 답 만들어가자\"",
    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1DQ1A3SWdFcmN6cFAzbERKM3MwV0NkbkNVTmJzTmFxTEJ1bmQtbWdtaWtjUkJDV0RZc0FsclBwbndFSTN6NUtfRU1EN1JaTHM?oc=5",
    "press": "조이뉴스24",
@@ -1022,15 +1031,6 @@
    "title": "“출연료 미지급·계약 문제, 이제 함께 해결”…정영주 이끄는 한국뮤지컬배우협회 출범",
    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE00eWdKakp3bll3Z1J3VWZTYTNnOHJMMEhYdFlVa25YVDVuYUpTeV9zVWZtakRwaDR6b3pwS3hiQXMxRVUtdWg1R2U5SW1VTk5nOTZEOUlKcjY?oc=5",
    "press": "스포츠서울",
-   "published": "2026-09-21T16:00:00+09:00",
-   "summary": "",
-   "via": "Google 뉴스",
-   "category": "협회·단체"
-  },
-  {
-   "title": "한국뮤지컬배우협회 공식 출범... 초대 이사장 정영주 선임",
-   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1XQWFXeWJTTlh5UHFvc0tWbjRWcWlkVElxbG8wTWpQSDhnMXBIMTJJMGUtbmxTbTBxalpnWXQ3V0pZQ19rdGhpMFRnVUMxUQ?oc=5",
-   "press": "인사이트",
    "published": "2026-09-21T16:00:00+09:00",
    "summary": "",
    "via": "Google 뉴스",
@@ -1136,15 +1136,6 @@
    "category": "협회·단체"
   },
   {
-   "title": "[Special Interview] 이범헌 한국문화예술위원장 “국가예술위원회 수준의 기구적 위상 강화 필요”",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBaa2ZrUVZ2bGRSUExaa2VkSTgwU3JaNHRTOHdjVjh2aHRpaVE1SUM5TlgtWTZxRDBxYkU1SThqWEU5NVM3Q08tTHNPakxfWXMxTHJ5M0hTcHhsUHpKNTh0Sl9iZWYzejlPSGE0?oc=5",
-   "press": "서울문화투데이",
-   "published": "2026-09-16T16:00:00+09:00",
-   "summary": "",
-   "via": "Google 뉴스",
-   "category": "정책·지원"
-  },
-  {
    "title": "'차세대 뮤지컬 페스티벌'이 발굴한 세 개의 작품, 아홉 명의 창작자",
    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9RZVlRSmp2dXdES25rNV9jb3ZlX3RCNTZFYVpxNE0wZ09YVEFLeDBDUTFDRlFUemFkT2phWDQwY0kzQjBNdkIzVFNPVWxnWHJCOFpYbFE4MDNLb1RhOFlKV0J4RQ?oc=5",
    "press": "더뮤지컬",
@@ -1235,13 +1226,58 @@
    "category": "협회·단체"
   },
   {
-   "title": "\"K-뮤지컬 세계화 돕는다\"… 예술경영지원센터 글로벌 아카데미 진행",
-   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBtYnN0NjRBM2JPaXNfVlhGWHpWNDllMWh2aGloOXZPOGx4QkNnNU1WTmRtc3FPQTN3MEZuOTZ3WEI4dnQ3M1U3RkMtZlQ4TWtYcE54T3pNcEw2c2lCeUUwcFJPVnIzZw?oc=5",
-   "press": "뉴스컬처",
-   "published": "2026-09-07T16:00:00+09:00",
+   "title": "한국연극평론가협회, 2026년 정기 심포지엄 개최 - 머니투데이",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1RNmtTSk1kcmsyRUxFU0kyVUxFU0JaMllDcnBZemhTUU1IQWYwc3Z2VG1sQS12bldlS2ZhUlZPaXFSVy1XdlZCdG02c3FJeG1zNjAxbjZmOHltN1BzR0o5YmFWWEpnZEhheUHSAW9BVV95cUxQa2kzRXNKNmV0N2l5MHRnRFUtY2J2enV1QW04d1Q0X0Y5NzF6cTRLWVhhSWgzVFdiczV0WVVNRjBwX1Nhd1REc21oSUZiMnpxVHZFZkdON3d2clRKZHpWY2JDdHRUSS1fRUszXzRGVVE?oc=5",
+   "press": "머니투데이",
+   "published": "2026-09-08T16:00:00+09:00",
    "summary": "",
    "via": "Google 뉴스",
    "category": "포럼·행사"
+  },
+  {
+   "title": "k채널/장흥군, 개그우먼 김미려 출연 뮤지컬 ‘노오란 샤쓰의 사나이’ 공연",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE14ajRNUEd6dmZOc01zWHQtWU95ZkhNODROZU9HS2ZPNWx1cmh6eVhfQ1cxNU81eWs5NmIyNHF6QW1nYmhvTFFlNElOaU05VUczTHlTOVZwMVloTlJXd0NSV0pfdVE2R0xwbmc?oc=5",
+   "press": "K채널",
+   "published": "2026-10-22T18:29:21+09:00",
+   "summary": "",
+   "via": "Google 뉴스",
+   "category": "작품 소식"
+  },
+  {
+   "title": "부산 북구, 30일 뮤지컬 배우 홍지민 초청 ‘꿈과 음악여행’ 공연",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBhc3VCTDZlNW5BQUlpMWM4VndTZHFoOXBKNHhzeTkxNnFJUXBiNjFjQTZ0bDdjQ3pGYnNXMm1qZEFYQldHLUl0S0I5WjZKOU45d2JsR2s3dmhZMzRvWTFwa2hHcFpnR3FNNERPcUVDVVY5RjRw0gFyQVVfeXFMTTZYeHp5ejNvTFRseFhLdTdkN3pNSF9XMS0wT1QtVFc1eWdScHlkSVhqM1RDdDc2MEpLMDQ5ZWtjUXZ2SjlzMzZwbkxQSTNYb3BYdjlBTzl5TmdJTzFVZ3V5WW9jMmlyWmVqZGlOc3JpbjF3?oc=5",
+   "press": "메가경제",
+   "published": "2026-10-22T16:55:29+09:00",
+   "summary": "",
+   "via": "Google 뉴스",
+   "category": "작품 소식"
+  },
+  {
+   "title": "뮤지컬 ‘아가사’, 3년 만에 귀환...22인 캐스팅 라인업 공개",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1xemhESEh1MzdJT0dZeUkxQUIycE5LX190d1hlZ0lVYUVfSkNXN1dGSnRwSWxqTF90eHF2Mzd5VjFXejdNRzRKTW02NzhoZXNSRk93WnBXdTBYQWluRWVNMU03SmRoeC04?oc=5",
+   "press": "레디앙",
+   "published": "2026-10-22T16:25:22+09:00",
+   "summary": "",
+   "via": "Google 뉴스",
+   "category": "작품 소식"
+  },
+  {
+   "title": "브로드웨이 ‘해밀턴’ 韓상륙, 부산서 첫 무대…흥행 시험대 오른 K뮤지컬 시장",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBERmZPUTZrUHR1VzZNaWpHX2xPMEJkQ3d6MzVxUHdDNWxqZ2RoeFRSNG83blhyMUt5T01OTmhtQjA1RU1oMW9TSUpjcllHTnBKS05Ua3VWM3BXRTlmY0JjcWdtTkRTaG1naFlXb0JqT0NiN1A4U0HSAWZBVV95cUxOTk1aRmlnbExXYzFXNkpNcHg3a2czVFc4OW1KdGxtRVktc2V0eHMyeHA2RGVUcHc4UDFwRmhOZWI4Z2hwQ2NNeUh4Wmp0SnZkUWhkV3hBODAwclc0V1dOWGJueUR6N2c?oc=5",
+   "press": "동아일보",
+   "published": "2026-10-22T15:17:00+09:00",
+   "summary": "",
+   "via": "Google 뉴스",
+   "category": "작품 소식"
+  },
+  {
+   "title": "뮤지컬 12월 개막…최수진·백은혜·이정화 등 캐스팅",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBmc255MWhqVkU4Q0pYNlhYLVBMdmRfNWVoUnBOTldxbkUtM0psSjZIcml0Q09kemtLbWNxRlhxZGhhRmFqLTBZQkpnNHZ2YTRybDV0dDQ1NTFFMlpmeTFJ?oc=5",
+   "press": "더뮤지컬",
+   "published": "2026-10-22T11:16:18+09:00",
+   "summary": "",
+   "via": "Google 뉴스",
+   "category": "작품 소식"
   },
   {
    "title": "뮤지컬 ‘쇼 머스트 고 온 in 대학로’ 11월 6일 개막",
@@ -1253,10 +1289,10 @@
    "category": "작품 소식"
   },
   {
-   "title": "뮤지컬 12월 개막…최수진·백은혜·이정화 등 캐스팅",
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBmc255MWhqVkU4Q0pYNlhYLVBMdmRfNWVoUnBOTldxbkUtM0psSjZIcml0Q09kemtLbWNxRlhxZGhhRmFqLTBZQkpnNHZ2YTRybDV0dDQ1NTFFMlpmeTFJ?oc=5",
-   "press": "더뮤지컬",
-   "published": "2026-10-22T11:01:44+09:00",
+   "title": "김포시, 영유아·부모 대상 ‘스마트폰 과의존 예방 뮤지컬’ 성공적 마무리",
+   "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5fMGNMcXFSbklxRVg0RmNRWEhrSk16RkdGeUw4UE5uQ0xuWnBFekpvR3N1ZzhDeVdtRzlRTktvOWUyZlhoXzdHT0xR?oc=5",
+   "press": "미디어투데이",
+   "published": "2026-10-22T10:52:00+09:00",
    "summary": "",
    "via": "Google 뉴스",
    "category": "작품 소식"
@@ -1311,6 +1347,24 @@
    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5PQUJNSXV3SjNTaTk4blRTcGlya2FoNTBtUjBCZVVQelhjZkRtbWpNMGM0eE1GaXVCcEk5UVZYNHJadmV1OG43czlJRE5TcHBydDNlZlgxVmpOanpsZ3hNUDAtZjMwd1B2ZWhvVzdXTXgxUXpZbFRGMdIBeEFVX3lxTE5PQUJNSXV3SjNTaTk4blRTcGlya2FoNTBtUjBCZVVQelhjZkRtbWpNMGM0eE1GaXVCcEk5UVZYNHJadmV1OG43czlJRE5TcHBydDNlZlgxVmpOanpsZ3hNUDAtZjMwd1B2ZWhvVzdXTXgxUXpZbFRGMQ?oc=5",
    "press": "뉴시스",
    "published": "2026-10-22T05:30:00+09:00",
+   "summary": "",
+   "via": "Google 뉴스",
+   "category": "작품 소식"
+  },
+  {
+   "title": "고성군, 창작국악뮤지컬 ′반쪽이의 대모험′ 공연",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5COUpiZkd5UUFkOFRqMEQ0N29jbFJCMzMxc2RjNFUwTUl2VXlGYXplN3owZEh0VlJqb1ZFcl9UQklLS2hWbXdkOXphU1ZWTTlQbUhtNGxqUmpQcC1KMVHSAV5BVV95cUxOQjlKYmZHeVFBZDhUajBENDdvY2xSQjMzMXNkYzRVME1JdlV5RmF6ZTd6MGRIdFZSam9WRXJfVEJJS0toVm13ZDl6YVNWVk05UG1IbTRsalJqUHAtSjFR?oc=5",
+   "press": "세계로컬타임즈",
+   "published": "2026-10-21T19:40:06+09:00",
+   "summary": "",
+   "via": "Google 뉴스",
+   "category": "작품 소식"
+  },
+  {
+   "title": "김해 관객이 키운 뮤지컬 초연한다",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1OcmZ5cklsTjdEYnotZWpXRDFGdEhYZUhkVTF4SldGeDhSQmtVa0pvNm5vTmhBQmN1WG9PMjd4MkR1TnFBcFNDbVFiR3dtajBGcDlWWlRFWllvRmVnVFFXOFpybw?oc=5",
+   "press": "쿠키뉴스",
+   "published": "2026-10-21T19:04:44+09:00",
    "summary": "",
    "via": "Google 뉴스",
    "category": "작품 소식"
@@ -1424,15 +1478,6 @@
    "category": "작품 소식"
   },
   {
-   "title": "교과서 밖 세상 만난 태백 학생들... 박물관과 뮤지컬로 꿈 키웠다",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5BY1VtVmc3RkZoS3hQX1JtV0RDOElQT042SW9CcmMwMzZXUWJvYkdZdlU4X0xVODJ5anNzQWwtOWpLUU5zT3Jhb3RCS2k5cVZxQUlWNDBHRUhYZ0wwejRwR3E1WUl3dlZmejBLMWNrOWxxdw?oc=5",
-   "press": "http://www.reporternside.com/",
-   "published": "2026-10-21T08:38:10+09:00",
-   "summary": "",
-   "via": "Google 뉴스",
-   "category": "작품 소식"
-  },
-  {
    "title": "한강 소설도 뮤지컬 ‘마리 퀴리’도…키다리 아저씨 ‘아르코’ 있었다",
    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE10WGdHdGk4by1zSDZvdFcwMU9DZ3JLYmVKbXlYNkZFMjlnRzVmU0Y4Qjl6czVJQUtvR0sySEhweXE2V0tuczlvN3R2WWVXcEk5aEVSQ1VR?oc=5",
    "press": "중앙일보",
@@ -1478,15 +1523,6 @@
    "category": "작품 소식"
   },
   {
-   "title": "시흥시, 브로드웨이부터 케이(K)-뮤지컬까지 시민 특강 운영",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE15cXBtWHlDeUhRQW1IZlMyQVRwR2xoR0ZrXzBXSXhSVUhuVnVDWFNLbmpoRTBLTDBPLUpDcGRvcVFzVFJVd0hTTWlKWDEyX3NXSHdrVVFBWDhFdGQ4M2pQdFBwQkRUSDYxLUxz0gFrQVVfeXFMTXlxcG1YeUN5SFFBbUhmUzJBVHBHbGhHRmtfMFdJeFJVSG5WdUNYU0tuamhFMEtMME8tSkNwZG9xUXNUUlV3SFNNaUpYMTJfc1dId2tVUUFYOEV0ZDgzalB0UHBCRFRINjEtTHM?oc=5",
-   "press": "핸드메이커",
-   "published": "2026-10-20T15:25:20+09:00",
-   "summary": "",
-   "via": "Google 뉴스",
-   "category": "작품 소식"
-  },
-  {
    "title": "보령시, '미디어아트와 뮤지컬 갈라쇼'... 23일 숲속야행 개막",
    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBFS1VTS01GRG52dm5aLVFNMExIQnVlN09zS01scGdOWWwwZ1Z2MFpPZThCb05aZjIxanVLRGpNblhkNWUyb2tvSUI5bGFMUW1iZkZ1bFB0OHZPNFBNakdmMTduTGduUzdmeEoyWlFibGlfNUk40gF0QVVfeXFMUEVLVVNLTUZEbnZ2blotUU0wTEhCdWU3T3NLTWxwZ05ZbDBnVnYwWk9lOEJvTlpmMjFqdUtEak1uWGQ1ZTJva29JQjlsYUxRbWJmRnVsUHQ4dk80UE1qR2YxN25MZ25TN2Z4SjJaUWJsaV81STg?oc=5",
    "press": "뉴스워커",
@@ -1500,6 +1536,15 @@
    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9xcjFKQUgwTklJNVRtNWM2N1hDM213b05DUml6OWNJVVNrYVJkUi11eE9OaXE0UkRqcGR6XzFNd3I3MmNkY3Jzb3Z4X2ZrdzNjMEtySnlRTmJLbklVMFE?oc=5",
    "press": "시흥타임즈",
    "published": "2026-10-20T12:54:49+09:00",
+   "summary": "",
+   "via": "Google 뉴스",
+   "category": "작품 소식"
+  },
+  {
+   "title": "윤형렬·박혜민, ‘김채이의 두시 데이트’서 뮤지컬 매력 전한다",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB1Q3o5OWNxbUV5RlhOd2tRN2tuU295ZzVUVnNOSnRtWkVRcHktbHRYdG1aQXNsdFVKZW9CMXVVd2VKdFRlbUY5NWQwQkoyeVRlTWE1TDZrQzNUWWpQOE45RWxiRU1UT0JBVGFYQUlaUQ?oc=5",
+   "press": "STN SPORTS",
+   "published": "2026-10-20T12:40:41+09:00",
    "summary": "",
    "via": "Google 뉴스",
    "category": "작품 소식"
@@ -1545,60 +1590,6 @@
    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9mZkF3cTlDSTRhRE1sYjVSM2cxanRPVUh5UGUxRGctVUprV0hWNU02NDVtYllaT0otcmdRTXBTY0xGUTBrX3VJX0gzbGxibU1DNzQtdFlkcVVFU3l1MzJ6VHlmVjcwbXJ3U3oxUzNrTDBOQQ?oc=5",
    "press": "뉴스1",
    "published": "2026-10-20T10:49:01+09:00",
-   "summary": "",
-   "via": "Google 뉴스",
-   "category": "작품 소식"
-  },
-  {
-   "title": "뮤지컬 겨울왕국 연말연시 티켓 오픈, 예매 일정 공개",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9BOUthNDkwVm44LThra0xLTXNRVnNaNnYwZXB6Yk03MDRtVk9aMm1QY2FEcnMyVXU0NHZ0LWxkYUNELUNWUk5BUDIxZTh6VUxKY0xfTzJqNXhRcU9WakVQcEFNbW10X0NS?oc=5",
-   "press": "https://www.2news.co.kr/",
-   "published": "2026-10-20T10:41:00+09:00",
-   "summary": "",
-   "via": "Google 뉴스",
-   "category": "작품 소식"
-  },
-  {
-   "title": "뮤지컬 쉐도우... 영조의 방, 사도세자의 뒤주 직접 체험",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9DemRzWWh0UzZubW9LNjFFYmNNN212MlNST0psT19uNG85dUNVZV9qMm81VWJQaTdTbDNIeURzeFNMbnJRVTQzTWlHeWFheE9ldzJRWGNEX0RENTJGdXV4NVJyV3RZbm43?oc=5",
-   "press": "https://www.2news.co.kr/",
-   "published": "2026-10-20T10:33:00+09:00",
-   "summary": "",
-   "via": "Google 뉴스",
-   "category": "작품 소식"
-  },
-  {
-   "title": "대한민국 No.1 뮤지컬 배우 등용문 'DIMF 뮤지컬스타' 2022년 차세대 스타 찾기 돌입",
-   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBBVWNEWjlxdnJMTGhGX0l3R01zSGp6UWJoaFY4dlFYaXJwbFU3QW8xYlVVMWU1U2N4a0p1Y21nUFdqcF9IQ3RDMHRnRVZnODJwYXFRdzVxdVY?oc=5",
-   "press": "시사매거진",
-   "published": "2026-10-20T10:19:32+09:00",
-   "summary": "",
-   "via": "Google 뉴스",
-   "category": "작품 소식"
-  },
-  {
-   "title": "시흥시, 이틀간 강연·라이브 공연으로 뮤지컬 특강",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9vaVNCNTFabWlkVGQ4UGFEUkd4ZkRPOVdYNFJLTlg2ZDFrT2kwdzk5U21pU0loX0xRVzh0WUREN0RqMmJsOER3d2hDTkQ1Sjk4ZHByMm9yUE1UTm5Za2RhczQwOEpqc1YtWExicQ?oc=5",
-   "press": "한국사회복지저널",
-   "published": "2026-10-20T10:12:24+09:00",
-   "summary": "",
-   "via": "Google 뉴스",
-   "category": "작품 소식"
-  },
-  {
-   "title": "뮤지컬 '윌리엄과 윌리엄의 윌리엄들' 12월 8일 개막, 부새롬 연출 참여",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBjbDFBdWprTkNmaHA4enVWVDZFR2RoUUJtY1RkZGdvaDJUQS13NUg3TDZRemV1bkZZaFVXQVN4b0I0VnNzYmhNWUw1Q0pFbkRSODJPbHJsMy00WHB3WDh2cnBvRVAyZDRuVzg5QWVB?oc=5",
-   "press": "국제뉴스",
-   "published": "2026-10-20T09:24:57+09:00",
-   "summary": "",
-   "via": "Google 뉴스",
-   "category": "작품 소식"
-  },
-  {
-   "title": "뮤지컬 ‘홍련’, 中 23개 지역 투어 마치고 상하이 개막",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBRSmQ2VVN5VnFrQ20yX283MFptdU9XZmk2QWpzcDltTWVlWk1KNkh2ejVwVFRpNjM4TWQwOUlCM0s2eWhHR0h6enRuMXU0X2xOLThDNA?oc=5",
-   "press": "JTBC",
-   "published": "2026-10-20T08:26:00+09:00",
    "summary": "",
    "via": "Google 뉴스",
    "category": "작품 소식"
