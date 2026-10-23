@@ -1,10 +1,10 @@
 {
- "updatedAt": "2026-10-24T02:15:13+09:00",
+ "updatedAt": "2026-10-24T06:29:49+09:00",
  "sources": {
   "interpark": {
    "name": "인터파크(NOL) 티켓",
    "url": "https://tickets.interpark.com/contents/ranking?genre=MUSICAL",
-   "updatedAt": "2026-10-24T02:15:13+09:00",
+   "updatedAt": "2026-10-24T06:29:49+09:00",
    "items": [
     {
      "rank": 1,
@@ -92,7 +92,7 @@
      "end": "2027-02-21",
      "poster": "https://ticketimage.interpark.com/Play/image/large/26/26014015_p.gif",
      "url": "https://nol.yanolja.com/ticket/products/26014015",
-     "change": 2
+     "change": 0
     },
     {
      "rank": 9,
@@ -103,7 +103,7 @@
      "end": "2026-11-08",
      "poster": "https://ticketimage.interpark.com/Play/image/large/26/26014851_p.gif",
      "url": "https://nol.yanolja.com/ticket/products/26014851",
-     "change": -1
+     "change": 0
     },
     {
      "rank": 10,
@@ -114,14 +114,14 @@
      "end": "2026-11-29",
      "poster": "https://ticketimage.interpark.com/Play/image/large/26/26011520_p.gif",
      "url": "https://nol.yanolja.com/ticket/products/26011520",
-     "change": -1
+     "change": 0
     }
    ]
   },
   "yes24": {
    "name": "예스24 티켓",
    "url": "http://ticket.yes24.com/Rank/Musical",
-   "updatedAt": "2026-10-24T02:15:13+09:00",
+   "updatedAt": "2026-10-24T06:29:49+09:00",
    "items": [
     {
      "rank": 1,
@@ -129,7 +129,7 @@
      "start": "2026-09-08",
      "end": "2026-11-29",
      "venue": "대학로 TOM 1관",
-     "rate": "11.3%",
+     "rate": "12%",
      "poster": "https://tkfile.yes24.com/upload2/perfblog/202609/20260928/20260928-59488.jpg",
      "change": 5,
      "url": "http://ticket.yes24.com/Perf/59488"
@@ -140,7 +140,7 @@
      "start": "2026-08-01",
      "end": "2026-11-01",
      "venue": "충무아트센터 대극장",
-     "rate": "9.8%",
+     "rate": "10.6%",
      "poster": "https://tkfile.yes24.com/upload2/perfblog/202605/20260521/20260521-58543.jpg",
      "change": 0,
      "url": "http://ticket.yes24.com/Perf/58543"
@@ -151,7 +151,7 @@
      "start": "2026-12-16",
      "end": "2027-03-14",
      "venue": "예스24아트원 1관",
-     "rate": "8.4%",
+     "rate": "9.3%",
      "poster": "https://tkfile.yes24.com/upload2/perfblog/202610/20261019/20261019-60658.jpg",
      "change": 0,
      "url": "http://ticket.yes24.com/Perf/60658"
@@ -162,32 +162,32 @@
      "start": "2026-08-13",
      "end": "2027-03-01",
      "venue": "샤롯데씨어터",
-     "rate": "6.9%",
+     "rate": "6.4%",
      "poster": "https://tkfile.yes24.com/upload2/perfblog/202605/20260529/20260529-58563.jpg",
      "change": -3,
      "url": "http://ticket.yes24.com/Perf/58563"
     },
     {
      "rank": 5,
-     "title": "뮤지컬 [엘리자벳] - YES24DAY",
-     "start": "2026-11-10",
-     "end": "2026-11-10",
-     "venue": "블루스퀘어 우리은행홀",
-     "rate": "5.2%",
-     "poster": "https://tkfile.yes24.com/upload2/perfblog/202610/20261012/20261012-60602.jpg",
-     "change": -1,
-     "url": "http://ticket.yes24.com/Perf/60602"
-    },
-    {
-     "rank": 6,
      "title": "뮤지컬 [오페라의 유령] 40주년 스페셜 시즌 (Phantom of The Opera)",
      "start": "2026-12-22",
      "end": "2027-02-28",
      "venue": "블루스퀘어 우리은행홀",
-     "rate": "5.1%",
+     "rate": "5.3%",
      "poster": "https://tkfile.yes24.com/upload2/perfblog/202610/20261007/20261007-60521.jpg",
-     "change": 1,
+     "change": 2,
      "url": "http://ticket.yes24.com/Perf/60521"
+    },
+    {
+     "rank": 6,
+     "title": "뮤지컬 [헬스키친] (Musical Hell’s Kitchen)",
+     "start": "2026-07-24",
+     "end": "2026-11-08",
+     "venue": "GS아트센터",
+     "rate": "5%",
+     "poster": "https://tkfile.yes24.com/upload2/perfblog/202609/20260914/20260914-58477.jpg",
+     "change": 11,
+     "url": "http://ticket.yes24.com/Perf/58477"
     },
     {
      "rank": 7,
@@ -195,87 +195,87 @@
      "start": "2026-10-06",
      "end": "2027-01-03",
      "venue": "두산아트센터 연강홀",
-     "rate": "5.1%",
+     "rate": "5%",
      "poster": "https://tkfile.yes24.com/upload2/perfblog/202610/20261019/20261019-59852.jpg",
      "change": 4,
      "url": "http://ticket.yes24.com/Perf/59852"
     },
     {
      "rank": 8,
+     "title": "뮤지컬 [엘리자벳] - YES24DAY",
+     "start": "2026-11-10",
+     "end": "2026-11-10",
+     "venue": "블루스퀘어 우리은행홀",
+     "rate": "4.9%",
+     "poster": "https://tkfile.yes24.com/upload2/perfblog/202610/20261012/20261012-60602.jpg",
+     "change": -4,
+     "url": "http://ticket.yes24.com/Perf/60602"
+    },
+    {
+     "rank": 9,
      "title": "[창원] 창작 뮤지컬 [여명]",
      "start": "2026-11-06",
      "end": "2026-11-08",
      "venue": "창원 3ㆍ15아트홀 대극장",
-     "rate": "4.3%",
+     "rate": "4.5%",
      "poster": "https://tkfile.yes24.com/upload2/perfblog/202609/20260923/20260923-60365.jpg",
-     "change": 7,
+     "change": 6,
      "url": "http://ticket.yes24.com/Perf/60365"
     },
     {
-     "rank": 9,
-     "title": "뮤지컬 [헬스키친] (Musical Hell’s Kitchen)",
-     "start": "2026-07-24",
-     "end": "2026-11-08",
-     "venue": "GS아트센터",
-     "rate": "4.3%",
-     "poster": "https://tkfile.yes24.com/upload2/perfblog/202609/20260914/20260914-58477.jpg",
-     "change": 8,
-     "url": "http://ticket.yes24.com/Perf/58477"
-    },
-    {
      "rank": 10,
-     "title": "뮤지컬 [엠. 버터플라이]",
-     "start": "2026-09-22",
-     "end": "2026-12-13",
-     "venue": "예스24스테이지 1관",
-     "rate": "4.1%",
-     "poster": "https://tkfile.yes24.com/upload2/perfblog/202608/20260804/20260804-59565.jpg",
-     "change": -1,
-     "url": "http://ticket.yes24.com/Perf/59565"
-    },
-    {
-     "rank": 11,
      "title": "뮤지컬 [두 도시 이야기]",
      "start": "2026-11-11",
      "end": "2027-02-08",
      "venue": "광림아트센터 BBCH홀",
-     "rate": "4.1%",
+     "rate": "4.2%",
      "poster": "https://tkfile.yes24.com/upload2/perfblog/202609/20260916/20260916-60128.jpg",
-     "change": 5,
+     "change": 6,
      "url": "http://ticket.yes24.com/Perf/60128"
     },
     {
-     "rank": 12,
+     "rank": 11,
      "title": "뮤지컬 [연의 편지]",
      "start": "2026-09-16",
      "end": "2026-11-29",
      "venue": "플러스씨어터",
      "rate": "3.9%",
      "poster": "https://tkfile.yes24.com/upload2/perfblog/202608/20260811/20260811-59639.jpg",
-     "change": 8,
+     "change": 9,
      "url": "http://ticket.yes24.com/Perf/59639"
     },
     {
-     "rank": 13,
+     "rank": 12,
      "title": "[창원] 뮤지컬 [팬레터]",
      "start": "2026-12-24",
      "end": "2026-12-25",
      "venue": "진해아트홀",
      "rate": "3.9%",
      "poster": "https://tkfile.yes24.com/upload2/perfblog/202610/20261008/20261008-60528.jpg",
-     "change": 14,
+     "change": 15,
      "url": "http://ticket.yes24.com/Perf/60528"
     },
     {
-     "rank": 14,
+     "rank": 13,
      "title": "뮤지컬 [다이브]",
      "start": "2026-08-18",
      "end": "2026-11-08",
      "venue": "링크더스페이스 1관",
-     "rate": "3.7%",
+     "rate": "3.8%",
      "poster": "https://tkfile.yes24.com/upload2/perfblog/202609/20260907/20260907-59300.jpg",
-     "change": -4,
+     "change": -3,
      "url": "http://ticket.yes24.com/Perf/59300"
+    },
+    {
+     "rank": 14,
+     "title": "뮤지컬 [엠. 버터플라이]",
+     "start": "2026-09-22",
+     "end": "2026-12-13",
+     "venue": "예스24스테이지 1관",
+     "rate": "3.8%",
+     "poster": "https://tkfile.yes24.com/upload2/perfblog/202608/20260804/20260804-59565.jpg",
+     "change": -5,
+     "url": "http://ticket.yes24.com/Perf/59565"
     },
     {
      "rank": 15,
@@ -283,7 +283,7 @@
      "start": "2026-09-15",
      "end": "2026-12-06",
      "venue": "예스24아트원 1관",
-     "rate": "3.3%",
+     "rate": "2.8%",
      "poster": "https://tkfile.yes24.com/upload2/perfblog/202608/20260825/20260825-59694.jpg",
      "change": -1,
      "url": "http://ticket.yes24.com/Perf/59694"
@@ -294,7 +294,7 @@
      "start": "2026-09-15",
      "end": "2026-11-29",
      "venue": "홍익대 대학로 아트센터 대극장",
-     "rate": "2.3%",
+     "rate": "2.4%",
      "poster": "https://tkfile.yes24.com/upload2/perfblog/202608/20260807/20260807-59596.jpg",
      "change": -3,
      "url": "http://ticket.yes24.com/Perf/59596"
@@ -334,21 +334,21 @@
     },
     {
      "rank": 20,
-     "title": "뮤지컬 [사의찬미 2026 2ND STAGE]",
-     "start": "2026-09-08",
+     "title": "뮤지컬 [브람스]",
+     "start": "2026-09-19",
      "end": "2026-10-25",
-     "venue": "링크아트센터 페이코홀",
+     "venue": "KT&G 상상마당 대치아트홀",
      "rate": "1.5%",
-     "poster": "https://tkfile.yes24.com/upload2/perfblog/202608/20260812/20260812-59718.jpg",
-     "change": -2,
-     "url": "http://ticket.yes24.com/Perf/59718"
+     "poster": "https://tkfile.yes24.com/upload2/perfblog/202608/20260814/20260814-59755.jpg",
+     "change": 6,
+     "url": "http://ticket.yes24.com/Perf/59755"
     }
    ]
   },
   "melon": {
    "name": "멜론티켓",
    "url": "https://ticket.melon.com/ranking/index.htm",
-   "updatedAt": "2026-10-23T20:47:27+09:00",
+   "updatedAt": "2026-10-24T06:29:49+09:00",
    "items": [
     {
      "rank": 1,
