@@ -1,10 +1,10 @@
 {
- "updatedAt": "2026-10-25T01:02:54+09:00",
+ "updatedAt": "2026-10-25T05:56:15+09:00",
  "sources": {
   "interpark": {
    "name": "인터파크(NOL) 티켓",
    "url": "https://tickets.interpark.com/contents/ranking?genre=MUSICAL",
-   "updatedAt": "2026-10-25T01:02:54+09:00",
+   "updatedAt": "2026-10-25T05:56:15+09:00",
    "items": [
     {
      "rank": 1,
@@ -81,7 +81,7 @@
      "end": "2027-01-03",
      "poster": "https://ticketimage.interpark.com/Play/image/large/26/26013215_p.gif",
      "url": "https://nol.yanolja.com/ticket/products/26013215",
-     "change": 3
+     "change": 0
     },
     {
      "rank": 8,
@@ -103,7 +103,7 @@
      "end": "2026-11-29",
      "poster": "https://ticketimage.interpark.com/Play/image/large/26/26011520_p.gif",
      "url": "https://nol.yanolja.com/ticket/products/26011520",
-     "change": -2
+     "change": 0
     },
     {
      "rank": 10,
@@ -114,7 +114,7 @@
      "end": "2027-02-21",
      "poster": "https://ticketimage.interpark.com/Play/image/large/26/26014015_p.gif",
      "url": "https://nol.yanolja.com/ticket/products/26014015",
-     "change": -1
+     "change": 0
     }
    ]
   },
