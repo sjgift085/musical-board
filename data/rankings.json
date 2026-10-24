@@ -1,16 +1,16 @@
 {
- "updatedAt": "2026-10-24T20:12:04+09:00",
+ "updatedAt": "2026-10-25T01:02:54+09:00",
  "sources": {
   "interpark": {
    "name": "인터파크(NOL) 티켓",
    "url": "https://tickets.interpark.com/contents/ranking?genre=MUSICAL",
-   "updatedAt": "2026-10-24T20:12:04+09:00",
+   "updatedAt": "2026-10-25T01:02:54+09:00",
    "items": [
     {
      "rank": 1,
      "title": "뮤지컬 〈엘리자벳〉",
      "venue": "블루스퀘어 우리은행홀",
-     "rate": "13.1%",
+     "rate": "12.4%",
      "start": "2026-08-16",
      "end": "2026-11-15",
      "poster": "https://ticketimage.interpark.com/Play/image/large/26/26009314_p.gif",
@@ -21,7 +21,7 @@
      "rank": 2,
      "title": "뮤지컬 〈오페라의 유령〉 40주년 스페셜 시즌 (Phantom of The Opera)",
      "venue": "블루스퀘어 우리은행홀",
-     "rate": "8.3%",
+     "rate": "8.5%",
      "start": "2026-12-22",
      "end": "2027-02-28",
      "poster": "https://ticketimage.interpark.com/Play/image/large/26/26013995_p.gif",
@@ -43,23 +43,23 @@
      "rank": 4,
      "title": "뮤지컬 〈레베카〉",
      "venue": "충무아트센터 대극장",
-     "rate": "5.0%",
+     "rate": "4.6%",
      "start": "2026-11-24",
      "end": "2027-03-14",
      "poster": "https://ticketimage.interpark.com/Play/image/large/26/26013993_p.gif",
      "url": "https://nol.yanolja.com/ticket/products/26013993",
-     "change": 1
+     "change": 0
     },
     {
      "rank": 5,
      "title": "뮤지컬 〈디어 에반 핸슨〉 (Musical Dear Evan Hansen)",
      "venue": "충무아트센터 대극장",
-     "rate": "4.0%",
+     "rate": "4.1%",
      "start": "2026-08-01",
      "end": "2026-11-01",
      "poster": "https://ticketimage.interpark.com/Play/image/large/26/26007442_p.gif",
      "url": "https://nol.yanolja.com/ticket/products/26007442",
-     "change": -1
+     "change": 0
     },
     {
      "rank": 6,
@@ -70,51 +70,51 @@
      "end": "2027-03-01",
      "poster": "https://ticketimage.interpark.com/Play/image/large/26/26007416_p.gif",
      "url": "https://nol.yanolja.com/ticket/products/26007416",
-     "change": 4
+     "change": 0
     },
     {
      "rank": 7,
-     "title": "뮤지컬 〈곤 투모로우〉 10주년 기념 공연",
-     "venue": "홍익대 대학로 아트센터 대극장",
-     "rate": "2.8%",
-     "start": "2026-09-15",
-     "end": "2026-11-29",
-     "poster": "https://ticketimage.interpark.com/Play/image/large/26/26011520_p.gif",
-     "url": "https://nol.yanolja.com/ticket/products/26011520",
-     "change": 2
+     "title": "뮤지컬 〈캣츠〉 내한공연 - 대구 (Musical CATS)",
+     "venue": "계명아트센터",
+     "rate": "3.0%",
+     "start": "2026-12-18",
+     "end": "2027-01-03",
+     "poster": "https://ticketimage.interpark.com/Play/image/large/26/26013215_p.gif",
+     "url": "https://nol.yanolja.com/ticket/products/26013215",
+     "change": 3
     },
     {
      "rank": 8,
      "title": "뮤지컬 〈헬스키친〉 (Musical Hell’s Kitchen)",
      "venue": "GS아트센터",
-     "rate": "2.8%",
+     "rate": "3.0%",
      "start": "2026-07-24",
      "end": "2026-11-08",
      "poster": "https://ticketimage.interpark.com/Play/image/large/26/26007169_p.gif",
      "url": "https://nol.yanolja.com/ticket/products/26007169",
-     "change": -2
+     "change": 0
     },
     {
      "rank": 9,
+     "title": "뮤지컬 〈곤 투모로우〉 10주년 기념 공연",
+     "venue": "홍익대 대학로 아트센터 대극장",
+     "rate": "2.9%",
+     "start": "2026-09-15",
+     "end": "2026-11-29",
+     "poster": "https://ticketimage.interpark.com/Play/image/large/26/26011520_p.gif",
+     "url": "https://nol.yanolja.com/ticket/products/26011520",
+     "change": -2
+    },
+    {
+     "rank": 10,
      "title": "뮤지컬 〈미세스 다웃파이어〉",
      "venue": "GS아트센터",
-     "rate": "2.6%",
+     "rate": "2.7%",
      "start": "2026-12-03",
      "end": "2027-02-21",
      "poster": "https://ticketimage.interpark.com/Play/image/large/26/26014015_p.gif",
      "url": "https://nol.yanolja.com/ticket/products/26014015",
-     "change": "new"
-    },
-    {
-     "rank": 10,
-     "title": "뮤지컬 〈캣츠〉 내한공연 - 대구 (Musical CATS)",
-     "venue": "계명아트센터",
-     "rate": "2.5%",
-     "start": "2026-12-18",
-     "end": "2027-01-03",
-     "poster": "https://ticketimage.interpark.com/Play/image/large/26/26013215_p.gif",
-     "url": "https://nol.yanolja.com/ticket/products/26013215",
-     "change": "new"
+     "change": -1
     }
    ]
   },
@@ -348,7 +348,7 @@
   "melon": {
    "name": "멜론티켓",
    "url": "https://ticket.melon.com/ranking/index.htm",
-   "updatedAt": "2026-10-24T20:12:04+09:00",
+   "updatedAt": "2026-10-25T01:02:54+09:00",
    "items": [
     {
      "rank": 1,
