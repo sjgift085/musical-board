@@ -1,10 +1,10 @@
 {
- "updatedAt": "2026-10-27T05:34:31+09:00",
+ "updatedAt": "2026-10-27T09:32:23+09:00",
  "sources": {
   "interpark": {
    "name": "인터파크(NOL) 티켓",
    "url": "https://tickets.interpark.com/contents/ranking?genre=MUSICAL",
-   "updatedAt": "2026-10-27T05:34:31+09:00",
+   "updatedAt": "2026-10-27T09:32:23+09:00",
    "items": [
     {
      "rank": 1,
@@ -59,7 +59,7 @@
      "end": "2027-03-14",
      "poster": "https://ticketimage.interpark.com/Play/image/large/26/26013993_p.gif",
      "url": "https://nol.yanolja.com/ticket/products/26013993",
-     "change": 1
+     "change": 0
     },
     {
      "rank": 6,
@@ -70,7 +70,7 @@
      "end": "2026-11-08",
      "poster": "https://ticketimage.interpark.com/Play/image/large/26/26007169_p.gif",
      "url": "https://nol.yanolja.com/ticket/products/26007169",
-     "change": -1
+     "change": 0
     },
     {
      "rank": 7,
@@ -81,7 +81,7 @@
      "end": "2026-11-01",
      "poster": "https://ticketimage.interpark.com/Play/image/large/26/26007442_p.gif",
      "url": "https://nol.yanolja.com/ticket/products/26007442",
-     "change": 1
+     "change": 0
     },
     {
      "rank": 8,
@@ -92,7 +92,7 @@
      "end": "2026-11-01",
      "poster": "https://ticketimage.interpark.com/Play/image/large/26/26012217_p.gif",
      "url": "https://nol.yanolja.com/ticket/products/26012217",
-     "change": -1
+     "change": 0
     },
     {
      "rank": 9,
@@ -103,7 +103,7 @@
      "end": "2027-01-03",
      "poster": "https://ticketimage.interpark.com/Play/image/large/26/26013215_p.gif",
      "url": "https://nol.yanolja.com/ticket/products/26013215",
-     "change": "new"
+     "change": 0
     },
     {
      "rank": 10,
@@ -114,14 +114,14 @@
      "end": "2026-11-15",
      "poster": "https://ticketimage.interpark.com/Play/image/large/26/26013853_p.gif",
      "url": "https://nol.yanolja.com/ticket/products/26013853",
-     "change": -1
+     "change": 0
     }
    ]
   },
   "yes24": {
    "name": "예스24 티켓",
    "url": "http://ticket.yes24.com/Rank/Musical",
-   "updatedAt": "2026-10-27T05:34:31+09:00",
+   "updatedAt": "2026-10-27T09:32:23+09:00",
    "items": [
     {
      "rank": 1,
