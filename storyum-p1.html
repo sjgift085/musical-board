@@ -1,0 +1,1960 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		
+		
+		
+	
+
+	
+		
+		
+		
+		
+		
+	
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+
+<meta property="og:type" content="article" />
+<meta name="title" content="공모 소식(목록) | 공모/구인 소식 | 스토리움" />
+<meta property="og:title" content="공모 소식(목록) | 공모/구인 소식 | 스토리움" />
+
+
+
+
+<meta charset="UTF-8">
+<title>공모 소식(목록) | 공모/구인 소식 | 스토리움</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<!-- <meta name="robots" content="none" /> -->
+<meta name="keywords" content="스토리움" />
+<meta name="description" content="스토리 유통 플랫폼. 스토리를 매개로 창작자와 콘텐츠 제작자를 연결해주는 공간" />
+<meta name="author" content="스토리움" />
+<meta name="viewport" content="width=1410">
+<meta name="naver-site-verification" content="cb58b1cb3d15b7c57c7a725dc0dff93b77926d1c" />
+<meta http-equiv="Expires" content="-1">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Cache-Control" content="no-cache">
+<link rel="shortcut icon" href="https://storyum.kr/favicon.ico" type="image/x-icon" />
+<link rel="canonical" href="https://www.storyum.kr/story/main/main.do">
+<link rel="stylesheet" type="text/css" href="/static/font/NotoSans/notosans.css">
+<link rel="stylesheet" type="text/css" href="/static/css/common.css">
+<link rel="stylesheet" type="text/css" href="/static/css/story/layout.css">
+<link rel="stylesheet" type="text/css" href="/static/css/story/storysub.css?ver=5">
+
+<link rel="stylesheet" type="text/css" href="/static/css/story/themind.css">
+<link rel="stylesheet" type="text/css" href="/static/css/story/themind2.css">
+<!--[if lte IE 8]>
+<link rel="stylesheet" type="text/css" href="/static/css/story/ie.css">
+<![endif]-->
+<script src="/static/jslibrary/jquery/jquery-1.12.2.min.js"></script>
+<script src="/static/jslibrary/jquery.cookie.js"></script>
+<script src="/static/jslibrary/tablesummary.js"></script>
+<script type="text/javascript" src="/static/jslibrary/bootstrap/js/bootstrap.js"></script>
+<script src="/static/jslibrary/ssl.js"></script>
+<script src="/static/js/common.js"></script>
+<script src="/static/js/story/storysub.js?ver=3"></script>
+<script src="/static/js/story/storycommon.js"></script>
+</head>
+<body>
+<div class="skip">
+	<a href="#content">본문내용 바로가기</a>
+	<a href="#gnb">주메뉴 바로가기</a>
+</div>
+<div id="wrap">
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="/static/css/story/header_new.css">
+
+<script type="text/javascript">
+	var tid;
+	/* 20201022 스토리공모대전 본심 평가기간 중 세션만료시간 60분 > 30분으로 변경 */
+	// var cnt = parseInt(3600); //초기값(초단위)
+	var cnt = parseInt(1800); //초기값(초단위)
+
+	function counter_init(){
+		tid = setInterval("counter_run()", 1000);
+	}
+
+	function counter_restart(){
+		clearInterval(tid);
+		cnt = parseInt(1800);
+		tid = setInterval("counter_run()", 1000);
+		//20201008 서버로그인 세션 연장기능 추가
+		refreshSn();
+		$("#modal").hide();
+	}
+
+	function counter_run (){
+		//document.all.counter.innerText = time_format(cnt);
+		$("#counter").text(time_format(cnt));
+		console.log(time_format(cnt));
+		cnt--;
+
+		/* 20201209 자동로그아웃 알림 관련 추가 */
+		if(cnt == 300){
+			//tmpAlert(60);
+			$('#modal').show();
+		}
+		if (cnt<0) {
+			clearInterval(tid);
+			/* alert("장시간(60분) 사용하지 않으면 자동 로그아웃됩니다. 로그인 후 이용해주십시요."); */
+			/* 20200904 세션만료시간 60분 > 30분으로 변경 */
+			/* 20200908 스토리공모대전 본심 평가기간 중 세션만료시간 30분 > 60분으로 변경 */
+			/* 20201020 스토리공모대전 최종심의 완료로 인한 세션만료시간 60분 > 30분으로 변경 */
+			$ ('#modal').hide();
+			alert("장시간(30분) 사용하지 않으면 자동 로그아웃됩니다. 로그인 후 이용해주십시요.");
+			//self.location.href = "/story/member/user/logout.do?siteId=5&menuNo=500013";
+			//self.location = "/story/member/user/logout.do?siteId=5";
+			//20201027 자동로그아웃 오류로 인한 프로그램 수정
+			self.location.href = "/story/member/user/logoutNew.do?siteId=5&menuNo=500013";
+		}
+	}
+
+	//20201008 서버로그인 세션 연장기능 추가
+	function refreshSn (){
+		$.ajax({
+		    type : 'POST',
+		    url : '/static/view/session/refresh_session.jsp',
+		    error : function(error) {
+		        alert("처리 중 문제 발생! 관리자에게 문의해주세요.");
+		    }
+		});
+	}
+
+	/* 20201209 자동로그아웃 알림 관련 추가 */
+	function  closeModal() {
+     $ ('#modal').hide();
+	}
+
+	function time_format(s) {
+		var nHour=0;
+		var nMin=0;
+		var nSec=0;
+		if (s>0) {
+			nMin = parseInt(s/60);
+			nSec = s%60;
+			if (nMin>60) {
+				nHour = parseInt(nMin/60) ;
+				nMin = nMin%60;
+			}
+		}
+		if (nSec<10) nSec = "O" +nSec;
+		if (nMin<10) nMin = "0"+nMin;
+		return "" + nHour + ":" + nMin + ":" + nSec;
+	}
+	
+
+	
+	var chkmberSe = "";
+	$(function() {
+		if(chkmberSe == "EVLTR"){
+			$('#gnb > ul > li.a2 > a').prop('href', 'javascript:alert("이용 권한이 없습니다.");');
+			$('#gnb > ul > li.a2 > dl > dd > ul > li:nth-child(1) > a').prop('href', 'javascript:alert("이용 권한이 없습니다.");');
+			$('#gnb > ul > li.a2 > dl > dd > ul > li.last > a').prop('href', 'javascript:alert("이용 권한이 없습니다.");');
+		}
+	});
+
+</script>
+    <span class="headerBg"></span>
+	<span class="subBg subBg2"></span>
+	<span class="all_menu_bg"></span>
+	<div id="header">
+		
+        <p class="logo"><a href="/story/main/main.do">
+        
+		
+            <span class="logoTypo">
+                <span class="logoTypo1 animated"></span>
+                <span class="logoTypo2 animated"></span>
+                <span class="logoTypo3 animated"></span>
+                <span class="logoTypo4 animated"></span>
+                <span class="logoTypo5 animated"></span>
+                <span class="logoTypoArr "></span>
+                <span class="logoTypo6 animated"></span>
+                <span class="logoTypo7 animated"></span>
+            </span>
+            <span class="hidden">스토리움</span></a>
+        </p>
+		
+		<div class="global">
+			<div class="tsh">
+				<form name="frmSearch2" id="frmSearch2" method="post" action="/story/search/list.do?menuNo=500051&siteId=5" onsubmit="return checkSearchForm(this);">
+					<input type="text" name="q" id="q2" value="" placeholder="검색어를 입력하세요." title="통합검색어" maxlength="50">
+					<input type="image" src="/static/img/story/common/tsh_btn.png" alt="검색">
+				</form>
+			</div>
+			<ul>
+				
+					
+						<li><a href="/story/member/user/forLogin.do?menuNo=500013&siteId=5">로그인</a></li>
+						<li><a href="/story/member/user/join01.do?menuNo=500014&siteId=5">회원가입</a></li>
+					
+					
+				
+
+				
+					
+					
+					<!-- <button type="button" title="새창열림" onclick="storyFacebookOpen();return false;" class="facebook"><span>페이스북 공유</span></button> -->
+					<li><button type="button" title="새창열림" onclick="storyKakaoPlusOpen();return false;" class="kakaoplus">카카오톡채널</button></li>
+					
+			</ul>
+		</div>
+		
+		
+		<div id="gnb">
+			<!-- <span class="subBg"></span> -->
+			<ul>
+			
+				
+				
+					
+				
+
+				<!-- 스토리 컨설팅 신청 메뉴 제외  -->
+				
+					<li class="  a1" style="padding: 0;">
+						<a href="/story/main/contents.do?menuNo=500001&siteId=5" ><span>스토리움안내</span></a>
+						
+						
+	
+						<!--  공모전/지원소식의 하의 메뉴는  화면에 표출 안함. -->
+
+						
+							<dl>
+								<dt>스토리움안내</dt>
+								<dd>
+									
+									<ul>
+							 		
+							 			
+							 			
+						 				
+						 				
+						 				
+						 				
+										
+										
+										
+										
+										
+											
+										
+										
+
+										
+											<li class="on">
+											<a href="/story/main/contents.do?menuNo=500017&siteId=5" ><span>스토리움이란?</span></a>
+											
+											<!-- 뎁스 메뉴 3 -->
+											
+											</li>
+										
+									
+							 			
+							 			
+						 				
+						 				
+										
+										
+										
+										
+										
+											
+										
+										
+
+										
+											<li class="">
+											<a href="/story/main/contents.do?menuNo=500058&siteId=5" ><span>추천스토리란?</span></a>
+											
+											<!-- 뎁스 메뉴 3 -->
+											
+											</li>
+										
+									
+							 			
+							 			
+						 				
+						 				
+										
+										
+										
+										
+										
+											
+										
+										
+
+										
+											<li class="">
+											<a href="/story/main/contents.do?menuNo=500018&siteId=5" ><span>회원가입안내</span></a>
+											
+											<!-- 뎁스 메뉴 3 -->
+											
+											</li>
+										
+									
+							 			
+							 			
+						 				
+						 				
+										
+										
+										
+										
+										
+											
+										
+										
+
+										
+											<li class="">
+											<a href="/story/main/contents.do?menuNo=500020&siteId=5" ><span>스토리등록 방법</span></a>
+											
+											<!-- 뎁스 메뉴 3 -->
+											
+											</li>
+										
+									
+							 			
+							 			
+						 				
+						 				
+										
+										
+										
+										
+										
+											
+										
+										
+
+										
+											<li class="">
+											<a href="/story/main/contents.do?menuNo=500021&siteId=5" ><span>매칭 방법</span></a>
+											
+											<!-- 뎁스 메뉴 3 -->
+											
+											</li>
+										
+									
+							 			
+							 			
+						 				
+						 				
+										
+										
+										
+										
+										
+											
+										
+										
+
+										
+											<li class="">
+											<a href="/story/main/contents.do?menuNo=500075&siteId=5" ><span>투고 방법</span></a>
+											
+											<!-- 뎁스 메뉴 3 -->
+											
+											</li>
+										
+									
+									</ul>
+									
+								</dd>
+							</dl>
+						
+	
+					</li>
+				
+			
+				
+				
+					
+				
+
+				<!-- 스토리 컨설팅 신청 메뉴 제외  -->
+				
+					<li class="  a2" style="padding: 0;">
+						<a href="/story/main/contents.do?menuNo=500003&siteId=5" ><span>스토리등록</span></a>
+						
+						
+	
+						<!--  공모전/지원소식의 하의 메뉴는  화면에 표출 안함. -->
+
+						
+							<dl>
+								<dt>스토리등록</dt>
+								<dd>
+									
+									<ul>
+							 		
+							 			
+							 			
+						 				
+						 				
+						 				
+						 				
+										
+										
+										
+										
+										
+											
+										
+										
+
+										
+											<li class="on">
+											<a href="/story/main/contents.do?menuNo=500052&siteId=5" ><span>스토리등록</span></a>
+											
+											<!-- 뎁스 메뉴 3 -->
+											
+											</li>
+										
+									
+									</ul>
+									
+								</dd>
+							</dl>
+						
+	
+					</li>
+				
+			
+				
+				
+					
+				
+
+				<!-- 스토리 컨설팅 신청 메뉴 제외  -->
+				
+					<li class="  a3" style="padding: 0;">
+						<a href="/story/contents/creation/list.do?menuNo=500010&siteId=5" ><span>스토리매칭/투고신청</span></a>
+						
+						
+	
+						<!--  공모전/지원소식의 하의 메뉴는  화면에 표출 안함. -->
+
+						
+							<dl>
+								<dt>스토리매칭/투고신청</dt>
+								<dd>
+									
+									<ul>
+							 		
+							 			
+							 			
+						 				
+						 				
+						 				
+						 				
+										
+										
+										
+										
+										
+											
+										
+										
+
+										
+											<li class="on">
+											<a href="/story/contents/creation/list.do?menuNo=500010&siteId=5" ><span>전체 스토리 보기</span></a>
+											
+											<!-- 뎁스 메뉴 3 -->
+											
+											</li>
+										
+									
+							 			
+							 			
+						 				
+						 				
+										
+										
+										
+										
+										
+											
+										
+										
+
+										
+											<li class="">
+											<a href="/story/contents/creation/listGreat.do?menuNo=500011&siteId=5" ><span>추천 스토리 보기</span></a>
+											
+											<!-- 뎁스 메뉴 3 -->
+											
+											</li>
+										
+									
+							 			
+							 			
+						 				
+						 				
+										
+										
+										
+										
+										
+											
+										
+										
+
+										
+											<li class="">
+											<a href="/story/contents/content/list.do?menuNo=500074&siteId=5" ><span>스토리 투고하기</span></a>
+											
+											<!-- 뎁스 메뉴 3 -->
+											
+											</li>
+										
+									
+							 			
+							 			
+						 				
+						 				
+										
+										
+										
+										
+										
+											
+										
+										
+
+										
+											<li class="">
+											<a href="/story/contents/creationMyPick/list.do?menuNo=500076&siteId=5" ><span>My Pick 큐레이션</span></a>
+											
+											<!-- 뎁스 메뉴 3 -->
+											
+											</li>
+										
+									
+									</ul>
+									
+								</dd>
+							</dl>
+						
+	
+					</li>
+				
+			
+				
+				
+					
+				
+
+				<!-- 스토리 컨설팅 신청 메뉴 제외  -->
+				
+			
+				
+				
+					
+						
+					
+				
+
+				<!-- 스토리 컨설팅 신청 메뉴 제외  -->
+				
+					<li class=" on active a4" style="padding: 0;">
+						<a href="/story/progrm/master/listStartN.do?siteSe=story&amp;menuNo=500004&siteId=5" ><span>공모/구인 소식</span></a>
+						
+						
+	
+						<!--  공모전/지원소식의 하의 메뉴는  화면에 표출 안함. -->
+
+						
+							<dl>
+								<dt>공모/구인 소식</dt>
+								<dd>
+									
+									<ul>
+							 		
+							 			
+							 			
+						 				
+						 				
+						 				
+						 				
+										
+										
+										
+										
+										
+											
+										
+										
+
+										
+											<li class="on">
+											<a href="/story/progrm/master/listStartN.do?siteSe=story&amp;menuNo=500024&siteId=5" ><span>공모 소식</span></a>
+											
+											<!-- 뎁스 메뉴 3 -->
+											
+											</li>
+										
+									
+							 			
+							 			
+						 				
+						 				
+										
+										
+										
+										
+										
+											
+										
+										
+
+										
+											<li class="">
+											<a href="/story/progrm/applcnt/listMypage.do?menuNo=500025&siteId=5" ><span>신청내역</span></a>
+											
+											<!-- 뎁스 메뉴 3 -->
+											
+											</li>
+										
+									
+							 			
+							 			
+						 				
+						 				
+										
+										
+										
+										
+										
+											
+										
+										
+
+										
+											<li class="">
+											<a href="/story/bbs/B0000028/list.do?menuNo=500026&siteId=5" ><span>결과공지</span></a>
+											
+											<!-- 뎁스 메뉴 3 -->
+											
+											</li>
+										
+									
+							 			
+							 			
+						 				
+						 				
+										
+										
+										
+										
+										
+											
+										
+										
+
+										
+											<li class="">
+											<a href="/story/bbs/B0000030/list.do?option4=1&amp;menuNo=500032&siteId=5" ><span>작가모집</span></a>
+											
+											<!-- 뎁스 메뉴 3 -->
+											
+											</li>
+										
+									
+									</ul>
+									
+								</dd>
+							</dl>
+						
+	
+					</li>
+				
+			
+				
+				
+					
+				
+
+				<!-- 스토리 컨설팅 신청 메뉴 제외  -->
+				
+					<li class="  a5" style="padding: 0;">
+						<a href="/story/business/businessList.do?menuNo=500065&siteId=5" ><span>주요 성과전시</span></a>
+						
+						
+	
+						<!--  공모전/지원소식의 하의 메뉴는  화면에 표출 안함. -->
+
+						
+							<dl>
+								<dt>주요 성과전시</dt>
+								<dd>
+									
+									<ul>
+							 		
+							 			
+							 			
+						 				
+						 				
+						 				
+						 				
+										
+										
+										
+										
+										
+											
+										
+										
+
+										
+											<li class="on">
+											<a href="/story/business/businessList.do?menuNo=500066&siteId=5" ><span>사업화 작품</span></a>
+											
+											<!-- 뎁스 메뉴 3 -->
+											
+											</li>
+										
+									
+							 			
+							 			
+						 				
+						 				
+										
+										
+										
+										
+										
+											
+										
+										
+
+										
+											<li class="">
+											<a href="/story/business/contentsList.do?menuNo=500067&siteId=5" ><span>대한민국 콘텐츠대상 스토리부문</span></a>
+											
+											<!-- 뎁스 메뉴 3 -->
+											
+											</li>
+										
+									
+									</ul>
+									
+								</dd>
+							</dl>
+						
+	
+					</li>
+				
+			
+				
+				
+					
+				
+
+				<!-- 스토리 컨설팅 신청 메뉴 제외  -->
+				
+					<li class="  a6" style="padding: 0;">
+						<a href="/story/bbs/B0000001/list.do?menuNo=500005&siteId=5" ><span>게시판</span></a>
+						
+						
+	
+						<!--  공모전/지원소식의 하의 메뉴는  화면에 표출 안함. -->
+
+						
+							<dl>
+								<dt>게시판</dt>
+								<dd>
+									
+									<ul>
+							 		
+							 			
+							 			
+						 				
+						 				
+						 				
+						 				
+										
+										
+										
+										
+										
+											
+										
+										
+
+										
+											<li class="on">
+											<a href="/story/bbs/B0000001/list.do?menuNo=500027&siteId=5" ><span>공지사항</span></a>
+											
+											<!-- 뎁스 메뉴 3 -->
+											
+											</li>
+										
+									
+							 			
+							 			
+						 				
+						 				
+										
+										
+										
+										
+										
+											
+										
+										
+
+										
+											<li class="">
+											<a href="/story/bbs/B0000040/list.do?option2=1&amp;menuNo=500057&siteId=5" ><span>이벤트</span></a>
+											
+											<!-- 뎁스 메뉴 3 -->
+											
+											</li>
+										
+									
+							 			
+							 			
+						 				
+						 				
+										
+										
+										
+										
+										
+											
+										
+										
+
+										
+											<li class="">
+											<a href="/story/bbs/B0000004/list.do?menuNo=500059&siteId=5" ><span>FAQ</span></a>
+											
+											<!-- 뎁스 메뉴 3 -->
+											
+											</li>
+										
+									
+							 			
+							 			
+						 				
+						 				
+										
+										
+										
+										
+										
+											
+										
+										
+
+										
+											<li class="">
+											<a href="/story/bbs/B0000003/forInsert.do?menuNo=500061&siteId=5" ><span>1:1문의</span></a>
+											
+											<!-- 뎁스 메뉴 3 -->
+											
+											</li>
+										
+									
+									</ul>
+									
+								</dd>
+							</dl>
+						
+	
+					</li>
+				
+			
+				
+				
+					
+				
+
+				<!-- 스토리 컨설팅 신청 메뉴 제외  -->
+				
+					<li class="mypage  a7" style="padding: 0;">
+						<a href="/story/main/mypage.do?menuNo=500007&siteId=5" ><span>마이페이지</span></a>
+						
+						
+	
+						<!--  공모전/지원소식의 하의 메뉴는  화면에 표출 안함. -->
+
+						
+							<dl>
+								<dt>마이페이지</dt>
+								<dd>
+									
+									<ul>
+							 		
+							 			
+							 			
+						 				
+						 				
+						 				
+						 				
+										
+										
+										
+										
+										
+											
+										
+										
+
+										
+											<li class="on">
+											<a href="/story/contents/creation/listMy.do?menuNo=500033&siteId=5" ><span>스토리관리</span></a>
+											
+											<!-- 뎁스 메뉴 3 -->
+											
+												<ul>
+												
+													
+												 		
+												 			
+												 			
+													 			
+													 				
+													 			
+												 			
+												 			
+												 			
+																
+																
+																
+															
+															
+															
+															
+															
+														
+												 			
+												 			
+													 			
+												 			
+												 			
+												 			
+																
+																
+																
+															
+															
+															
+															
+															
+														
+												 			
+												 			
+													 			
+												 			
+												 			
+												 			
+															
+															
+																
+															
+															
+															
+											 					<li><a class="" href="/story/contents/creation/listMyInterest.do?menuNo=500045&siteId=5" ><span>관심 스토리 관리</span></a></li>
+											 				
+														
+													
+												
+												</ul>
+											
+											</li>
+										
+									
+							 			
+							 			
+						 				
+						 				
+										
+										
+										
+											
+											
+											
+										
+										
+										
+										
+
+										
+									
+							 			
+							 			
+						 				
+						 				
+										
+										
+										
+										
+										
+											
+										
+										
+
+										
+											<li class="">
+											<a href="/story/progrm/applcnt/listMypage.do?menuNo=500035&siteId=5" ><span>사업신청내역</span></a>
+											
+											<!-- 뎁스 메뉴 3 -->
+											
+											</li>
+										
+									
+							 			
+							 			
+						 				
+						 				
+										
+										
+											
+											
+											
+										
+										
+										
+										
+										
+
+										
+									
+							 			
+							 			
+						 				
+						 				
+										
+										
+										
+										
+										
+											
+										
+										
+
+										
+											<li class="">
+											<a href="/story/bbs/B0000003/listMy.do?menuNo=500037&siteId=5" ><span>문의내역</span></a>
+											
+											<!-- 뎁스 메뉴 3 -->
+											
+											</li>
+										
+									
+							 			
+							 			
+						 				
+						 				
+										
+										
+										
+										
+										
+											
+										
+										
+
+										
+											<li class="">
+											<a href="/story/member/user/forUpdate.do?menuNo=500038&siteId=5" ><span>회원정보관리</span></a>
+											
+											<!-- 뎁스 메뉴 3 -->
+											
+												<ul>
+												
+													
+												 		
+												 			
+												 			
+													 			
+													 				
+													 			
+												 			
+												 			
+												 			
+															
+															
+																
+															
+															
+															
+											 					<li><a class="on" href="/story/member/user/forUpdate.do?menuNo=500041&siteId=5" ><span>회원정보수정</span></a></li>
+											 				
+														
+												 			
+												 			
+													 			
+												 			
+												 			
+												 			
+															
+															
+																
+															
+															
+															
+											 					<li><a class="" href="/story/member/user/secsn.do?menuNo=500042&siteId=5" ><span>회원탈퇴</span></a></li>
+											 				
+														
+													
+												
+												</ul>
+											
+											</li>
+										
+									
+							 			
+							 			
+						 				
+						 				
+										
+										
+										
+										
+										
+											
+										
+										
+
+										
+											<li class="">
+											<a href="/story/consltng/listMyApplcnt.do?menuNo=500056&siteId=5&siteId=5" ><span>컨설팅 내역</span></a>
+											
+											<!-- 뎁스 메뉴 3 -->
+											
+											</li>
+										
+									
+									</ul>
+									
+								</dd>
+							</dl>
+						
+	
+					</li>
+				
+			
+			<li class="allNav"><button type="button" class="allnav_btn"><span class="hidden">전체메뉴열기</span></button></li>
+			</ul>
+		</div>
+	</div>
+
+<!-- 20201209 자동로그아웃 알림 관련 추가 -->
+<div id="modal" class="searchModal">
+	<div class="search-modal-content">
+		<div class="page-header">
+			<h1>자동로그아웃 알림</h1>
+		</div>
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="row">
+					<div class="col-sm-12">
+						<h2>로그인 연장을 하지 않으면 5분후 자동 로그아웃 됩니다.</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+	<hr>
+		<div style="height: 40px;">
+			<div class="modal_btn" style="float: left;" onClick="counter_restart();">
+				<span class="pop_bt modalCloseBtn" style="font-size: 13pt;">로그인 연장
+				</span>
+			</div>
+			<div class="modal_btn" style="float: right;" onClick="closeModal();">
+				<span class="pop_bt modalCloseBtn" style="font-size: 13pt;">닫기
+				</span>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script>
+if ($('#gnb > ul > li.on > dl > dd > ul > li.on').has('ul').length==0) {$('#wrap').addClass('no3depth')}
+</script>
+
+	<!-- 뎁스 메뉴 제목 -->
+	
+	
+	<div id="content" >
+		<div class="aut">
+			<div class="hgroup c_500024">
+				
+				
+				
+				
+					<h1>공모 소식</h1>
+				
+				
+				<script>
+					var h1 = $('.hgroup h1');
+					var contentTit = h1.text();
+					var tempF = '<span>'+contentTit.substr(0,1)+'</span>'+contentTit.substr(1);
+					h1.html(tempF);
+				</script>
+				<div class="location" style="right: 0;">
+					<ol>
+						<li class="home">HOME</li>
+						<li>공모/구인 소식</li>
+						<li class="current"></li>
+					</ol>
+				</div>
+
+
+				<div class="contentAddon" style="display:none;">
+					
+					
+					<button type="button" title="새창열림" onclick="facebookOpen('');return false;" class="facebook"><span>페이스북 공유</span></button>
+					<button type="button" title="새창열림" onclick="twitterOpen('','');return false;" class="tweeter"><span>트위터 공유</span></button>
+					
+					
+				</div>
+			</div><!-- //hgroup -->
+			<!-- contents S -->
+			
+			
+			
+				
+			
+			
+			
+			
+  			<div id="contents" class="mind collusion">
+			
+				
+				
+					
+					
+						
+						
+						
+					
+					
+						
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+    //<![CDATA[
+    $(function () {
+        $("#frm").submit(function () {
+            if ($("#sdate").val() != "" && $("#edate").val() != "") {
+                if ((Number($("#sdate").val().replace(/-/gi, "")) - Number($("#edate").val().replace(/-/gi, ""))) > 0) {
+                    alert("시작일자가 종료일자 보다 큽니다. 다시 설정해 주시기 바랍니다.");
+                    return false;
+                }
+            }
+
+            return true;
+        });
+
+        if ($("#ordClm").val() == "") {
+            $("#ordClm").val("REQST_BEGIN_DT");
+        }
+
+        if ($("#ordDirect").val() == "") {
+            $("#ordDirect").val("down");
+        }
+
+        $(".sortSe").click(function () {
+
+            var column = $(this).attr("data-value");
+            var classnm = $(this).attr("class");
+            if (classnm == 'sortSe up') {
+                if (column == "sdate") {
+                    $("#ordClm").val("REQST_BEGIN_DT");
+                    $("#ordDirect").val("up");
+                } else if (column == "progrsSttus") {
+                    $("#ordClm").val("PROGRS_STTUS");
+                    $("#ordDirect").val("up");
+                } else {
+                    $("#ordClm").val("VIEW_CNT");
+                    $("#ordDirect").val("up");
+                }
+            } else {
+                if (column == "sdate") {
+                    $("#ordClm").val("REQST_BEGIN_DT");
+                    $("#ordDirect").val("down");
+                } else if (column == "progrsSttus") {
+                    $("#ordClm").val("PROGRS_STTUS");
+                    $("#ordDirect").val("down");
+                } else {
+                    $("#ordClm").val("VIEW_CNT");
+                    $("#ordDirect").val("down");
+                }
+            }
+
+            $("#frm").submit();
+        });
+    });
+
+    function goMasterView(prgSn) {
+        var url = "/story/progrm/master/view.do";
+		document.getElementById("frm").action = url;
+		$("input[name='prgSn']").val(prgSn);
+		$("#frm").submit();
+    }
+
+    function checkMasterPage(){
+        if(document.getElementById("frm").action.indexOf("listStartN")>0){
+            $("input[name=pageIndex]").val(1);
+        }
+    }
+</script>
+
+<div class="tabgroup mt10" style="position: relative;">
+    
+    <div class="tabnavi">
+        <ul>
+            <li class="article"></li>
+            <li class="active"><a
+                    href="/story/progrm/master/listStartN.do?siteSe=story&menuNo=500024&siteId=5">전체</a>
+            </li>
+            <li ><a
+                    href="/story/progrm/master/listStartN.do?siteSe=story&menuNo=500024&inoutSe=01&siteId=5">KOCCA</a>
+            </li>
+            <li ><a
+                    href="/story/progrm/master/listStartN.do?siteSe=story&menuNo=500024&inoutSe=02&siteId=5">외부</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<!-- //탭 -->
+<span style='color:#717271; line-height:20px;'>
+	<p>※ 스토리움은 회원분들께 도움이 될만한 공모 소식을 지속적으로 게재하고 있습니다.</p>
+	<p style="margin-left:15px; ">다만 게재된 공모 소식은 주최/주관 기관 및 주관 부서로부터 제공받은 정보로,내용 및 일정이 변경될 수 있으니 주최/주관사 홈페이지의 공모 요강을 수시로 확인해 주시길 부탁드립니다.<br/>
+	또한 참여 과정에 대한 문의 사항 및 정정이 필요한 사항이 있을 경우 주최/주관사의 담당자에게 직접 연락해 주시기 바랍니다.</p>
+	<p>※ 외부, 타기관 공모전 및 지원 사업 등록을 원하실 경우 스토리움 고객센터 ☎ 1800-9065, admin@storyum.kr 로 연락주시기 바랍니다.</p>
+</span>
+<form id="frm" name="frm" method="get" action="/story/progrm/master/listStartN.do" onsubmit="checkMasterPage()">
+    <input type="hidden" name="siteId" value="5"/>
+    <input type="hidden" name="siteSe" value="story"/>
+    <input type="hidden" name="menuNo" value="500024"/>
+    <input type="hidden" name="ordClm" id="ordClm" value=""/>
+    <input type="hidden" name="ordDirect" id="ordDirect" value=""/>
+    <input type="hidden" name="pageIndex" value="1"/>
+	<input type="hidden" name="prgSn" value=""/>
+	<input type="hidden" name="listTp" value="StartN"/>
+	<input type="hidden" name="siteId" value="5"/>
+
+    <div class="sh">
+        <input type="text" id="sdate" name="sdate" class="sdate" value=""
+               title="신청기간 시작일 입력" placeholder="신청 시작일"/>
+        <span class="deco"> ~ </span>
+        <input type="text" id="edate" name="edate" class="edate" value=""
+               title="신청기간 종료일 입력" placeholder="신청 종료일"/>
+        <!--중복검토 -->
+        <select name="inoutSe" id="inoutSe" title="구분" class="w100">
+            <option value="" selected>전체</option>
+            <option value="01" >KOCCA</option>
+            <option value="02" >외부</option>
+        </select>
+
+        <select name="searchCnd" id="searchCnd" title="검색어 구분" class="w100">
+            <option value="1" >제목</option>
+            <option value="2" >내용</option>
+            <option value="3"
+                     >제목+내용
+            </option>
+
+        </select>
+        <label>검색어</label>
+        <input name="prgNm" id="prgNm" value="" type="text" placeholder="검색어를 입력하세요."
+               style="width:360px;" title="검색어">
+        <input value="검색" class="search" type="submit">
+    </div>
+</form>
+
+<nav class="navbar navbar-default" style="margin-top:20px;">
+    <div class="container-fluid">
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <div class="totalCount">총 <strong>867</strong>건 <span class="vline">|</span> <em>1 / 87</em> Page
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    
+                    
+                        <a href="#" class="sortSe up" data-value="sdate">신청일 <span class="hidden">내림차순으로 활성화됨</span></a>
+                    
+                </li>
+                <li>
+                    
+                        <a href="#" class="sortSe" data-value="progrsSttus">진행상태</a>
+                    
+                    
+                    
+                </li>
+                <li>
+                    
+                        <a href="#" class="sortSe" data-value="viewCnt">조회순 </a>
+                    
+                    
+                    
+                </li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div>
+</nav>
+<div class="bdList">
+    <table class="table">
+        <caption>스토리 공모지원 신청조회 표</caption>
+        <colgroup>
+            <col style="width:50px">
+            <col style="width:70px">
+            <col style="">
+            <col style="width:150px">
+            <col style="width:110px">
+            <col style="width:80px">
+            <col style="width:50px">
+        </colgroup>
+        <thead>
+        <tr>
+            <th scope="col" class="no">번호</th>
+            <th scope="col" class="">구분</th>
+            <th scope="col">제목</th>
+            <th scope="col">신청기간</th>
+            <th scope="col">진행상태</th>
+            <th scope="col">등록일</th>
+            <th scope="col" class="count">조회</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        
+            <tr class="notice">
+                <td>867</td>
+                <td>외부</td>
+                <td class="tal">
+                    <a href="javascript:goMasterView('1034')">[스토리 코스모스] 스토리 코스모스 신인소설상 공모</a>
+                </td>
+                <td>2026-10-01 00:00<br/> 2026-11-30 23:59</td>
+                <td>
+                    
+                        <span class="ready"><span
+                                class="ico-ready"></span>진행중</span>
+                        
+                        
+                        
+                    
+                </td>
+                <td>2026-10-07</td>
+                <td class="brn">1398</td>
+            </tr>
+            
+        
+            <tr class="notice">
+                <td>866</td>
+                <td>외부</td>
+                <td class="tal">
+                    <a href="javascript:goMasterView('1030')">[밀리의서재] 2026 밀리로드 출간 공모전 시즌4</a>
+                </td>
+                <td>2026-09-01 00:00<br/> 2026-11-30 23:59</td>
+                <td>
+                    
+                        <span class="ready"><span
+                                class="ico-ready"></span>진행중</span>
+                        
+                        
+                        
+                    
+                </td>
+                <td>2026-10-07</td>
+                <td class="brn">1061</td>
+            </tr>
+            
+        
+            <tr class="notice">
+                <td>865</td>
+                <td>외부</td>
+                <td class="tal">
+                    <a href="javascript:goMasterView('1024')">[동아사이언스 과학동아] 2026 SF스토리 공모전</a>
+                </td>
+                <td>2026-08-31 00:00<br/> 2026-11-08 23:59</td>
+                <td>
+                    
+                        <span class="ready"><span
+                                class="ico-ready"></span>진행중</span>
+                        
+                        
+                        
+                    
+                </td>
+                <td>2026-09-11</td>
+                <td class="brn">2669</td>
+            </tr>
+            
+        
+            <tr class="notice">
+                <td>864</td>
+                <td>외부</td>
+                <td class="tal">
+                    <a href="javascript:goMasterView('1017')">[알라딘커뮤니케이션] 알라딘 디스커버 프로젝트 그만둔 이야기 공모전</a>
+                </td>
+                <td>2026-08-20 00:00<br/> 2026-10-31 23:59</td>
+                <td>
+                    
+                        <span class="ready"><span
+                                class="ico-ready"></span>진행중</span>
+                        
+                        
+                        
+                    
+                </td>
+                <td>2026-09-08</td>
+                <td class="brn">2179</td>
+            </tr>
+            
+        
+            <tr class="notice">
+                <td>863</td>
+                <td>외부</td>
+                <td class="tal">
+                    <a href="javascript:goMasterView('1031')">[과학기술정보통신부] 전국민 AI 활용 사례 공모전</a>
+                </td>
+                <td>2026-03-01 00:00<br/> 2026-11-30 23:59</td>
+                <td>
+                    
+                        <span class="ready"><span
+                                class="ico-ready"></span>진행중</span>
+                        
+                        
+                        
+                    
+                </td>
+                <td>2026-10-07</td>
+                <td class="brn">304</td>
+            </tr>
+            
+        
+            <tr class="notice">
+                <td>862</td>
+                <td>외부</td>
+                <td class="tal">
+                    <a href="javascript:goMasterView('1032')">[현대문학x미래엔] 제4회 현대문학x미래엔 청소년문학상 공모전</a>
+                </td>
+                <td>2026-02-01 00:00<br/> 2027-01-31 23:59</td>
+                <td>
+                    
+                        <span class="ready"><span
+                                class="ico-ready"></span>진행중</span>
+                        
+                        
+                        
+                    
+                </td>
+                <td>2026-10-07</td>
+                <td class="brn">493</td>
+            </tr>
+            
+        
+            <tr class="notice">
+                <td>861</td>
+                <td>외부</td>
+                <td class="tal">
+                    <a href="javascript:goMasterView('1033')">[소원나무] 2027 제3회 소원문학상</a>
+                </td>
+                <td>2026-11-01 00:00<br/> 2027-01-31 23:59</td>
+                <td>
+                    
+                        
+                        <span><span class="ico-ing"></span>진행전
+                            <!-- 현재 신청기간이 아닙니다 --></span>
+                        
+                        
+                    
+                </td>
+                <td>2026-10-07</td>
+                <td class="brn">554</td>
+            </tr>
+            
+        
+            <tr class="notice">
+                <td>860</td>
+                <td>외부</td>
+                <td class="tal">
+                    <a href="javascript:goMasterView('1022')">[메타크래프트] 2026 노벨피아 우주최강 웹소설 공모전</a>
+                </td>
+                <td>2026-10-01 00:00<br/> 2026-10-29 23:59</td>
+                <td>
+                    
+                        
+                        
+                        
+                        <span><span class="ico-end"></span>종료<!-- 마감 --></span>
+                    
+                </td>
+                <td>2026-09-08</td>
+                <td class="brn">2110</td>
+            </tr>
+            
+        
+            <tr class="notice">
+                <td>859</td>
+                <td>외부</td>
+                <td class="tal">
+                    <a href="javascript:goMasterView('1020')">[한국만화영상진흥원] 2026 대한민국 만화평론공모전</a>
+                </td>
+                <td>2026-09-23 00:00<br/> 2026-09-30 15:00</td>
+                <td>
+                    
+                        
+                        
+                        
+                        <span><span class="ico-end"></span>종료<!-- 마감 --></span>
+                    
+                </td>
+                <td>2026-09-08</td>
+                <td class="brn">387</td>
+            </tr>
+            
+        
+            <tr class="notice">
+                <td>858</td>
+                <td>외부</td>
+                <td class="tal">
+                    <a href="javascript:goMasterView('1029')">[밀리의서재] 2026 밀리 작가의 집 입주 작가 2기 공모</a>
+                </td>
+                <td>2026-09-21 00:00<br/> 2026-10-11 23:59</td>
+                <td>
+                    
+                        
+                        
+                        
+                        <span><span class="ico-end"></span>종료<!-- 마감 --></span>
+                    
+                </td>
+                <td>2026-09-22</td>
+                <td class="brn">1367</td>
+            </tr>
+            
+        
+        
+        </tbody>
+    </table>
+</div>
+
+<!-- paging -->
+
+    <div class="paging">
+            <div class='paginationSet'><ul class='pagination pagination-centered'><li class='i first disabled'><span class='s'><span>처음 <span class='t'>목록으로 이동</span></span></span></li><li class='i prev disabled'><span class='s'><span>이전 <span class='t'>목록으로 이동</span></span></span></li><li class='active'><span><em title='현재페이지'><span>1</span></em></span></li><li><a href='/story/progrm/master/listStartN.do?menuNo=500024&amp;searchCnd=&amp;prgSe=&amp;prgNm=&amp;sdate=&amp;edate=&amp;reqstMthd=&amp;progrsSttus=&amp;deptId=&amp;useAt=&amp;prgCn=&amp;siteSe=story&amp;degree=&amp;viewType=&amp;siteId=5&amp;inoutSe=&amp;pageIndex=2'><span>2</span></a></li><li><a href='/story/progrm/master/listStartN.do?menuNo=500024&amp;searchCnd=&amp;prgSe=&amp;prgNm=&amp;sdate=&amp;edate=&amp;reqstMthd=&amp;progrsSttus=&amp;deptId=&amp;useAt=&amp;prgCn=&amp;siteSe=story&amp;degree=&amp;viewType=&amp;siteId=5&amp;inoutSe=&amp;pageIndex=3'><span>3</span></a></li><li><a href='/story/progrm/master/listStartN.do?menuNo=500024&amp;searchCnd=&amp;prgSe=&amp;prgNm=&amp;sdate=&amp;edate=&amp;reqstMthd=&amp;progrsSttus=&amp;deptId=&amp;useAt=&amp;prgCn=&amp;siteSe=story&amp;degree=&amp;viewType=&amp;siteId=5&amp;inoutSe=&amp;pageIndex=4'><span>4</span></a></li><li><a href='/story/progrm/master/listStartN.do?menuNo=500024&amp;searchCnd=&amp;prgSe=&amp;prgNm=&amp;sdate=&amp;edate=&amp;reqstMthd=&amp;progrsSttus=&amp;deptId=&amp;useAt=&amp;prgCn=&amp;siteSe=story&amp;degree=&amp;viewType=&amp;siteId=5&amp;inoutSe=&amp;pageIndex=5'><span>5</span></a></li><li><a href='/story/progrm/master/listStartN.do?menuNo=500024&amp;searchCnd=&amp;prgSe=&amp;prgNm=&amp;sdate=&amp;edate=&amp;reqstMthd=&amp;progrsSttus=&amp;deptId=&amp;useAt=&amp;prgCn=&amp;siteSe=story&amp;degree=&amp;viewType=&amp;siteId=5&amp;inoutSe=&amp;pageIndex=6'><span>6</span></a></li><li><a href='/story/progrm/master/listStartN.do?menuNo=500024&amp;searchCnd=&amp;prgSe=&amp;prgNm=&amp;sdate=&amp;edate=&amp;reqstMthd=&amp;progrsSttus=&amp;deptId=&amp;useAt=&amp;prgCn=&amp;siteSe=story&amp;degree=&amp;viewType=&amp;siteId=5&amp;inoutSe=&amp;pageIndex=7'><span>7</span></a></li><li><a href='/story/progrm/master/listStartN.do?menuNo=500024&amp;searchCnd=&amp;prgSe=&amp;prgNm=&amp;sdate=&amp;edate=&amp;reqstMthd=&amp;progrsSttus=&amp;deptId=&amp;useAt=&amp;prgCn=&amp;siteSe=story&amp;degree=&amp;viewType=&amp;siteId=5&amp;inoutSe=&amp;pageIndex=8'><span>8</span></a></li><li><a href='/story/progrm/master/listStartN.do?menuNo=500024&amp;searchCnd=&amp;prgSe=&amp;prgNm=&amp;sdate=&amp;edate=&amp;reqstMthd=&amp;progrsSttus=&amp;deptId=&amp;useAt=&amp;prgCn=&amp;siteSe=story&amp;degree=&amp;viewType=&amp;siteId=5&amp;inoutSe=&amp;pageIndex=9'><span>9</span></a></li><li><a href='/story/progrm/master/listStartN.do?menuNo=500024&amp;searchCnd=&amp;prgSe=&amp;prgNm=&amp;sdate=&amp;edate=&amp;reqstMthd=&amp;progrsSttus=&amp;deptId=&amp;useAt=&amp;prgCn=&amp;siteSe=story&amp;degree=&amp;viewType=&amp;siteId=5&amp;inoutSe=&amp;pageIndex=10'><span>10</span></a></li><li class='i next'><a title="마지막 페이지로 이동" href='/story/progrm/master/listStartN.do?menuNo=500024&amp;searchCnd=&amp;prgSe=&amp;prgNm=&amp;sdate=&amp;edate=&amp;reqstMthd=&amp;progrsSttus=&amp;deptId=&amp;useAt=&amp;prgCn=&amp;siteSe=story&amp;degree=&amp;viewType=&amp;siteId=5&amp;inoutSe=&amp;pageIndex=11'><span class='s'><span>다음 <span class='t'>목록으로 이동</span></span></span></a></li><li class='i end'><a title="다음 10페이지 목록으로 이동" href='/story/progrm/master/listStartN.do?menuNo=500024&amp;searchCnd=&amp;prgSe=&amp;prgNm=&amp;sdate=&amp;edate=&amp;reqstMthd=&amp;progrsSttus=&amp;deptId=&amp;useAt=&amp;prgCn=&amp;siteSe=story&amp;degree=&amp;viewType=&amp;siteId=5&amp;inoutSe=&amp;pageIndex=87'><span class='s'><span>끝 <span class='t'>목록으로 이동</span></span></span></a></li></ul></div>
+    </div>
+
+
+
+					
+				
+			
+			</div>
+			<!-- //contents S -->
+			<div id="aside">
+				<ul>
+					
+
+					
+ 					<li><a class="i1" href="/story/main/contents.do?siteId=5&menuNo=500003&siteId=5">스토리등록</a></li>
+					<li><a class="i2" href="/story/main/contents.do?menuNo=500018&siteId=5">회원가입<br>안내</a></li>
+					<li><a class="i3" href="/story/main/contents.do?menuNo=500021&siteId=5">매칭안내</a></li>
+					<li><a class="i4" href="/story/bbs/B0000004/list.do?menuNo=500048&siteId=5">FAQ</a></li>
+					
+ 					<!-- <li><a class="i5" href="/story/bbs/B0000004/list.do?menuNo=200008">자주하는 질문</a></li> -->
+				</ul>
+				<a href="#wrap" class="top">맨위로</a>
+			</div>
+		</div>
+	</div>
+
+
+
+	<!-- Site footer -->
+	
+
+
+
+
+
+<div id="footer">
+	<div class="m">
+		<div class="footer_top">
+			<ul class="logo_box">
+				<li><a href="http://www.mcst.go.kr" target="_blank" title="새창열림" rel="noopener noreferrer" class="ft_logo01"><span class="hidden">문화체육관광부</span></a></li>
+				<li><a href="https://www.kocca.kr" target="_blank" title="새창열림" rel="noopener noreferrer" class="ft_logo02"><span class="hidden">한국콘텐츠진흥원</span></a></li>
+			</ul>
+			<ul class="text_box">
+				
+				<li><a href="https://www.kocca.kr/kocca/privacy_policy.do?menuNo=204912" target="_blank" title="새창열림" rel="noopener noreferrer" class="perRule"><strong class="line">개인정보처리방침</strong></a></li>
+				<li><a href="/story/bbs/B0000001/view.do?menuNo=500027&nttId=4292">개인정보 재동의 안내</a></li>
+				<li><a href="/story/main/contents.do?menuNo=500050&siteId=5">이용약관</a></li>
+				<li><a href="/story/progrm/master/listStartN.do?siteSe=story&menuNo=500024&siteId=5">지원사업 안내</a></li>
+			</ul>
+		</div>
+
+		<div class="foot_util">
+			<button type="button" class="foot_util_open" title="열기">FAMILY SITE</button>
+			<div class="foot_util_area">
+				<ul>
+					<li><a href="https://www.kocca.kr" target="_blank" rel="noopener noreferrer" title="새창열기">한국콘텐츠진흥원</a></li>
+					<li><a href="http://edu.kocca.kr" target="_blank" rel="noopener noreferrer" title="새창열기">한국콘텐츠아카데미</a></li>
+					<li><a href="http://www.ckl.or.kr" target="_blank" rel="noopener noreferrer" title="새창열기">콘텐츠코리아랩</a></li>
+					<li><a href="http://www.kcdrc.kr" target="_blank" rel="noopener noreferrer" title="새창열기">콘텐츠분쟁조정위원회</a></li>
+				</ul>
+			</div>
+			<script type="text/javascript">
+			//<![CDATA[
+				$('.foot_util button').on('click',function(){
+					if ($(this).hasClass('on')) {
+				        $(this).removeClass('on');
+				        $(this).next('.foot_util_area').stop().slideUp();
+				        $(this).attr('title', '열기');
+				    } else {
+				        $(this).addClass('on');
+				        $(this).next('.foot_util_area').stop().slideDown();
+				        $(this).attr('title', '닫기');
+				    };
+				});
+			//]]>
+			</script>
+		</div>
+
+		<div class="story_call">
+				<strong class="tit">스토리움 고객센터</strong>
+				<strong class="num">1800-9065</strong>
+				<span class="mail">
+					평일 10:00~18:00
+					<br>
+					admin@storyum.kr
+				</span>
+		</div>
+
+		<div class="foot_info">
+			<p>이 누리집은 한국콘텐츠진흥원 산하기관 누리집입니다.</p>
+			<address>
+				<p>[ 58326 ] 전남광주통합특별시 나주시 교육길 35 (빛가람동 351) 한국콘텐츠진흥원</p>
+				<p><em>사업자등록번호</em> 105-82-17272</p>
+				<p><em>KOCCA고객센터</em> 1566-1114</p>
+			</address>
+			<p class="copyright">Copyright 2016. 한국콘텐츠진흥원 all rights reserved.</p>
+		</div>
+
+	</div>
+</div>
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-78488555-1', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-EWLNCQMCL8" crossorigin="anonymous"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){
+		dataLayer.push(arguments);
+	}
+	gtag('js', new Date());
+	gtag('config', 'G-EWLNCQMCL8');
+</script>
+
+</div>
+
+<!-- 1206 플로팅배너 추가 -->
+
+
+<script type="text/javascript">
+/* 	var eventFlg = "";
+
+	$(function(){
+		//alert("쿠키값: " + $.cookie('floatingCloseTp'));
+		if ($.cookie('floatingCloseTp') == "Y") {
+			$("#floating_area").css("display","none");
+		}//cookie check if pre
+
+		$('.floating_area .x_btn').on('click',function(){
+
+			/* 플로팅 영역 Close 시 오늘 보지 않기 체크 시 쿠키 설정 *
+			if ($("#f_ch").filter(":checked").size() > 0) {
+				$.cookie('floatingCloseTp','Y', 1, '/');
+			}
+			else {
+				$.cookie('floatingCloseTp',null, 1, '/');
+			}
+
+			$(this).parents('.floating_area').css('display', 'none');
+		});
+
+		$('#f_ch').on('click',function(){
+
+			/* 플로팅 영역 Close 시 오늘 보지 않기 체크 시 쿠키 설정 *
+			if ($("#f_ch").filter(":checked").size() > 0) {
+				$.cookie('floatingCloseTp','Y', 1, '/');
+			}
+			else {
+				$.cookie('floatingCloseTp',null, 1, '/');
+			}
+
+			$(this).parents('.floating_area').css('display', 'none');
+		});
+
+	});
+
+	if(eventFlg == 'Y'){
+		var i = 0 ;
+		function fname(){
+			i++;
+			console.log(i); // 증가값 확인
+			if(i==10){
+				console.log('10초가 되어 종료 합니다.');
+				$("#floating_area").css("display","none");
+
+				/* 플로팅 영역 Close 시 오늘 보지 않기 체크 시 쿠키 설정 *
+				if ($("#f_ch").filter(":checked").size() > 0) {
+					$.cookie('floatingCloseTp','Y', 1, '/');
+				}
+				else {
+					$.cookie('floatingCloseTp',null, 1, '/');
+				}
+
+				clearInterval(refreshIntervalId);
+			}
+		}
+
+		if ($.cookie('floatingCloseTp') != "Y") {
+			var refreshIntervalId = setInterval(fname, 1000); /*1초마다 fname 함수 실행*
+		}
+
+		function eventLogin(){
+			if(confirm('로그인이 필요합니다.\n로그인을 하시겠습니까?')){
+				location.href="/story/member/user/forLogin.do?menuNo=500013&siteId=5";
+			}
+		}
+
+		function eventEnter(){
+			$.ajaxSetup({
+				async: false
+			});
+			var flag = true;
+			$.post(
+				"/story/member/user/eventEnter.json",
+				{evtDiv : "01", userId : "anonymousUser", menuNo : "500024"},
+				function(data) {
+					if (data.resultCode == "SUCCESS") {
+						alert("스토리움 로고 1개 획득하셨습니다!");
+						$("#floating_area").css("display","none");
+					} else if(data.resultCode == "TOTALCOMPLETE") {
+						alert("이미 스토리움 로고 이벤트를 완료하셨습니다!");
+						$("#floating_area").css("display","none");
+					} else if(data.resultCode == "DAYCOMPLETE") {
+						alert("이미 참여하셨습니다.\n1일 1회 참여 가능합니다.");
+						$("#floating_area").css("display","none");
+					}
+				},"json"
+				);
+			return;
+		}
+	}else{
+		$("#floating_area").css("display","none");
+	} */
+</script>
+
+<!-- //1206 플로팅배너 추가 -->
+
+<!-- Example row of columns -->
+
+
+
+	
+
+
+
+<!-- 
+WEB-INF/jsp/story/progrm/master/listStartN.jsp
+ -->
+
+
+
+</body>
+</html>
