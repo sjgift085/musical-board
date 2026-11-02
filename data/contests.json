@@ -133,22 +133,6 @@
    "lastSeen": "2026-11-02T15:19:15+09:00"
   },
   {
-   "source": "arko",
-   "sourceName": "아르코 통합플랫폼",
-   "title": "기관 소개(새창)",
-   "url": "https://www.arko.or.kr/content/843",
-   "period": "",
-   "deadline": "",
-   "meta": "",
-   "tags": [
-    "뮤지컬"
-   ],
-   "id": "fbfe52123ccf4ee6",
-   "firstSeen": "2026-10-31T03:03:47+09:00",
-   "baseline": false,
-   "lastSeen": "2026-10-31T21:42:36+09:00"
-  },
-  {
    "source": "artnuri",
    "sourceName": "아트누리",
    "title": "2026년 지역문화예술 홍보 버스킹 공연자 모집공고",
@@ -198,38 +182,6 @@
    "lastSeen": "2026-11-02T15:19:15+09:00"
   },
   {
-   "source": "culture",
-   "sourceName": "문화포털",
-   "title": "2027년 상반기 마포아트센터 수시대관 공고",
-   "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=2&rcrtSn=255223&menuNo=200104&sSort=1&pageIndex=1",
-   "period": "2026-12-31",
-   "deadline": "2026-12-31",
-   "meta": "(재)마포문화재단 일반인,예술인,관련종사자,기업·단체 공간 시설 진행중",
-   "tags": [
-    "뮤지컬"
-   ],
-   "id": "2e9f9a18615c2a3e",
-   "firstSeen": "2026-10-29T05:20:18+09:00",
-   "baseline": false,
-   "lastSeen": "2026-11-02T15:19:15+09:00"
-  },
-  {
-   "source": "culture",
-   "sourceName": "문화포털",
-   "title": "2026년 11월 가정생활문화센터 수시대관 공고",
-   "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=2&rcrtSn=255157&menuNo=200104&sSort=1&pageIndex=1",
-   "period": "2026-11-21",
-   "deadline": "2026-11-21",
-   "meta": "인천서구문화재단 일반인,예술인,관련종사자,기업·단체 공간 시설 진행중",
-   "tags": [
-    "뮤지컬"
-   ],
-   "id": "108eae2a137d5315",
-   "firstSeen": "2026-10-29T05:20:18+09:00",
-   "baseline": false,
-   "lastSeen": "2026-11-02T15:19:15+09:00"
-  },
-  {
    "source": "arko",
    "sourceName": "아르코 통합플랫폼",
    "title": "2026년 포항국제불빛축제 <나이트카니발 불빛 퍼레이드> 참여단체 추가 모집 공고",
@@ -248,49 +200,15 @@
   {
    "source": "culture",
    "sourceName": "문화포털",
-   "title": "2026 포항국제불빛축제 <나이트카니발 불빛 퍼레이드> 참여단체 추가 모집 공고",
-   "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=2&rcrtSn=255156&menuNo=200104&sSort=1&pageIndex=1",
-   "period": "2026-11-01",
-   "deadline": "2026-11-01",
-   "meta": "포항문화재단 기업·단체 창작지원 프로그램·행사 진행중",
-   "tags": [
-    "뮤지컬",
-    "창작·공연"
-   ],
-   "id": "032bcae9b2a766f0",
-   "firstSeen": "2026-10-29T05:20:18+09:00",
-   "baseline": false,
-   "lastSeen": "2026-11-01T15:17:18+09:00"
-  },
-  {
-   "source": "culture",
-   "sourceName": "문화포털",
-   "title": "인천광역시 서해구문화회관 소공연장 잔여일정 대관 공고",
-   "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=2&rcrtSn=255158&menuNo=200104&sSort=1&pageIndex=1",
-   "period": "2026-10-30",
-   "deadline": "2026-10-30",
-   "meta": "인천서구문화재단 예술인,관련종사자,기업·단체 공간 시설 진행중",
-   "tags": [
-    "뮤지컬",
-    "창작·공연"
-   ],
-   "id": "1b678bbbd275a274",
-   "firstSeen": "2026-10-29T05:20:18+09:00",
-   "baseline": false,
-   "lastSeen": "2026-10-30T19:09:23+09:00"
-  },
-  {
-   "source": "culture",
-   "sourceName": "문화포털",
-   "title": "2027년 상반기 마포아트센터 수시대관 공고 NEW",
+   "title": "2027년 상반기 마포아트센터 수시대관 공고",
    "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=2&rcrtSn=255223&menuNo=200104&sSort=1&pageIndex=1",
    "period": "2026-12-31",
    "deadline": "2026-12-31",
-   "meta": "(재)마포문화재단 2027년 상반기 마포아트센터 수시대관 공고 NEW 일반인,예술인,관련종사자,기업·단체 공간 시설 진행중",
+   "meta": "(재)마포문화재단 일반인,예술인,관련종사자,기업·단체 공간 시설 진행중",
    "tags": [
     "뮤지컬"
    ],
-   "id": "6836f983b97a3fcb",
+   "id": "2e9f9a18615c2a3e",
    "firstSeen": "2026-10-28T22:06:09+09:00",
    "baseline": false,
    "lastSeen": "2026-10-28T22:06:09+09:00"
@@ -364,32 +282,15 @@
   {
    "source": "culture",
    "sourceName": "문화포털",
-   "title": "인천광역시 서해구문화회관 소공연장 잔여일정 대관 공고 NEW",
-   "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=2&rcrtSn=255158&menuNo=200104&sSort=1&pageIndex=1",
-   "period": "2026-10-30",
-   "deadline": "2026-10-30",
-   "meta": "인천서구문화재단 인천광역시 서해구문화회관 소공연장 잔여일정 대관 공고 NEW 예술인,관련종사자,기업·단체 공간 시설 진행중",
-   "tags": [
-    "뮤지컬",
-    "창작·공연"
-   ],
-   "id": "52903304d71c378c",
-   "firstSeen": "2026-10-28T14:51:18+09:00",
-   "baseline": false,
-   "lastSeen": "2026-10-28T22:06:09+09:00"
-  },
-  {
-   "source": "culture",
-   "sourceName": "문화포털",
-   "title": "2026년 11월 가정생활문화센터 수시대관 공고 NEW",
+   "title": "2026년 11월 가정생활문화센터 수시대관 공고",
    "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=2&rcrtSn=255157&menuNo=200104&sSort=1&pageIndex=1",
    "period": "2026-11-21",
    "deadline": "2026-11-21",
-   "meta": "인천서구문화재단 2026년 11월 가정생활문화센터 수시대관 공고 NEW 일반인,예술인,관련종사자,기업·단체 공간 시설 진행중",
+   "meta": "인천서구문화재단 일반인,예술인,관련종사자,기업·단체 공간 시설 진행중",
    "tags": [
     "뮤지컬"
    ],
-   "id": "f653f1b61a6c126d",
+   "id": "108eae2a137d5315",
    "firstSeen": "2026-10-28T14:51:18+09:00",
    "baseline": false,
    "lastSeen": "2026-10-28T22:06:09+09:00"
@@ -397,16 +298,33 @@
   {
    "source": "culture",
    "sourceName": "문화포털",
-   "title": "2026 포항국제불빛축제 <나이트카니발 불빛 퍼레이드> 참여단체 추가 모집 공고 NEW",
+   "title": "2026 포항국제불빛축제 <나이트카니발 불빛 퍼레이드> 참여단체 추가 모집 공고",
    "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=2&rcrtSn=255156&menuNo=200104&sSort=1&pageIndex=1",
    "period": "2026-11-01",
    "deadline": "2026-11-01",
-   "meta": "포항문화재단 포항국제불빛축제 <나이트카니발 불빛 퍼레이드> 참여단체 추가 모집 공고 NEW 기업·단체 창작지원 프로그램·행사 진행중",
+   "meta": "포항문화재단 포항국제불빛축제 <나이트카니발 불빛 퍼레이드> 참여단체 추가 모집 공고 기업·단체 창작지원 프로그램·행사 진행중",
    "tags": [
     "뮤지컬",
     "창작·공연"
    ],
-   "id": "f5f5c2d3abb3e726",
+   "id": "032bcae9b2a766f0",
+   "firstSeen": "2026-10-28T14:51:18+09:00",
+   "baseline": false,
+   "lastSeen": "2026-10-28T22:06:09+09:00"
+  },
+  {
+   "source": "culture",
+   "sourceName": "문화포털",
+   "title": "인천광역시 서해구문화회관 소공연장 잔여일정 대관 공고",
+   "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=2&rcrtSn=255158&menuNo=200104&sSort=1&pageIndex=1",
+   "period": "2026-10-30",
+   "deadline": "2026-10-30",
+   "meta": "인천서구문화재단 예술인,관련종사자,기업·단체 공간 시설 진행중",
+   "tags": [
+    "뮤지컬",
+    "창작·공연"
+   ],
+   "id": "1b678bbbd275a274",
    "firstSeen": "2026-10-28T14:51:18+09:00",
    "baseline": false,
    "lastSeen": "2026-10-28T22:06:09+09:00"
@@ -666,7 +584,7 @@
    "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=2&rcrtSn=235639&menuNo=200104&sSort=1&pageIndex=1",
    "period": "2026-11-13",
    "deadline": "2026-11-13",
-   "meta": "하남문화예술회관 일반공지 2027년 상반기(1월~6월) 정기대관 공고 일반인,예술인,관련종사자,기업·단체 공간 시설 진행중",
+   "meta": "하남문화예술회관 일반인,예술인,관련종사자,기업·단체 공간 시설 진행중",
    "tags": [
     "뮤지컬"
    ],
@@ -820,23 +738,6 @@
     "창작·공연"
    ],
    "id": "6bbbb7a9007baa7e",
-   "firstSeen": "2026-10-22T02:18:38+09:00",
-   "baseline": false,
-   "lastSeen": "2026-10-27T18:06:44+09:00"
-  },
-  {
-   "source": "culture",
-   "sourceName": "문화포털",
-   "title": "2027년 천안어린이꿈누리터 공연 제안사 모집 NEW",
-   "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=2&rcrtSn=254502&menuNo=200104&sSort=1&pageIndex=1",
-   "period": "2026-10-27",
-   "deadline": "2026-10-27",
-   "meta": "(재)예술경영지원센터 2027년 천안어린이꿈누리터 공연 제안사 모집 NEW 기업·단체 공간 시설 진행중",
-   "tags": [
-    "뮤지컬",
-    "창작·공연"
-   ],
-   "id": "da59ac752fd9dbe8",
    "firstSeen": "2026-10-21T13:57:23+09:00",
    "baseline": false,
    "lastSeen": "2026-10-21T20:58:50+09:00"
@@ -1024,22 +925,6 @@
    "lastSeen": "2026-11-02T15:19:15+09:00"
   },
   {
-   "source": "culture",
-   "sourceName": "문화포털",
-   "title": "2027년도 (재)서초문화재단 반포심산아트홀 상반기 정기대관 공고",
-   "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=2&rcrtSn=235702&menuNo=200104&sSort=1&pageIndex=1",
-   "period": "2026-10-25",
-   "deadline": "2026-10-25",
-   "meta": "서초문화재단 일반인,예술인,관련종사자 공간 시설 진행중",
-   "tags": [
-    "뮤지컬"
-   ],
-   "id": "f3b798529fac8467",
-   "firstSeen": "2026-10-17T01:44:26+09:00",
-   "baseline": false,
-   "lastSeen": "2026-10-25T20:41:00+09:00"
-  },
-  {
    "source": "artnuri",
    "sourceName": "아트누리",
    "title": "2026년 크라우드펀딩 확산사업 <크라우드펀딩 챌린지> 2차 공모(공고연장)",
@@ -1075,15 +960,15 @@
   {
    "source": "culture",
    "sourceName": "문화포털",
-   "title": "2027년도 (재)서초문화재단 반포심산아트홀 상반기 정기대관 공고 NEW",
+   "title": "2027년도 (재)서초문화재단 반포심산아트홀 상반기 정기대관 공고",
    "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=2&rcrtSn=235702&menuNo=200104&sSort=1&pageIndex=1",
    "period": "2026-10-25",
    "deadline": "2026-10-25",
-   "meta": "서초문화재단 2027년도 (재)서초문화재단 반포심산아트홀 상반기 정기대관 공고 NEW 일반인,예술인,관련종사자 공간 시설 진행중",
+   "meta": "서초문화재단 일반인,예술인,관련종사자 공간 시설 진행중",
    "tags": [
     "뮤지컬"
    ],
-   "id": "45b7acf9197c8aed",
+   "id": "f3b798529fac8467",
    "firstSeen": "2026-10-16T20:32:11+09:00",
    "baseline": false,
    "lastSeen": "2026-10-16T20:32:11+09:00"
@@ -1253,23 +1138,6 @@
    "lastSeen": "2026-10-25T20:41:00+09:00"
   },
   {
-   "source": "culture",
-   "sourceName": "문화포털",
-   "title": "2027년 사천시문화예술회관 기획공연 공모",
-   "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=2&rcrtSn=235402&menuNo=200104&sSort=1&pageIndex=1",
-   "period": "2026-11-10",
-   "deadline": "2026-11-10",
-   "meta": "사천문화재단 기업·단체 창작지원 진행중",
-   "tags": [
-    "뮤지컬",
-    "창작·공연"
-   ],
-   "id": "3f07143b5a05a971",
-   "firstSeen": "2026-10-14T04:20:44+09:00",
-   "baseline": false,
-   "lastSeen": "2026-11-02T15:19:15+09:00"
-  },
-  {
    "source": "artnuri",
    "sourceName": "아트누리",
    "title": "2026년 제주 예술인 창작준비금 지원사업 2차 공모 공고",
@@ -1389,16 +1257,16 @@
   {
    "source": "culture",
    "sourceName": "문화포털",
-   "title": "2027년 사천시문화예술회관 기획공연 공모 NEW",
+   "title": "2027년 사천시문화예술회관 기획공연 공모",
    "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=2&rcrtSn=235402&menuNo=200104&sSort=1&pageIndex=1",
    "period": "2026-11-10",
    "deadline": "2026-11-10",
-   "meta": "사천문화재단 2027년 사천시문화예술회관 기획공연 공모 NEW 기업·단체 창작지원 진행중",
+   "meta": "사천문화재단 기업·단체 창작지원 진행중",
    "tags": [
     "뮤지컬",
     "창작·공연"
    ],
-   "id": "93dfa36432790bea",
+   "id": "3f07143b5a05a971",
    "firstSeen": "2026-10-13T19:43:59+09:00",
    "baseline": false,
    "lastSeen": "2026-10-13T19:43:59+09:00"
@@ -3316,7 +3184,7 @@
    "url": "https://www.storyum.kr/story/progrm/master/view.do?menuNo=500024&siteId=5&prgSn=1028",
    "period": "2026-09-08 ~ 2026-09-18",
    "deadline": "2026-09-18",
-   "meta": "KOCCA [문화체육관광부 X 한국문화기술기획평가원] 「문화기술 얼라이언스: Culture-driven AI Tech」 모집공고 종료",
+   "meta": "KOCCA 종료",
    "tags": [],
    "id": "e3995d1686e777d1",
    "firstSeen": "2026-10-12T01:30:51+09:00",

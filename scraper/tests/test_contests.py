@@ -107,3 +107,13 @@ def test_status_badge_is_not_part_of_title():
       <span class="state-st prog">진</span> 2027년 공연예술창작산실</a> 마감일 2026-11-05</li></ul>"""
     items = contests.extract_items(html, "https://ex.kr/", SRC)
     assert titles(items) == ["2027년 공연예술창작산실"]
+
+
+def test_new_mark_and_new_window_link_are_dropped():
+    html = """<ul>
+      <li><a href="view.do?rcrtSn=1">2027년 사천시문화예술회관 기획공연 공모 <span class="new">NEW</span></a> 마감일 2026-11-20</li>
+      <li><a href="view.do?rcrtSn=2">2027년 상반기 수시대관 공고 NEW</a> 마감일 2026-11-21</li>
+      <li><a href="https://www.arko.or.kr/content/843" target="_blank">기관 소개(새창)</a> 2026-11-02</li>
+    </ul>"""
+    items = contests.extract_items(html, "https://ex.kr/", SRC)
+    assert titles(items) == ["2027년 사천시문화예술회관 기획공연 공모", "2027년 상반기 수시대관 공고"]

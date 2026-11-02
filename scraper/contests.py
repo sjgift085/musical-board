@@ -101,7 +101,7 @@ NOISE_HINTS = (
 
 META_NOISE = {
     "주관기관", "지원대상", "마감일", "상세보기", "자세히보기", "조회", "조회수", "등록일", "신청기간",
-    "접수기간", "진행상태", "외부", "내부",
+    "접수기간", "진행상태", "외부", "내부", "NEW", "New", "new",
 }
 
 DETAIL_HREF_RE = re.compile(
@@ -135,7 +135,7 @@ HEADLINE_SEL = (
 )
 
 
-BADGE_RE = re.compile(r"state|badge|ico|flag|label|status", re.I)
+BADGE_RE = re.compile(r"state|badge|ico|flag|label|status|\bnew\b", re.I)
 
 
 def _text_without_badges(a):
@@ -164,7 +164,9 @@ def _title_of(a):
                 break
     if len(title) < 6 and a.get("title"):
         title = clean(a["title"])
+    title = re.sub(r"\(?\s*새\s?창(\s?열림)?\s*\)?$", "", title).strip()  # '기관 소개(새창)' 같은 링크 안내문
     title = re.sub(r"^(new|N|NEW|진행중|접수중|마감임박|모집중)\s+", "", title)
+    title = re.sub(r"\s+(new|N|NEW|New)$", "", title)  # 문화포털: 제목 뒤 'NEW' 표시
     title = re.sub(r"\s+지원대상(\s.*)?$", "", title)  # 문화포털: '… 지원대상 일반인'
     return title
 
@@ -206,7 +208,7 @@ def _container_of(a):
 def _make_item(source, title, url, container_text, list_url):
     dates = find_dates(container_text)
     # 부가 정보(기관, 상태 등): 제목·날짜·글번호를 뺀 나머지
-    meta = container_text.replace(title, " ", 1)
+    meta = container_text.replace(title, " ")
     meta = DATE_RE.sub(" ", meta)
     meta = re.sub(r"\s*[~\-–]\s*(?=\s|$)", " ", meta)
     # 표 머리글·조회수·시각 같은 군더더기 제거
