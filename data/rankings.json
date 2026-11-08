@@ -1,16 +1,16 @@
 {
- "updatedAt": "2026-11-08T22:37:10+09:00",
+ "updatedAt": "2026-11-09T04:45:12+09:00",
  "sources": {
   "interpark": {
    "name": "인터파크(NOL) 티켓",
    "url": "https://tickets.interpark.com/contents/ranking?genre=MUSICAL",
-   "updatedAt": "2026-11-08T22:37:10+09:00",
+   "updatedAt": "2026-11-09T04:45:12+09:00",
    "items": [
     {
      "rank": 1,
      "title": "뮤지컬 〈오페라의 유령〉 40주년 스페셜 시즌 (Phantom of The Opera)",
      "venue": "블루스퀘어 우리은행홀",
-     "rate": "19.5%",
+     "rate": "18.8%",
      "start": "2026-12-22",
      "end": "2027-02-28",
      "poster": "https://ticketimage.interpark.com/Play/image/large/26/26013995_p.gif",
@@ -21,7 +21,7 @@
      "rank": 2,
      "title": "뮤지컬 〈시카고〉",
      "venue": "LG아트센터 서울 LG SIGNATURE 홀",
-     "rate": "10.0%",
+     "rate": "10.4%",
      "start": "2026-12-05",
      "end": "2027-03-14",
      "poster": "https://ticketimage.interpark.com/Play/image/large/L0/L0000150_p.gif",
@@ -32,7 +32,7 @@
      "rank": 3,
      "title": "뮤지컬 스위니토드(SWEENEY TODD) - 10주년",
      "venue": "디큐브 링크아트센터",
-     "rate": "6.7%",
+     "rate": "6.6%",
      "start": "2026-12-04",
      "end": "2027-05-02",
      "poster": "https://ticketimage.interpark.com/Play/image/large/26/26014509_p.gif",
@@ -43,7 +43,7 @@
      "rank": 4,
      "title": "뮤지컬 〈캣츠〉 내한공연 - 광주 (Musical CATS)",
      "venue": "전남광주통합특별시예술의전당 대극장",
-     "rate": "5.8%",
+     "rate": "5.6%",
      "start": "2027-01-08",
      "end": "2027-01-10",
      "poster": "https://ticketimage.interpark.com/Play/image/large/26/26015446_p.gif",
@@ -52,28 +52,39 @@
     },
     {
      "rank": 5,
-     "title": "뮤지컬 〈겨울왕국〉 한국 초연 (FROZEN The Musical)",
-     "venue": "샤롯데씨어터",
-     "rate": "4.8%",
-     "start": "2026-08-13",
-     "end": "2027-03-01",
-     "poster": "https://ticketimage.interpark.com/Play/image/large/26/26007416_p.gif",
-     "url": "https://nol.yanolja.com/ticket/products/26007416",
-     "change": 1
-    },
-    {
-     "rank": 6,
      "title": "뮤지컬 〈레베카〉",
      "venue": "충무아트센터 대극장",
-     "rate": "4.7%",
+     "rate": "5.0%",
      "start": "2026-11-24",
      "end": "2027-03-14",
      "poster": "https://ticketimage.interpark.com/Play/image/large/26/26013993_p.gif",
      "url": "https://nol.yanolja.com/ticket/products/26013993",
+     "change": 1
+    },
+    {
+     "rank": 6,
+     "title": "뮤지컬 〈겨울왕국〉 한국 초연 (FROZEN The Musical)",
+     "venue": "샤롯데씨어터",
+     "rate": "5.0%",
+     "start": "2026-08-13",
+     "end": "2027-03-01",
+     "poster": "https://ticketimage.interpark.com/Play/image/large/26/26007416_p.gif",
+     "url": "https://nol.yanolja.com/ticket/products/26007416",
      "change": -1
     },
     {
      "rank": 7,
+     "title": "최현우 30주년 기념 공연 - LEGACY",
+     "venue": "올림픽공원 우리금융아트홀",
+     "rate": "3.6%",
+     "start": "2026-11-28",
+     "end": "2027-01-03",
+     "poster": "https://ticketimage.interpark.com/Play/image/large/26/26007874_p.gif",
+     "url": "https://nol.yanolja.com/ticket/products/26007874",
+     "change": 1
+    },
+    {
+     "rank": 8,
      "title": "뮤지컬 〈빨래〉 - 32차 프로덕션",
      "venue": "NOL 유니플렉스 2관",
      "rate": "3.6%",
@@ -81,21 +92,21 @@
      "end": "2027-02-21",
      "poster": "https://ticketimage.interpark.com/Play/image/large/26/26007159_p.gif",
      "url": "https://nol.yanolja.com/ticket/products/26007159",
-     "change": 2
-    },
-    {
-     "rank": 8,
-     "title": "최현우 30주년 기념 공연 - LEGACY",
-     "venue": "올림픽공원 우리금융아트홀",
-     "rate": "3.5%",
-     "start": "2026-11-28",
-     "end": "2027-01-03",
-     "poster": "https://ticketimage.interpark.com/Play/image/large/26/26007874_p.gif",
-     "url": "https://nol.yanolja.com/ticket/products/26007874",
-     "change": "new"
+     "change": -1
     },
     {
      "rank": 9,
+     "title": "프랑스 뮤지컬 〈로미오와 줄리엣〉",
+     "venue": "한전아트센터",
+     "rate": "3.2%",
+     "start": "2026-12-01",
+     "end": "2027-01-31",
+     "poster": "https://ticketimage.interpark.com/Play/image/large/26/26015424_p.gif",
+     "url": "https://nol.yanolja.com/ticket/products/26015424",
+     "change": 1
+    },
+    {
+     "rank": 10,
      "title": "뮤지컬 〈엘리자벳〉",
      "venue": "블루스퀘어 우리은행홀",
      "rate": "3.2%",
@@ -103,25 +114,14 @@
      "end": "2026-11-15",
      "poster": "https://ticketimage.interpark.com/Play/image/large/26/26009314_p.gif",
      "url": "https://nol.yanolja.com/ticket/products/26009314",
-     "change": -2
-    },
-    {
-     "rank": 10,
-     "title": "프랑스 뮤지컬 〈로미오와 줄리엣〉",
-     "venue": "한전아트센터",
-     "rate": "3.1%",
-     "start": "2026-12-01",
-     "end": "2027-01-31",
-     "poster": "https://ticketimage.interpark.com/Play/image/large/26/26015424_p.gif",
-     "url": "https://nol.yanolja.com/ticket/products/26015424",
-     "change": -2
+     "change": -1
     }
    ]
   },
   "yes24": {
    "name": "예스24 티켓",
    "url": "http://ticket.yes24.com/Rank/Musical",
-   "updatedAt": "2026-11-08T22:37:10+09:00",
+   "updatedAt": "2026-11-09T04:45:12+09:00",
    "items": [
     {
      "rank": 1,
@@ -129,7 +129,7 @@
      "start": "2026-12-22",
      "end": "2027-02-28",
      "venue": "블루스퀘어 우리은행홀",
-     "rate": "23%",
+     "rate": "21.4%",
      "poster": "https://tkfile.yes24.com/upload2/perfblog/202610/20261007/20261007-60521.jpg",
      "change": 0,
      "url": "http://ticket.yes24.com/Perf/60521"
@@ -140,7 +140,7 @@
      "start": "2026-08-13",
      "end": "2027-03-01",
      "venue": "샤롯데씨어터",
-     "rate": "15%",
+     "rate": "14.5%",
      "poster": "https://tkfile.yes24.com/upload2/perfblog/202605/20260529/20260529-58563.jpg",
      "change": 1,
      "url": "http://ticket.yes24.com/Perf/58563"
@@ -151,43 +151,43 @@
      "start": "2026-09-22",
      "end": "2026-12-13",
      "venue": "예스24스테이지 1관",
-     "rate": "11.2%",
+     "rate": "11.1%",
      "poster": "https://tkfile.yes24.com/upload2/perfblog/202608/20260804/20260804-59565.jpg",
      "change": 1,
      "url": "http://ticket.yes24.com/Perf/59565"
     },
     {
      "rank": 4,
-     "title": "뮤지컬 [엘리자벳] - YES24DAY",
-     "start": "2026-11-10",
-     "end": "2026-11-10",
-     "venue": "블루스퀘어 우리은행홀",
-     "rate": "6.5%",
-     "poster": "https://tkfile.yes24.com/upload2/perfblog/202610/20261012/20261012-60602.jpg",
-     "change": 12,
-     "url": "http://ticket.yes24.com/Perf/60602"
-    },
-    {
-     "rank": 5,
      "title": "뮤지컬 [마하고니]",
      "start": "2026-11-03",
      "end": "2027-01-24",
      "venue": "링크아트센터 페이코홀",
-     "rate": "6.2%",
+     "rate": "6.8%",
      "poster": "https://tkfile.yes24.com/upload2/perfblog/202609/20260921/20260921-60316.jpg",
-     "change": 2,
+     "change": 3,
      "url": "http://ticket.yes24.com/Perf/60316"
     },
     {
-     "rank": 6,
+     "rank": 5,
      "title": "프랑스 뮤지컬 [로미오와 줄리엣]",
      "start": "2026-12-01",
      "end": "2027-01-31",
      "venue": "한전아트센터",
-     "rate": "4.7%",
+     "rate": "6%",
      "poster": "https://tkfile.yes24.com/upload2/perfblog/202610/20261030/20261030-60933.jpg",
-     "change": -1,
+     "change": 0,
      "url": "http://ticket.yes24.com/Perf/60933"
+    },
+    {
+     "rank": 6,
+     "title": "뮤지컬 [엘리자벳] - YES24DAY",
+     "start": "2026-11-10",
+     "end": "2026-11-10",
+     "venue": "블루스퀘어 우리은행홀",
+     "rate": "5.7%",
+     "poster": "https://tkfile.yes24.com/upload2/perfblog/202610/20261012/20261012-60602.jpg",
+     "change": 10,
+     "url": "http://ticket.yes24.com/Perf/60602"
     },
     {
      "rank": 7,
@@ -195,7 +195,7 @@
      "start": "2026-11-11",
      "end": "2027-02-08",
      "venue": "광림아트센터 BBCH홀",
-     "rate": "4.5%",
+     "rate": "4.3%",
      "poster": "https://tkfile.yes24.com/upload2/perfblog/202609/20260916/20260916-60128.jpg",
      "change": 5,
      "url": "http://ticket.yes24.com/Perf/60128"
@@ -206,43 +206,43 @@
      "start": "2026-09-10",
      "end": "2026-11-29",
      "venue": "NOL 서경스퀘어 스콘1관",
-     "rate": "3.3%",
+     "rate": "3.4%",
      "poster": "https://tkfile.yes24.com/upload2/perfblog/202609/20260928/20260928-59239.jpg",
      "change": -6,
      "url": "http://ticket.yes24.com/Perf/59239"
     },
     {
      "rank": 9,
-     "title": "뮤지컬 [렛미플라이]",
-     "start": "2026-10-06",
-     "end": "2027-01-03",
-     "venue": "두산아트센터 연강홀",
-     "rate": "3.2%",
-     "poster": "https://tkfile.yes24.com/upload2/perfblog/202610/20261026/20261026-59852.jpg",
-     "change": 0,
-     "url": "http://ticket.yes24.com/Perf/59852"
-    },
-    {
-     "rank": 10,
-     "title": "뮤지컬 〈크리스마스 캐럴〉",
-     "start": "2026-12-02",
-     "end": "2026-12-27",
-     "venue": "세종문화회관 M씨어터",
-     "rate": "3.2%",
-     "poster": "https://tkfile.yes24.com/upload2/perfblog/202611/20261105/20261105-56551.jpg",
-     "change": 8,
-     "url": "http://ticket.yes24.com/Perf/56551"
-    },
-    {
-     "rank": 11,
      "title": "뮤지컬 [아나키스트]",
      "start": "2026-09-15",
      "end": "2026-12-06",
      "venue": "예스24아트원 1관",
-     "rate": "2.9%",
+     "rate": "3.3%",
      "poster": "https://tkfile.yes24.com/upload2/perfblog/202608/20260825/20260825-59694.jpg",
-     "change": -3,
+     "change": -1,
      "url": "http://ticket.yes24.com/Perf/59694"
+    },
+    {
+     "rank": 10,
+     "title": "뮤지컬 [렛미플라이]",
+     "start": "2026-10-06",
+     "end": "2027-01-03",
+     "venue": "두산아트센터 연강홀",
+     "rate": "2.8%",
+     "poster": "https://tkfile.yes24.com/upload2/perfblog/202610/20261026/20261026-59852.jpg",
+     "change": -1,
+     "url": "http://ticket.yes24.com/Perf/59852"
+    },
+    {
+     "rank": 11,
+     "title": "뮤지컬 〈크리스마스 캐럴〉",
+     "start": "2026-12-02",
+     "end": "2026-12-27",
+     "venue": "세종문화회관 M씨어터",
+     "rate": "2.8%",
+     "poster": "https://tkfile.yes24.com/upload2/perfblog/202611/20261105/20261105-56551.jpg",
+     "change": 7,
+     "url": "http://ticket.yes24.com/Perf/56551"
     },
     {
      "rank": 12,
@@ -250,7 +250,7 @@
      "start": "2026-09-16",
      "end": "2026-11-29",
      "venue": "플러스씨어터",
-     "rate": "2.9%",
+     "rate": "2.7%",
      "poster": "https://tkfile.yes24.com/upload2/perfblog/202608/20260811/20260811-59639.jpg",
      "change": 2,
      "url": "http://ticket.yes24.com/Perf/59639"
@@ -261,7 +261,7 @@
      "start": "2026-09-08",
      "end": "2026-11-29",
      "venue": "대학로 TOM 1관",
-     "rate": "1.8%",
+     "rate": "2.4%",
      "poster": "https://tkfile.yes24.com/upload2/perfblog/202609/20260928/20260928-59488.jpg",
      "change": -3,
      "url": "http://ticket.yes24.com/Perf/59488"
@@ -272,7 +272,7 @@
      "start": "2026-12-11",
      "end": "2027-03-07",
      "venue": "예스24스테이지 3관",
-     "rate": "1.5%",
+     "rate": "2%",
      "poster": "https://tkfile.yes24.com/upload2/perfblog/202610/20261022/20261022-60772.jpg",
      "change": 9,
      "url": "http://ticket.yes24.com/Perf/60772"
@@ -283,65 +283,65 @@
      "start": "2026-11-14",
      "end": "2026-11-14",
      "venue": "김해문화의전당 누리홀",
-     "rate": "1.4%",
+     "rate": "1.2%",
      "poster": "https://tkfile.yes24.com/upload2/perfblog/202609/20260917/20260917-60088.jpg",
      "change": 12,
      "url": "http://ticket.yes24.com/Perf/60088"
     },
     {
      "rank": 16,
-     "title": "뮤지컬 [헬스키친] (Musical Hell’s Kitchen)",
-     "start": "2026-07-24",
-     "end": "2026-11-08",
-     "venue": "GS아트센터",
-     "rate": "1.2%",
-     "poster": "https://tkfile.yes24.com/upload2/perfblog/202609/20260914/20260914-58477.jpg",
-     "change": -10,
-     "url": "http://ticket.yes24.com/Perf/58477"
+     "title": "뮤지컬 [아가사 AGATHA]",
+     "start": "2026-12-09",
+     "end": "2027-02-28",
+     "venue": "NOL 서경스퀘어 스콘1관",
+     "rate": "1.1%",
+     "poster": "https://tkfile.yes24.com/upload2/perfblog/202611/20261102/20261102-60940.jpg",
+     "change": 14,
+     "url": "http://ticket.yes24.com/Perf/60940"
     },
     {
      "rank": 17,
-     "title": "[부산] 옹알스 오리지널쇼",
-     "start": "2026-11-18",
-     "end": "2026-11-19",
-     "venue": "낙동아트센터 앙상블극장",
-     "rate": "1.2%",
-     "poster": "https://tkfile.yes24.com/upload2/perfblog/202610/20261020/20261020-60640.jpg",
-     "change": -4,
-     "url": "http://ticket.yes24.com/Perf/60640"
-    },
-    {
-     "rank": 18,
      "title": "[창원] 뮤지컬 [팬레터]",
      "start": "2026-12-24",
      "end": "2026-12-25",
      "venue": "진해아트홀",
      "rate": "1.1%",
      "poster": "https://tkfile.yes24.com/upload2/perfblog/202610/20261008/20261008-60528.jpg",
-     "change": -1,
+     "change": 0,
      "url": "http://ticket.yes24.com/Perf/60528"
     },
     {
+     "rank": 18,
+     "title": "[부산] 옹알스 오리지널쇼",
+     "start": "2026-11-18",
+     "end": "2026-11-19",
+     "venue": "낙동아트센터 앙상블극장",
+     "rate": "1.1%",
+     "poster": "https://tkfile.yes24.com/upload2/perfblog/202610/20261020/20261020-60640.jpg",
+     "change": -5,
+     "url": "http://ticket.yes24.com/Perf/60640"
+    },
+    {
      "rank": 19,
+     "title": "뮤지컬 [헬스키친] (Musical Hell’s Kitchen)",
+     "start": "2026-07-24",
+     "end": "2026-11-08",
+     "venue": "GS아트센터",
+     "rate": "1.1%",
+     "poster": "https://tkfile.yes24.com/upload2/perfblog/202609/20260914/20260914-58477.jpg",
+     "change": -13,
+     "url": "http://ticket.yes24.com/Perf/58477"
+    },
+    {
+     "rank": 20,
      "title": "뮤지컬 [바람으로의 여행]",
      "start": "2026-11-06",
      "end": "2027-01-10",
      "venue": "대학로 스튜디오블루",
-     "rate": "1.1%",
+     "rate": "0.9%",
      "poster": "https://tkfile.yes24.com/upload2/perfblog/202608/20260813/20260813-59734.jpg",
      "change": "new",
      "url": "http://ticket.yes24.com/Perf/59734"
-    },
-    {
-     "rank": 20,
-     "title": "뮤지컬 [다이브]",
-     "start": "2026-08-18",
-     "end": "2026-11-08",
-     "venue": "링크더스페이스 1관",
-     "rate": "0.9%",
-     "poster": "https://tkfile.yes24.com/upload2/perfblog/202609/20260907/20260907-59300.jpg",
-     "change": -5,
-     "url": "http://ticket.yes24.com/Perf/59300"
     }
    ]
   },
