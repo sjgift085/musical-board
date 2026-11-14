@@ -1,10 +1,10 @@
 {
- "updatedAt": "2026-11-14T04:49:57+09:00",
+ "updatedAt": "2026-11-14T10:29:19+09:00",
  "sources": {
   "interpark": {
    "name": "인터파크(NOL) 티켓",
    "url": "https://tickets.interpark.com/contents/ranking?genre=MUSICAL",
-   "updatedAt": "2026-11-14T04:49:57+09:00",
+   "updatedAt": "2026-11-14T10:29:19+09:00",
    "items": [
     {
      "rank": 1,
@@ -121,7 +121,7 @@
   "yes24": {
    "name": "예스24 티켓",
    "url": "http://ticket.yes24.com/Rank/Musical",
-   "updatedAt": "2026-11-14T04:49:57+09:00",
+   "updatedAt": "2026-11-14T10:29:19+09:00",
    "items": [
     {
      "rank": 1,
@@ -129,7 +129,7 @@
      "start": "2026-11-11",
      "end": "2027-02-08",
      "venue": "광림아트센터 BBCH홀",
-     "rate": "49.1%",
+     "rate": "49%",
      "poster": "https://tkfile.yes24.com/upload2/perfblog/202609/20260916/20260916-60128.jpg",
      "change": 6,
      "url": "http://ticket.yes24.com/Perf/60128"
@@ -140,7 +140,7 @@
      "start": "2026-11-03",
      "end": "2027-01-24",
      "venue": "링크아트센터 페이코홀",
-     "rate": "9.3%",
+     "rate": "9.6%",
      "poster": "https://tkfile.yes24.com/upload2/perfblog/202609/20260921/20260921-60316.jpg",
      "change": 0,
      "url": "http://ticket.yes24.com/Perf/60316"
@@ -162,32 +162,32 @@
      "start": "2026-12-22",
      "end": "2027-02-28",
      "venue": "블루스퀘어 우리은행홀",
-     "rate": "5.8%",
+     "rate": "5.7%",
      "poster": "https://tkfile.yes24.com/upload2/perfblog/202610/20261007/20261007-60521.jpg",
      "change": -1,
      "url": "http://ticket.yes24.com/Perf/60521"
     },
     {
      "rank": 5,
-     "title": "뮤지컬 [겨울왕국] 한국 초연 (FROZEN The Musical)",
-     "start": "2026-08-13",
-     "end": "2027-03-01",
-     "venue": "샤롯데씨어터",
-     "rate": "4.4%",
-     "poster": "https://tkfile.yes24.com/upload2/perfblog/202605/20260529/20260529-58563.jpg",
-     "change": 6,
-     "url": "http://ticket.yes24.com/Perf/58563"
-    },
-    {
-     "rank": 6,
      "title": "식스 더 뮤지컬(SIX THE MUSICAL)",
      "start": "2026-12-15",
      "end": "2027-03-01",
      "venue": "홍익대 대학로 아트센터 대극장",
-     "rate": "4.4%",
+     "rate": "4.6%",
      "poster": "https://tkfile.yes24.com/upload2/perfblog/202610/20261002/20261002-60484_2.jpg",
-     "change": 3,
+     "change": 4,
      "url": "http://ticket.yes24.com/Perf/60484"
+    },
+    {
+     "rank": 6,
+     "title": "뮤지컬 [겨울왕국] 한국 초연 (FROZEN The Musical)",
+     "start": "2026-08-13",
+     "end": "2027-03-01",
+     "venue": "샤롯데씨어터",
+     "rate": "4.3%",
+     "poster": "https://tkfile.yes24.com/upload2/perfblog/202605/20260529/20260529-58563.jpg",
+     "change": 5,
+     "url": "http://ticket.yes24.com/Perf/58563"
     },
     {
      "rank": 7,
@@ -195,7 +195,7 @@
      "start": "2027-01-21",
      "end": "2027-03-30",
      "venue": "세종문화회관 대극장",
-     "rate": "3.8%",
+     "rate": "3.7%",
      "poster": "https://tkfile.yes24.com/upload2/perfblog/202611/20261106/20261106-61037.jpg",
      "change": -1,
      "url": "http://ticket.yes24.com/Perf/61037"
@@ -206,7 +206,7 @@
      "start": "2026-12-17",
      "end": "2027-01-16",
      "venue": "부산 드림씨어터",
-     "rate": "2.7%",
+     "rate": "2.8%",
      "poster": "https://tkfile.yes24.com/upload2/perfblog/202611/20261106/20261106-61042.jpg",
      "change": -4,
      "url": "http://ticket.yes24.com/Perf/61042"
@@ -217,7 +217,7 @@
      "start": "2026-09-10",
      "end": "2026-11-29",
      "venue": "NOL 서경스퀘어 스콘1관",
-     "rate": "2.4%",
+     "rate": "2.6%",
      "poster": "https://tkfile.yes24.com/upload2/perfblog/202609/20260928/20260928-59239.jpg",
      "change": 1,
      "url": "http://ticket.yes24.com/Perf/59239"
@@ -261,32 +261,32 @@
      "start": "2026-09-15",
      "end": "2026-11-29",
      "venue": "홍익대 대학로 아트센터 대극장",
-     "rate": "0.8%",
+     "rate": "0.9%",
      "poster": "https://tkfile.yes24.com/upload2/perfblog/202611/20261102/20261102-59596.jpg",
      "change": 3,
      "url": "http://ticket.yes24.com/Perf/59596"
     },
     {
      "rank": 14,
-     "title": "뮤지컬 [샤이닝]",
-     "start": "2026-12-16",
-     "end": "2027-03-07",
-     "venue": "대학로 TOM 2관",
-     "rate": "0.8%",
-     "poster": "https://tkfile.yes24.com/upload2/perfblog/202611/20261111/20261111-61103.jpg",
-     "change": -13,
-     "url": "http://ticket.yes24.com/Perf/61103"
-    },
-    {
-     "rank": 15,
      "title": "뮤지컬 [연의 편지]",
      "start": "2026-09-16",
      "end": "2026-11-29",
      "venue": "플러스씨어터",
      "rate": "0.7%",
      "poster": "https://tkfile.yes24.com/upload2/perfblog/202608/20260811/20260811-59639.jpg",
-     "change": 3,
+     "change": 4,
      "url": "http://ticket.yes24.com/Perf/59639"
+    },
+    {
+     "rank": 15,
+     "title": "뮤지컬 [샤이닝]",
+     "start": "2026-12-16",
+     "end": "2027-03-07",
+     "venue": "대학로 TOM 2관",
+     "rate": "0.7%",
+     "poster": "https://tkfile.yes24.com/upload2/perfblog/202611/20261111/20261111-61103.jpg",
+     "change": -14,
+     "url": "http://ticket.yes24.com/Perf/61103"
     },
     {
      "rank": 16,
@@ -301,25 +301,25 @@
     },
     {
      "rank": 17,
+     "title": "용산문화재단 출범기념 뮤지컬 [크리스마스 캐롤]",
+     "start": "2026-12-12",
+     "end": "2026-12-26",
+     "venue": "용산아트홀 대극장 미르",
+     "rate": "0.3%",
+     "poster": "https://tkfile.yes24.com/upload2/perfblog/202611/20261112/20261112-61106.jpg",
+     "change": -2,
+     "url": "http://ticket.yes24.com/Perf/61106"
+    },
+    {
+     "rank": 18,
      "title": "뮤지컬 〈크리스마스 캐럴〉",
      "start": "2026-12-02",
      "end": "2026-12-27",
      "venue": "세종문화회관 M씨어터",
      "rate": "0.3%",
      "poster": "https://tkfile.yes24.com/upload2/perfblog/202611/20261105/20261105-56551.jpg",
-     "change": 13,
+     "change": 12,
      "url": "http://ticket.yes24.com/Perf/56551"
-    },
-    {
-     "rank": 18,
-     "title": "다예쁜，다예뿐! - 뮤지컬배우 정다예 10주년 콘서트",
-     "start": "2026-12-19",
-     "end": "2026-12-19",
-     "venue": "대학로 브이씨어터",
-     "rate": "0.3%",
-     "poster": "https://tkfile.yes24.com/upload2/perfblog/202611/20261106/20261106-61010.jpg",
-     "change": 7,
-     "url": "http://ticket.yes24.com/Perf/61010"
     },
     {
      "rank": 19,
@@ -338,7 +338,7 @@
      "start": "2026-12-09",
      "end": "2027-02-28",
      "venue": "NOL 서경스퀘어 스콘1관",
-     "rate": "0.3%",
+     "rate": "0.2%",
      "poster": "https://tkfile.yes24.com/upload2/perfblog/202611/20261102/20261102-60940.jpg",
      "change": 8,
      "url": "http://ticket.yes24.com/Perf/60940"
