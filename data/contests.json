@@ -1,6 +1,40 @@
 {
- "updatedAt": "2026-11-27T10:46:39+09:00",
+ "updatedAt": "2026-11-27T21:38:20+09:00",
  "items": [
+  {
+   "source": "culture",
+   "sourceName": "문화포털",
+   "title": "2027년도 아르코공연연습센터@울산 1차 정기대관 공고",
+   "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=2&rcrtSn=257435&menuNo=200104&sSort=1&pageIndex=1",
+   "period": "2026-12-09",
+   "deadline": "2026-12-09",
+   "meta": "울산문화관광재단 예술인,기업·단체 공간 시설 진행중",
+   "tags": [
+    "뮤지컬",
+    "창작·공연"
+   ],
+   "id": "8361fd565566f6c9",
+   "firstSeen": "2026-11-27T21:38:20+09:00",
+   "baseline": false,
+   "lastSeen": "2026-11-27T21:38:20+09:00"
+  },
+  {
+   "source": "culture",
+   "sourceName": "문화포털",
+   "title": "- 문화도시 울산 조성사업 - 「예술공장 성남」4기 입주 예술인 모집 공모",
+   "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=2&rcrtSn=257434&menuNo=200104&sSort=1&pageIndex=1",
+   "period": "2026-12-11",
+   "deadline": "2026-12-11",
+   "meta": "울산문화관광재단 일반인 창작지원 공간 시설 진행중",
+   "tags": [
+    "뮤지컬",
+    "창작·공연"
+   ],
+   "id": "5da12c8d6f1eef32",
+   "firstSeen": "2026-11-27T21:38:20+09:00",
+   "baseline": false,
+   "lastSeen": "2026-11-27T21:38:20+09:00"
+  },
   {
    "source": "artnuri",
    "sourceName": "아트누리",
@@ -15,7 +49,7 @@
    "id": "fe91d50d7fcd0cba",
    "firstSeen": "2026-11-27T10:46:39+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "artnuri",
@@ -32,7 +66,7 @@
    "id": "930bfec2c23c6e2a",
    "firstSeen": "2026-11-27T10:46:39+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "artnuri",
@@ -48,7 +82,7 @@
    "id": "25050eb5bccbe4d3",
    "firstSeen": "2026-11-27T10:46:39+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "artnuri",
@@ -65,7 +99,7 @@
    "id": "0aa1d179fabc3e01",
    "firstSeen": "2026-11-27T10:46:39+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "culture",
@@ -82,7 +116,7 @@
    "id": "497f9943f976c938",
    "firstSeen": "2026-11-27T10:46:39+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "culture",
@@ -98,7 +132,7 @@
    "id": "85dee025be1056ac",
    "firstSeen": "2026-11-27T10:46:39+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "arko",
@@ -114,7 +148,7 @@
    "id": "f10120a475d77a10",
    "firstSeen": "2026-11-27T10:46:39+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "arko",
@@ -131,7 +165,7 @@
    "id": "eead6282a3b7c798",
    "firstSeen": "2026-11-27T10:46:39+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "arko",
@@ -148,7 +182,7 @@
    "id": "ccffd11d2d6839ec",
    "firstSeen": "2026-11-27T10:46:39+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "arko",
@@ -165,7 +199,7 @@
    "id": "daaeeef6e0a9929e",
    "firstSeen": "2026-11-25T08:55:53+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "arko",
@@ -181,7 +215,7 @@
    "id": "360ce4a2f60eb6a2",
    "firstSeen": "2026-11-25T08:55:53+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "storyum",
@@ -195,7 +229,7 @@
    "id": "56848d08214531f3",
    "firstSeen": "2026-11-25T08:55:53+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "storyum",
@@ -209,7 +243,7 @@
    "id": "356f1447146d5f29",
    "firstSeen": "2026-11-25T08:55:53+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "artnuri",
@@ -226,7 +260,7 @@
    "id": "064b8a0eee46f5f5",
    "firstSeen": "2026-11-24T22:52:24+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "culture",
@@ -243,7 +277,7 @@
    "id": "0d071eb2e35bc9ec",
    "firstSeen": "2026-11-24T22:52:24+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "artnuri",
@@ -275,7 +309,7 @@
    "id": "e742369d64fbcd9f",
    "firstSeen": "2026-11-23T22:01:43+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "culture",
@@ -292,7 +326,7 @@
    "id": "b703685f79b06e00",
    "firstSeen": "2026-11-23T22:01:43+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "artnuri",
@@ -309,7 +343,7 @@
    "id": "94beb6301a77847c",
    "firstSeen": "2026-11-23T04:47:15+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "culture",
@@ -325,7 +359,7 @@
    "id": "a0faefbdfaf6e586",
    "firstSeen": "2026-11-23T04:47:15+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "culture",
@@ -341,7 +375,7 @@
    "id": "79d8611e0edf3217",
    "firstSeen": "2026-11-23T04:47:15+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "arko",
@@ -358,7 +392,7 @@
    "id": "0126ee63ece5fae3",
    "firstSeen": "2026-11-21T05:28:25+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "arko",
@@ -375,7 +409,7 @@
    "id": "7a99a928ff5ef0b3",
    "firstSeen": "2026-11-21T05:28:25+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "artnuri",
@@ -392,7 +426,7 @@
    "id": "a93f8e982c32ac5d",
    "firstSeen": "2026-11-20T20:50:27+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "artnuri",
@@ -409,7 +443,7 @@
    "id": "8cbc1912e322a1b9",
    "firstSeen": "2026-11-20T20:50:27+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "artnuri",
@@ -426,7 +460,7 @@
    "id": "a4d81e585ce9e827",
    "firstSeen": "2026-11-20T20:50:27+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "culture",
@@ -443,7 +477,7 @@
    "id": "79a5574c4f562f7d",
    "firstSeen": "2026-11-20T20:50:27+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "artnuri",
@@ -459,7 +493,7 @@
    "id": "8f7783854f53ae6b",
    "firstSeen": "2026-11-19T20:49:24+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "culture",
@@ -475,7 +509,7 @@
    "id": "991b6bea829c289a",
    "firstSeen": "2026-11-19T20:49:24+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "arko",
@@ -492,7 +526,7 @@
    "id": "cc91b563bae01404",
    "firstSeen": "2026-11-19T05:38:47+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "artnuri",
@@ -525,7 +559,7 @@
    "id": "55e9360e3fab6b1e",
    "firstSeen": "2026-11-18T01:09:49+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "culture",
@@ -542,7 +576,7 @@
    "id": "a13b651991e909b6",
    "firstSeen": "2026-11-18T01:09:49+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "culture",
@@ -559,7 +593,7 @@
    "id": "a7596196bf08dd3f",
    "firstSeen": "2026-11-18T01:09:49+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "culture",
@@ -575,7 +609,7 @@
    "id": "a9f4637c03c8e8ef",
    "firstSeen": "2026-11-18T01:09:49+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "culture",
@@ -591,7 +625,7 @@
    "id": "83310ec6c76ed67c",
    "firstSeen": "2026-11-18T01:09:49+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "artnuri",
@@ -657,7 +691,7 @@
    "id": "df1fe64fd967d8e9",
    "firstSeen": "2026-11-17T04:40:17+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "artnuri",
@@ -690,7 +724,7 @@
    "id": "a5890f3e9baf6f1f",
    "firstSeen": "2026-11-16T15:42:28+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "culture",
@@ -706,7 +740,7 @@
    "id": "6f990572a82d8830",
    "firstSeen": "2026-11-16T15:42:28+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "artnuri",
@@ -757,7 +791,7 @@
    "id": "3a71aaea378a0e34",
    "firstSeen": "2026-11-13T20:09:13+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "culture",
@@ -791,7 +825,7 @@
    "id": "1b42c33adc1bc9b1",
    "firstSeen": "2026-11-12T02:14:10+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "culture",
@@ -857,7 +891,7 @@
    "id": "3e50dc2e2492b2ae",
    "firstSeen": "2026-11-10T16:26:33+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "storyum",
@@ -871,7 +905,7 @@
    "id": "cfb67ff4427aac07",
    "firstSeen": "2026-11-10T16:26:33+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "storyum",
@@ -885,7 +919,7 @@
    "id": "75aba5f356584cea",
    "firstSeen": "2026-11-10T16:26:33+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "storyum",
@@ -899,7 +933,7 @@
    "id": "80901d6d05b2d117",
    "firstSeen": "2026-11-10T16:26:33+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "storyum",
@@ -913,7 +947,7 @@
    "id": "ac1d93e71cdd56ff",
    "firstSeen": "2026-11-10T16:26:33+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "culture",
@@ -978,7 +1012,7 @@
    "id": "3d801998182e9556",
    "firstSeen": "2026-11-09T20:43:40+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "culture",
@@ -1110,7 +1144,7 @@
    "id": "bdee98abff7d9d2c",
    "firstSeen": "2026-11-06T20:01:56+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "culture",
@@ -1143,7 +1177,7 @@
    "id": "4494cd33546c6952",
    "firstSeen": "2026-11-06T05:02:21+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "artnuri",
@@ -1159,7 +1193,7 @@
    "id": "b5da45e57d26350c",
    "firstSeen": "2026-11-06T05:02:21+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "artnuri",
@@ -1176,7 +1210,7 @@
    "id": "6bab376ad4e6c475",
    "firstSeen": "2026-11-06T05:02:21+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "artnuri",
@@ -1192,7 +1226,7 @@
    "id": "1f79f7cea8c6ae71",
    "firstSeen": "2026-11-06T05:02:21+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "artnuri",
@@ -1209,7 +1243,7 @@
    "id": "b3fe8887ede948a7",
    "firstSeen": "2026-11-06T05:02:21+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "artnuri",
@@ -1225,7 +1259,7 @@
    "id": "323ed1a7119cced9",
    "firstSeen": "2026-11-06T05:02:21+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "artnuri",
@@ -1241,7 +1275,7 @@
    "id": "bc6217a507580f70",
    "firstSeen": "2026-11-06T05:02:21+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "artnuri",
@@ -1257,7 +1291,7 @@
    "id": "fac429c863b0fab0",
    "firstSeen": "2026-11-06T05:02:21+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "artnuri",
@@ -1273,7 +1307,7 @@
    "id": "aa4da82b62fb8c6a",
    "firstSeen": "2026-11-06T05:02:21+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "culture",
@@ -1306,7 +1340,7 @@
    "id": "16b6f225a375a189",
    "firstSeen": "2026-11-05T04:50:39+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "arko",
@@ -1322,7 +1356,7 @@
    "id": "9f1e94436de7fe52",
    "firstSeen": "2026-11-05T04:50:39+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "culture",
@@ -1339,7 +1373,7 @@
    "id": "f52b9158363416e8",
    "firstSeen": "2026-11-04T20:04:16+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "artnuri",
@@ -1371,7 +1405,7 @@
    "id": "357ba95b4a15f33f",
    "firstSeen": "2026-11-04T10:27:06+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "artnuri",
@@ -1387,7 +1421,7 @@
    "id": "82e125c09c79df1e",
    "firstSeen": "2026-11-03T19:58:41+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "culture",
@@ -1437,7 +1471,7 @@
    "id": "c5333f6dbd5e6e80",
    "firstSeen": "2026-11-02T20:36:32+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "artnuri",
@@ -1601,7 +1635,7 @@
    "id": "ddbfea5f80876fb3",
    "firstSeen": "2026-11-01T04:21:23+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "arko",
@@ -1617,7 +1651,7 @@
    "id": "4b124e1cd9d994c8",
    "firstSeen": "2026-11-01T04:21:23+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "culture",
@@ -1698,7 +1732,7 @@
    "id": "2ae41b64f4e51b9f",
    "firstSeen": "2026-10-29T05:20:18+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "culture",
@@ -1714,7 +1748,7 @@
    "id": "2e9f9a18615c2a3e",
    "firstSeen": "2026-10-28T22:06:09+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "artnuri",
@@ -1847,7 +1881,7 @@
    "id": "d5b8b117ca4fa027",
    "firstSeen": "2026-10-28T07:20:54+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "arko",
@@ -1863,7 +1897,7 @@
    "id": "2bec8b12f82bd6fb",
    "firstSeen": "2026-10-28T07:20:54+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "arko",
@@ -1879,7 +1913,7 @@
    "id": "8feaccb39c6fff89",
    "firstSeen": "2026-10-28T07:20:54+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "arko",
@@ -1896,7 +1930,7 @@
    "id": "1c4a90b2e0917a65",
    "firstSeen": "2026-10-28T07:20:54+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "arko",
@@ -1913,7 +1947,7 @@
    "id": "179e67e70b8971a8",
    "firstSeen": "2026-10-28T07:20:54+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "culture",
@@ -1930,7 +1964,7 @@
    "id": "625bad054662db31",
    "firstSeen": "2026-10-28T00:24:37+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "artnuri",
@@ -1946,7 +1980,7 @@
    "id": "7b10007cb7d55a62",
    "firstSeen": "2026-10-27T18:06:44+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "artnuri",
@@ -1963,7 +1997,7 @@
    "id": "c9dc0dc11f996377",
    "firstSeen": "2026-10-27T18:06:44+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "artnuri",
@@ -1980,7 +2014,7 @@
    "id": "d772ca442e7e6358",
    "firstSeen": "2026-10-27T18:06:44+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "artnuri",
@@ -2045,7 +2079,7 @@
    "id": "304685ba7132c11f",
    "firstSeen": "2026-10-27T05:33:49+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "artnuri",
@@ -2408,7 +2442,7 @@
    "id": "2a3b999a72fab5f6",
    "firstSeen": "2026-10-17T01:44:26+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "arko",
@@ -2425,7 +2459,7 @@
    "id": "aa5a1bb858ce43a8",
    "firstSeen": "2026-10-17T01:44:26+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "artnuri",
@@ -2556,7 +2590,7 @@
    "id": "19c47a3c1f10031b",
    "firstSeen": "2026-10-15T04:27:36+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "culture",
@@ -2672,7 +2706,7 @@
    "id": "ea52c03041bb4354",
    "firstSeen": "2026-10-13T19:43:59+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "artnuri",
@@ -2788,7 +2822,7 @@
    "id": "fa283e747190c904",
    "firstSeen": "2026-10-13T09:47:27+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "artnuri",
@@ -2821,7 +2855,7 @@
    "id": "942affb35268ab22",
    "firstSeen": "2026-10-12T15:06:38+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "storyum",
@@ -2835,7 +2869,7 @@
    "id": "f5fe0a8f733182bb",
    "firstSeen": "2026-10-12T15:06:38+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "storyum",
@@ -2849,7 +2883,7 @@
    "id": "4c6365d6123c1c55",
    "firstSeen": "2026-10-12T15:06:38+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "storyum",
@@ -2863,7 +2897,7 @@
    "id": "f9c614102f02f8df",
    "firstSeen": "2026-10-12T15:06:38+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "storyum",
@@ -2877,7 +2911,7 @@
    "id": "4fd23f7fd757e6b2",
    "firstSeen": "2026-10-12T15:06:38+09:00",
    "baseline": false,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "culture",
@@ -3197,7 +3231,7 @@
    "id": "6cca254735fa6318",
    "firstSeen": "2026-10-12T01:51:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "artnuri",
@@ -3213,7 +3247,7 @@
    "id": "9e21997f85c5e74b",
    "firstSeen": "2026-10-12T01:51:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "artnuri",
@@ -3692,7 +3726,7 @@
    "id": "e14dc39a5c00ade5",
    "firstSeen": "2026-10-12T01:47:20+09:00",
    "baseline": true,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "culture",
@@ -3708,7 +3742,7 @@
    "id": "345274283e80d357",
    "firstSeen": "2026-10-12T01:47:20+09:00",
    "baseline": true,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "culture",
@@ -3724,7 +3758,7 @@
    "id": "1a717640ae2e1315",
    "firstSeen": "2026-10-12T01:47:20+09:00",
    "baseline": true,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "culture",
@@ -3740,7 +3774,7 @@
    "id": "c8dc7f72abf225f2",
    "firstSeen": "2026-10-12T01:47:20+09:00",
    "baseline": true,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "culture",
@@ -3756,7 +3790,7 @@
    "id": "73933c1078231e3a",
    "firstSeen": "2026-10-12T01:47:20+09:00",
    "baseline": true,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "culture",
@@ -3772,7 +3806,7 @@
    "id": "56a69da22d8fea25",
    "firstSeen": "2026-10-12T01:47:20+09:00",
    "baseline": true,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "culture",
@@ -3788,7 +3822,7 @@
    "id": "04cb27b7ae1f5d99",
    "firstSeen": "2026-10-12T01:47:20+09:00",
    "baseline": true,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "culture",
@@ -3805,13 +3839,13 @@
    "id": "97d63691e91d197f",
    "firstSeen": "2026-10-12T01:47:20+09:00",
    "baseline": true,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "culture",
    "sourceName": "문화포털",
    "title": "2026년도 의정부문화재단 하반기 수시대관 신청공고",
-   "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=2&rcrtSn=222991&menuNo=200104&sSort=1&pageIndex=1",
+   "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=2&rcrtSn=222991&menuNo=200104&sSort=1&pageIndex=2",
    "period": "2026-12-05",
    "deadline": "2026-12-05",
    "meta": "의정부문화재단 관련종사자,기업·단체 공간 시설 진행중",
@@ -3821,13 +3855,13 @@
    "id": "53ff7208cb34e74a",
    "firstSeen": "2026-10-12T01:47:20+09:00",
    "baseline": true,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "culture",
    "sourceName": "문화포털",
    "title": "문화예술사업자를 위한 전자계약 서비스 지원(예산 소진 시 조기 종료)",
-   "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=2&rcrtSn=222994&menuNo=200104&sSort=1&pageIndex=1",
+   "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=2&rcrtSn=222994&menuNo=200104&sSort=1&pageIndex=2",
    "period": "2026-12-31",
    "deadline": "2026-12-31",
    "meta": "한국예술인복지재단 예술인,기업·단체 기타 진행중",
@@ -3837,7 +3871,7 @@
    "id": "b678d175cb4739eb",
    "firstSeen": "2026-10-12T01:47:20+09:00",
    "baseline": true,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "culture",
@@ -3854,7 +3888,7 @@
    "id": "e08daeab5e562492",
    "firstSeen": "2026-10-12T01:47:20+09:00",
    "baseline": true,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "culture",
@@ -3870,7 +3904,7 @@
    "id": "37ef1d9d4bb6c62b",
    "firstSeen": "2026-10-12T01:47:20+09:00",
    "baseline": true,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "culture",
@@ -3886,7 +3920,7 @@
    "id": "c4745ac7dd173ba8",
    "firstSeen": "2026-10-12T01:47:20+09:00",
    "baseline": true,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "culture",
@@ -3903,7 +3937,7 @@
    "id": "061bc75218836f22",
    "firstSeen": "2026-10-12T01:47:20+09:00",
    "baseline": true,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "culture",
@@ -3919,7 +3953,7 @@
    "id": "735efbb89b5410ef",
    "firstSeen": "2026-10-12T01:47:20+09:00",
    "baseline": true,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "culture",
@@ -3935,7 +3969,7 @@
    "id": "b7512020af1e7a9b",
    "firstSeen": "2026-10-12T01:47:20+09:00",
    "baseline": true,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "culture",
@@ -3951,7 +3985,7 @@
    "id": "0437305fd83904fb",
    "firstSeen": "2026-10-12T01:47:20+09:00",
    "baseline": true,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "culture",
@@ -3967,7 +4001,7 @@
    "id": "945adad6371625be",
    "firstSeen": "2026-10-12T01:47:20+09:00",
    "baseline": true,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "culture",
@@ -3983,7 +4017,7 @@
    "id": "34c6d176412b68e3",
    "firstSeen": "2026-10-12T01:47:20+09:00",
    "baseline": true,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "culture",
@@ -3999,7 +4033,7 @@
    "id": "529d19696019fa3d",
    "firstSeen": "2026-10-12T01:47:20+09:00",
    "baseline": true,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "culture",
@@ -4015,7 +4049,7 @@
    "id": "bf320ec5463f00ee",
    "firstSeen": "2026-10-12T01:47:20+09:00",
    "baseline": true,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "culture",
@@ -4032,7 +4066,7 @@
    "id": "33a46aea66dede43",
    "firstSeen": "2026-10-12T01:47:20+09:00",
    "baseline": true,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "culture",
@@ -4048,7 +4082,7 @@
    "id": "f64d7795572726d6",
    "firstSeen": "2026-10-12T01:47:20+09:00",
    "baseline": true,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "culture",
@@ -4064,7 +4098,7 @@
    "id": "832024adb1540a20",
    "firstSeen": "2026-10-12T01:47:20+09:00",
    "baseline": true,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "culture",
@@ -4080,7 +4114,7 @@
    "id": "e88dc7d3f542e98a",
    "firstSeen": "2026-10-12T01:47:20+09:00",
    "baseline": true,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "culture",
@@ -4096,7 +4130,7 @@
    "id": "0adab33986f0bb1b",
    "firstSeen": "2026-10-12T01:47:20+09:00",
    "baseline": true,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "culture",
@@ -4112,7 +4146,7 @@
    "id": "0a44268bd380988f",
    "firstSeen": "2026-10-12T01:47:20+09:00",
    "baseline": true,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "culture",
@@ -4128,7 +4162,7 @@
    "id": "7a5081b67b15eb97",
    "firstSeen": "2026-10-12T01:47:20+09:00",
    "baseline": true,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "culture",
@@ -4145,7 +4179,7 @@
    "id": "e441fd9c80deedc6",
    "firstSeen": "2026-10-12T01:47:20+09:00",
    "baseline": true,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "culture",
@@ -4602,7 +4636,7 @@
    "id": "34573cd2d2fc7e48",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "storyum",
@@ -4618,7 +4652,7 @@
    "id": "e98b6eac6a9a7f52",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "storyum",
@@ -4632,7 +4666,7 @@
    "id": "31cd9071772b201a",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "storyum",
@@ -4648,7 +4682,7 @@
    "id": "662ea4785cc671d2",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "storyum",
@@ -4664,7 +4698,7 @@
    "id": "e45e0232923f0784",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "storyum",
@@ -4678,7 +4712,7 @@
    "id": "e3995d1686e777d1",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "storyum",
@@ -4692,7 +4726,7 @@
    "id": "b056a6851555a71e",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "storyum",
@@ -4706,7 +4740,7 @@
    "id": "b13461a149abe61b",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "storyum",
@@ -4720,7 +4754,7 @@
    "id": "1f16b658e7810f2d",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "storyum",
@@ -4736,7 +4770,7 @@
    "id": "2a26eeb90b120dba",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "arko",
@@ -4753,7 +4787,7 @@
    "id": "94f4c45868767cbb",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "arko",
@@ -4770,7 +4804,7 @@
    "id": "fdb69083b649ee01",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "arko",
@@ -4787,7 +4821,7 @@
    "id": "989f6dd7ec986194",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "arko",
@@ -4804,7 +4838,7 @@
    "id": "76dac840f1b9be05",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "arko",
@@ -4820,7 +4854,7 @@
    "id": "cd2a92bc28890b56",
    "firstSeen": "2026-10-12T01:30:51+09:00",
    "baseline": true,
-   "lastSeen": "2026-11-27T10:46:39+09:00"
+   "lastSeen": "2026-11-27T21:38:20+09:00"
   },
   {
    "source": "arko",
